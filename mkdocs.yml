@@ -154,12 +154,87 @@ nav:
   - WIKI: 
     - index.md 
     - 😀 Getting Started: 
-      -  Getting Started: wiki/get-started.md
-      - Jupyter Notebook: wiki/GettingStarted/getting_started_jupyter_notebook.md
-      - Mind+ Python & Graphical Python: wiki/GettingStarted/getting_started_mindplus.md
-      - VSCode - Python: wiki/GettingStarted/getting_started_vscode.md
-      - Python IDLE - Python: wiki/GettingStarted/getting_started_python_idle.md
-      - Tonny - Python: wiki/GettingStarted/getting_started_thonny.md
+      - Getting Started: wiki/get-started.md
+      - Jupyter Notebook: wiki/GettingStarted/Jupyter Notebook(build-in) - Python.md
+      - Mind+ Python & Graphical Python: wiki/GettingStarted/Mind+ - Python & Graphical Python.md
+      - VSCode - Python: wiki/GettingStarted/VSCode - Python.md
+      - Python IDLE - Python: wiki/GettingStarted/Python IDLE - Python.md
+      - Tonny - Python: wiki/GettingStarted/Thonny - Python.md
+      - SSH Tools: wiki/GettingStarted/SSH Tools - Python.md
+    - Examples:
+      - Python Coding Examples:
+        - Basic Examples:
+          - 1.Hello,Unihiker: wiki/Examples/PythonCodingExamples/BasicExamples/1.Hello,Unihiker.md
+          - 2.System Time: wiki/Examples/PythonCodingExamples/BasicExamples/2.System Time.md
+          - 3.Starry Sky: wiki/Examples/PythonCodingExamples/BasicExamples/3.Starry Sky.md
+          - 4.Emoticon Master: wiki/Examples/PythonCodingExamples/BasicExamples/4.Emoticon Master.md
+          - 5.Interactive Button Screen: wiki/Examples/PythonCodingExamples/BasicExamples/5. Interactive Button Screen.md
+          - 6.Draw your Own Clock: wiki/Examples/PythonCodingExamples/BasicExamples/6. Draw your Own Clock.md
+          - 7.QR code display: wiki/Examples/PythonCodingExamples/BasicExamples/7. QR code display.md
+          - 8.Draw a hexagon: wiki/Examples/PythonCodingExamples/BasicExamples/8. Draw a hexagon.md
+          - 9.Color Picker: wiki/Examples/PythonCodingExamples/BasicExamples/9.Color Picker.md
+          - 10.Draw the Olympic Rings: wiki/Examples/PythonCodingExamples/BasicExamples/10. Draw the Olympic Rings.md
+          - 11.Where is the Mouse: wiki/Examples/PythonCodingExamples/BasicExamples/11.Where is the Mouse.md
+          - 12.Switch albums with keyboard: wiki/Examples/PythonCodingExamples/BasicExamples/12.Switch albums with keyboard.md
+          - 13.Recoder: wiki/Examples/PythonCodingExamples/BasicExamples/13.Recoder.md
+          - 14.Music Player: wiki/Examples/PythonCodingExamples/BasicExamples/14.Music Player.md
+          - 15.LED Flashing: wiki/Examples/PythonCodingExamples/BasicExamples/15.LED Flashing.md
+          - 16.Button lights: wiki/Examples/PythonCodingExamples/BasicExamples/16.Button lights.md
+          - 17.Luminosity detector: wiki/Examples/PythonCodingExamples/BasicExamples/17.Luminosity detector.md
+          - 18.Digital Piano: wiki/Examples/PythonCodingExamples/BasicExamples/18.Digital Piano.md
+          - 19.Noise Monitor: wiki/Examples/PythonCodingExamples/BasicExamples/19.Noise Monitor.md
+          - 20.Pedometer: wiki/Examples/PythonCodingExamples/BasicExamples/20.Pedometer.md
+    - Language Reference:
+      - Part1 UNIHIKER Libs:
+        - Screen Display:
+          - 1.draw_text(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/1.draw_text().md
+          - 2.draw_digit(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/2.draw_digit().md
+          - 3.draw_image(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/3.draw_image().md
+          - 4.draw_emoji(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/4.draw_emoji().md
+          - 5.draw_clock(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/5.draw_clock().md
+          - 6.fill_clock(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/6.fill_clock().md
+          - 7.draw_qr_code(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/7.draw_qr_code().md
+          - 8.add_button(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/8.add_button().md
+        - Screen Rendering Graphics:
+          - 1.draw_line(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/1.draw_line().md
+          - 2.draw_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/2.draw_rect().md
+          - 3.fill_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/3.fill_rect().md
+          - 4.draw_round_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/4.draw_round_rect().md
+          - 5.fill_round_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/5.fill_round_rect().md
+          - 6.draw_circle(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/6.draw_circle().md
+          - 7.fill_circle(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/7.fill_circle().md
+        - Mouse And Keyboard:
+          - 1.on_mouse_move(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/1.on_mouse_move().md
+          - 2.onkey_click(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/2.on_key_click().md
+        - Multi Threading:
+          - 1.start_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/1.start_thread().md
+          - 2.stop_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/2.stop_thread().md
+        - AudioClass:
+          - 1.Recording Audio(record): wiki/LanguageReference/Part1UNIHIKER/AudioClass/1.Recording Audio(record).md
+          - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/2.Audio Playback(play).md
+    - Hardware Reference:
+      - 1.Introduction: wiki/HardwareReference/1.Introduction.md
+      - 2.On-board Components: wiki/HardwareReference/2.On-board Components.md
+      - 3.UNIHIKER System Framework: wiki/HardwareReference/3.UNIHIKER System Framework.md
+      - 4.Specification: wiki/HardwareReference/4.Specification.md
+      - 5.Board Overview: wiki/HardwareReference/5.Board Overview.md
+      - 6.Dimension: wiki/HardwareReference/6.Dimension.md
+      - 7.SVG & 3D File: wiki/HardwareReference/7.SVG & 3D File.md
+    - System and Configuration:
+      - 1.Multi connection methods: wiki/SystemAndConfiguration/1.Multi connection methods.md
+      - 2.Home Menu: wiki/SystemAndConfiguration/2.Home Menu.md
+      - 3.Local Web Page: wiki/SystemAndConfiguration/3.Local Web Page.md
+      - 4.SSH Connection: wiki/SystemAndConfiguration/4.SSH Connection.md
+      - 5.SMB File Sharing: wiki/SystemAndConfiguration/5.SMB File Sharing.md
+      - 6.Remote Desktop: wiki/SystemAndConfiguration/6.Remote Desktop.md
+      - 7.Burn OS Image: wiki/SystemAndConfiguration/7.Burn OS Image.md
+    - Contact Us:
+      - 1.Technical Discussion: wiki/ContactUs/1.Technical Discussion.md
+      - 2.Contact Us: wiki/ContactUs/2.Contact Us.md
+
+
+
+          
 
   - FORUM: https://www.dfrobot.com/forum/?t=947&p=1
   - CONTACT US: https://www.unihiker.com/
