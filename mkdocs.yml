@@ -154,7 +154,7 @@ nav:
   - WIKI: 
     - index.md 
     - 😀 Getting Started: 
-      - Getting Started: wiki/get-started.md
+      - Getting Started: wiki//GettingStarted/get-started.md
       - Jupyter Notebook: wiki/GettingStarted/Jupyter Notebook(build-in) - Python.md
       - Mind+ Python & Graphical Python: wiki/GettingStarted/Mind+ - Python & Graphical Python.md
       - VSCode - Python: wiki/GettingStarted/VSCode - Python.md
@@ -209,7 +209,7 @@ nav:
         - Multi Threading:
           - 1.start_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/1.start_thread().md
           - 2.stop_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/2.stop_thread().md
-        - AudioClass:
+        - Audio Class:
           - 1.Recording Audio(record): wiki/LanguageReference/Part1UNIHIKER/AudioClass/1.Recording Audio(record).md
           - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/2.Audio Playback(play).md
     - Hardware Reference:
