@@ -88,10 +88,11 @@ Tips: If you encounter any connection issues, please ensure that the USB cable i
 (9) Gently place the instruction beneath the "Python main program start" section, seamlessly connecting it below like a puzzle piece.  
 ![image.png](img/Mind+ - Python & Graphical Python/1691569483396-fcc3290e-63bb-4d38-9a7b-e2f1a282311c.png)
 Example:
-![image.png](img/Mind+ - Python & Graphical Python/1691569625114-b87a1143-5702-4714-bee1-ec0f3fcab425.png)
+![image.png](img/Mind+ - Python & Graphical Python/1691569625114-b87a1143-5702-4714-bee1-ec0f3fcab425.png){width=600, style="display:block;margin: 0 auto"}
 (10) Upon clicking the "Run" button, the screen will promptly display the text "UNIHIKER".  
 ![image.png](img/Mind+ - Python & Graphical Python/1691569738729-8b101abf-4ee0-49ac-80a7-76648679fca6.png)
-![image.png](img/Mind+ - Python & Graphical Python/1691569841550-a10cf46e-224e-4020-a1ad-0c0917483bbb.png)
+![image.png](img/Mind+ - Python & Graphical Python/1691569841550-a10cf46e-224e-4020-a1ad-0c0917483bbb.png){width=300, style="display:block;margin: 0 auto"}  
+  
 Congratulations, you have successfully implemented programming control for the UNIHIKER. Now, you can explore exciting projects or delve deeper into understanding the foundations of UNIHIKER. Remember, the possibilities are endless with UNIHIKER. Have fun exploring and learning!
 
 1. Discover a wide range of straightforward programming exercises to improve your understanding of control structures with UNIHIKER: [Examples](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/ktu7u5wqrqocflu0)
