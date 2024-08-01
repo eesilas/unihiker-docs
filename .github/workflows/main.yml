@@ -1,0 +1,20 @@
+name: git2gitee
+on:
+  push:
+    branches:
+      - master
+jobs:
+  run:
+    name: Sync-GitHub-to-Gitee
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mirror the Github repos to Gitee.
+      uses: liliang9693/hub-mirror-action@master
+      with:
+        src: 'github/UNIHIKER/${{ github.repository }}'
+        dst: 'gitee/${{ secrets.GITEE_USER }}'
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: org
+        timeout: '1h'
+        force_update: true
