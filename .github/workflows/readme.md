@@ -17,7 +17,7 @@ name: git2gitee
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   run:
     name: Sync-GitHub-to-Gitee
@@ -26,13 +26,14 @@ jobs:
     - name: Mirror the Github repos to Gitee.
       uses: liliang9693/hub-mirror-action@master
       with:
-        src: 'github/UNIHIKER/${{ github.repository }}'
+        src: 'github/${{ github.repository }}'
         dst: 'gitee/${{ secrets.GITEE_USER }}'
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: org
         timeout: '1h'
         force_update: true
+
 ```
 
 5、在github的本仓库的**Settings**中打开**Secrets and variables**>**Actions**>**Repository secrets**里面**New repository secret**中新增三个secret：
