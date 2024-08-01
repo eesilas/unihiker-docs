@@ -10,7 +10,7 @@
 
 3、在本仓库创建文件夹和文件:  .github\workflows\main.yml
 
-4、编辑main.yml设定Action自动执行的规则（如下脚本为当本仓库master分支有新推送时执行），其中有引用三个不能公开的变量需要在下一步设置。
+4、编辑main.yml设定Action自动执行的规则（如下脚本为当本仓库master分支有新推送时执行），其中有引用两个不能公开的变量需要在下一步设置。
 
 ```
 name: git2gitee
