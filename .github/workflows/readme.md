@@ -26,21 +26,23 @@ jobs:
     - name: Mirror the Github repos to Gitee.
       uses: liliang9693/hub-mirror-action@master
       with:
-        src: 'github/${{ github.repository }}'
-        dst: 'gitee/${{ secrets.GITEE_USER }}'
+        src: 'github/UNIHIKER'
+        dst: 'gitee/liliang9693'
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
-        account_type: user
+        src_account_type: org
+        dst_account_type: user
+        static_list: 'unihiker-docs'
         timeout: '1h'
         force_update: true
+        debug: true
 
 ```
 
-5、在github的本仓库的**Settings**中打开**Secrets and variables**>**Actions**>**Repository secrets**里面**New repository secret**中新增三个secret：
+5、在github的本仓库的**Settings**中打开**Secrets and variables**>**Actions**>**Repository secrets**里面**New repository secret**中新增2个secret：
 
 - `GITEE_PRIVATE_KEY`：填写gitee上SSH公钥对应的本地计算机生成的SSH私钥（通常是 `id_rsa` 文件的内容）。
 - `GITEE_TOKEN`：填写Gitee上生成的私人令牌（第2步生成的）。
-- `GITEE_USER`：这里填写Gitee账号名。
 
 6、推送main.yml到仓库中。
 
