@@ -30,7 +30,7 @@ jobs:
         dst: 'gitee/${{ secrets.GITEE_USER }}'
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
-        account_type: org
+        account_type: user
         timeout: '1h'
         force_update: true
 
