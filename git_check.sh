@@ -4,6 +4,7 @@
 echo "Script started: $(date)" >> ~/check.log
 # Check for changes on the remote repository
 if git fetch origin && [ `git rev-list HEAD...origin/master --count` != 0 ] ; then
+    echo "+++++++" >> ~/check.log
     # If changes exist, pull the changes
     git pull
     echo "Script build: $(date)" >> ~/check.log
@@ -14,4 +15,4 @@ if git fetch origin && [ `git rev-list HEAD...origin/master --count` != 0 ] ; th
     sudo systemctl restart nginx
     echo "restart end: $(date)" >> ~/check.log
 fi
-echo "Script ended: $(date)" >> ~/check.log
+echo "----------" >> ~/check.log
