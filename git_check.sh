@@ -2,7 +2,7 @@
 
 echo "Script started: $(date)" >> ~/check.log
 # Check for changes on the remote repository
-if git fetch origin && [ `git rev-list HEAD...origin/master --count` != 0 ] ; then
+if git fetch origin && [ `git rev-list HEAD...origin/main --count` != 0 ] ; then
     echo "+++++++" >> ~/check.log
     # If changes exist, pull the changes
     git pull  >> ~/check.log
