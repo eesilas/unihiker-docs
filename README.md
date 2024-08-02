@@ -105,5 +105,7 @@ sudo systemctl restart nginx
 chmod +x ~/unihiker-docs/git_check.sh
 
 crontab -e
-* * * * * ~/unihiker-docs/git_check.sh
+
+*/5 * * * * ~/unihiker-docs/git_check.sh
+
 ```
