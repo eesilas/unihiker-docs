@@ -9,7 +9,7 @@ Select your preferred choice and continue with the quickstart.
 
 - [**SSH Tools** - Python](../SSH%20Tools%20-%20Python/)
 - [**Mind+** - Python & Graphical Python](../Mind%2B%20-%20Python%20%26%20Graphical%20Python/)
-- [**Jupyter Notebook(build-in)** - Python](../Jupyter%20Notebook%28build-in%29%20-%20Python/)
+- [**Jupyter Notebook(build-in)** - Python](../gettingstarted_jupyternotebook/)
 - [**VSCode** - Python](../VSCode%20-%20Python/)
 - [**Python IDLE** - Python](../Python%20IDLE%20-%20Python/)
 - [**Thonny** - Python](../Thonny%20-%20Python/)
