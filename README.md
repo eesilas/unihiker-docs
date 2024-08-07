@@ -29,13 +29,14 @@
 ```
 cd ~
 git clone https://github.com/UNIHIKER/unihiker-docs
+
 cd unihiker-docs
+
 mkdocs build
+
 ```
 
-
-
-- Install nginx
+- Install nginx:
 
 ```
 apt-get install nginx -y
@@ -81,7 +82,6 @@ server {
         # Add index.php to the list if you are using PHP
         index index.html index.htm index.nginx-debian.html;
 
-
 ```
 
 - Since the webpage is in the root folder, you need to modify the folder permissions
@@ -89,10 +89,7 @@ server {
 ```
 sudo chown -R www-data:www-data /root/unihiker-docs/site
 sudo chmod o+x /root
-
 ```
-
-
 
 - Then reload nginx
 
@@ -100,7 +97,15 @@ sudo chmod o+x /root
 sudo systemctl restart nginx
 ```
 
-
-
 - Access unihiker's ip:8000 to open the webpage. For example, http://10.1.2.3:8000
 
+- Use scripts to check repository updates and automatically pull updated web pages: 
+
+```bash
+chmod +x ~/unihiker-docs/git_check.sh
+
+crontab -e
+
+*/5 * * * * ~/unihiker-docs/git_check.sh
+
+```
