@@ -1,8 +1,8 @@
-### Description
+### **Description**
 Showing image on UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.draw_image(x, y, w, h, image,origin,onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the image is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the image is displayed on the UNIHIKER screen.  
 **w**:  The width of the image. This parameter scales according to the length and width of the smallest side and can be omitted. If both width and height parameters are omitted, the original image resolution will be maintained.  
@@ -10,15 +10,17 @@ Showing image on UNIHIKER screen
 **image**:  The file name of the image to be displayed on the UNIHIKER screen, which can be a path or an image object.  
 **onclick**:  The callback function triggered when the object is clicked.  
 **origin**:  The alignment position. Default is the top-left corner. 
-### Return
+### **Return**
 **image object
-### Example Description
+### **Example Description**
 In this simple example, we will display an image named 'img.png' three times. Each time, the image will be positioned differently and vary in size.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_image() function through this object to display the image and set the parameters.  
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_image() function through this object to display the image and set the parameters.    
+
 ```python
 #  -*- coding: UTF-8 -*-
 from unihiker import GUI  # Import the packag 
@@ -44,5 +46,10 @@ while True:
 **Program Effect:**  
 ![image.png](img/3.draw_image()/1718940279751-2d25a616-3e83-45be-9ce1-c7db05e0bba6.png){width=300, style="display:block;margin: 0 auto"}  
   
-### Notes and Warnings
-The image file needs to be placed in the same directory as this Python file.
+### **Notes and Warnings**
+The image file needs to be placed in the same directory as this Python file.  
+
+---  
+
+
+

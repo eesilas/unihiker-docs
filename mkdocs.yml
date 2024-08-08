@@ -156,7 +156,7 @@ nav:
     - 🚩 Getting Started: 
       - Getting Started: wiki//GettingStarted/get-started.md
       - Jupyter Notebook: wiki/GettingStarted/gettingstarted_jupyternotebook.md
-      - Mind+ Python & Graphical Python: wiki/GettingStarted/gettingstarted_python_idle.md
+      - Mind+ Python & Graphical Python: wiki/GettingStarted/gettingstarted_mind+.md
       - VSCode - Python: wiki/GettingStarted/gettingstarted_vscode.md
       - Python IDLE - Python: wiki/GettingStarted/gettingstarted_python_idle.md
       - Tonny - Python: wiki/GettingStarted/gettingstarted_thonny.md
@@ -205,7 +205,7 @@ nav:
           - 7.fill_circle(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_fill_circle.md
         - Mouse And Keyboard:
           - 1.on_mouse_move(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/reference_unihiker_on_mouse_move.md
-          - 2.on_key_click(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/reference_unihiker_stop_thread.md
+          - 2.on_key_click(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/reference_unihiker_on_key_click.md
         - Multi Threading:
           - 1.start_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/reference_unihiker_start_thread.md
           - 2.stop_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/reference_unihiker_stop_thread.md

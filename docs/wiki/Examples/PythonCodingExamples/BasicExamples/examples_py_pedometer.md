@@ -1,12 +1,21 @@
-## Project Introduction
-The UNIHIKER also comes with a 6-axis accelerometer and gyroscope sensor, which can read the x, y, and z values of the accelerometer and gyroscope individually. This feature can be utilized to create a pedometer, where the values of the accelerometer and gyroscope are displayed on the screen, and the number of steps is calculated and displayed based on the acceleration intensity. Below is an example of a pedometer.  
-![](img/20.Pedometer/1717471352393-215f1d62-d9be-46a6-b29d-911673033874.gif){width=300, style="display:block;margin: 0 auto"} 
+## **Project Introduction**
 
-## Hardware Required
+The UNIHIKER also comes with a 6-axis accelerometer and gyroscope sensor, which can read the x, y, and z values of the accelerometer and gyroscope individually. This feature can be utilized to create a pedometer, where the values of the accelerometer and gyroscope are displayed on the screen, and the number of steps is calculated and displayed based on the acceleration intensity. Below is an example of a pedometer.   
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-In this example, the UNIHIKER is initialized using the Board().begin() function, and a GUI object is instantiated. Then, using the draw_text() method, multiple text objects are created to display the acceleration, gyroscope, and step count values, along with their corresponding values. The main program utilizes accelerometer.get_x(), accelerometer.get_y(), and accelerometer.get_z() to obtain the x, y, and z values of the acceleration, and gyroscope.get_x(), gyroscope.get_y(), and gyroscope.get_z() for the x, y, and z values of the gyroscope. These values are then displayed on the screen using the config() method of the text object. Additionally, the step count is calculated using accelerometer.get_strength() and incremented by 1 when the acceleration intensity value exceeds 1.5. The step count is also displayed on the screen using the config() method of the text object.
+![](img/20.Pedometer/1717471352393-215f1d62-d9be-46a6-b29d-911673033874.gif){width=300, style="display:block;margin: 0 auto"}   
+
+
+## **Hardware Required**
+
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code**
+In this example, the UNIHIKER is initialized using the Board().begin() function, and a GUI object is instantiated. Then, using the draw_text() method, multiple text objects are created to display the acceleration, gyroscope, and step count values, along with their corresponding values.   
+
+The main program utilizes accelerometer.get_x(), accelerometer.get_y(), and accelerometer.get_z() to obtain the x, y, and z values of the acceleration, and gyroscope.get_x(), gyroscope.get_y(), and gyroscope.get_z() for the x, y, and z values of the gyroscope. These values are then displayed on the screen using the config() method of the text object.   
+
+Additionally, the step count is calculated using accelerometer.get_strength() and incremented by 1 when the acceleration intensity value exceeds 1.5. The step count is also displayed on the screen using the config() method of the text object.  
+
 ```python
 #  -*- coding: UTF-8 -*-
 
@@ -48,6 +57,14 @@ while True:
         value = (value + 1)
         pedometer.config(text=value)
     time.sleep(0.1)
-```
-## Demo Effect
-![](img/20.Pedometer/1717471352267-6566103f-8e7a-4348-ac26-116463c44464.gif){width=300, style="display:block;margin: 0 auto"}
+```  
+
+## **Demo Effect**
+
+![](img/20.Pedometer/1717471352267-6566103f-8e7a-4348-ac26-116463c44464.gif){width=300, style="display:block;margin: 0 auto"}   
+
+
+---  
+
+
+

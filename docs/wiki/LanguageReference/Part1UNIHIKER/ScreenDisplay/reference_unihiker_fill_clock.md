@@ -1,8 +1,8 @@
-### Description
+### **Description**
 Showing fill clock on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.fill_clock(x, y, r, h, m, s, color,fill,style, onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
 **r**:  The radius of the clock.  
@@ -13,15 +13,19 @@ Showing fill clock on the UNIHIKER screen
 **fill**:  The fill colour of the clock.  
 **style**:  The preset mode, with two options currently available: "dark" and "light".  
 **onclick**:  The callback function triggered when the clock is clicked.  
-### Return
+### **Return**
 **Fill clock object
-### Example Description
+### **Example Description**
 In this simple example, we aim to display two clocks on the UNIHIKER screen. The fill colour of the first clock is sky blue, displaying the time as 3:04:05. The fill colour of the second clock is black, showing the time as 6:07:08.  
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_clock() function through this object to display the clock and set the parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_clock() function through this object to display the clock and set the parameters.  
+
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -44,6 +48,11 @@ while True:
     # Add a delay to prevent the program from exiting and to observe the effects
     time.sleep(1)
 
-```
+```  
+
 **Program Effect:**
-![image.png](img/6.fill_clock()/1718941607479-360259fa-26cf-4f30-9108-b2ded2de8e98.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/6.fill_clock()/1718941607479-360259fa-26cf-4f30-9108-b2ded2de8e98.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

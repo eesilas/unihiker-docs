@@ -1,8 +1,10 @@
-### Description
-Showing clock on the UNIHIKER screen
-### Syntax
-**GUI.draw_clock(x, y, r, h, m, s, color, onclick)**
-### Parameters
+### **Description**
+Showing clock on the UNIHIKER screen  
+
+### **Syntax**
+**GUI.draw_clock(x, y, r, h, m, s, color, onclick)**  
+
+### **Parameters**
 **x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
 **r**:  The radius of the clock.  
@@ -11,14 +13,15 @@ Showing clock on the UNIHIKER screen
 **s**:  The seconds displayed on the clock.  
 **color**:  The colour of the clock.  
 **onclick**:  The callback function triggered when the clock is clicked.  
-### Return
+### **Return**
 **Clock object
-### Example Description
+### **Example Description**
 In this simple example, we aim to display an orange clock at the centre of the UNIHIKER screen, showing the time as 10:08:00.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
 Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_clock() function through this object to display the clock and set the parameters.
 ```python
 from unihiker import GUI   # Import the package
@@ -34,4 +37,8 @@ while True:
     time.sleep(1)
 ```
 **Program Effect:**  
-![image.png](img/5.draw_clock()/1718941137575-c3c07ae6-0d6e-4118-b825-50c3c4918bde.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/5.draw_clock()/1718941137575-c3c07ae6-0d6e-4118-b825-50c3c4918bde.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

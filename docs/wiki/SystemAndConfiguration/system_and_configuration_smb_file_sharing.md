@@ -1,7 +1,7 @@
 The UNIHIKER comes with samba service, allowing you to share files on the LAN and create your own private cloud drive. Using the Windows Network Neighborhood function, you can edit files just like managing Windows files.
-## How to Enable
+## **How to Enable**
 To enable the file-sharing function on the UNIHIKER, simply access the Home menu and select the file-sharing option.
-## PC Configuration
+## **PC Configuration**
 Before using the UNIHIKER's webpage menu, please ensure that your PC can access it.
 
 - Open **This PC** .
@@ -30,3 +30,7 @@ Before using the UNIHIKER's webpage menu, please ensure that your PC can access 
 - Q : What should I do if an error message "You can't access this shared folder because your organization's security policies block unauthenticated guest access." appears when accessing on Windows?
 ![](img/5.SMB File Sharing/1720593997984-ce922393-5727-4cfc-bbd9-2599d3d5ab5e.png)
 - A: Please enable insecure guest logons.
+
+
+---  
+

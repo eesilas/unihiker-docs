@@ -1,23 +1,25 @@
-### Description
+### **Description**
 Showing circle on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.draw_circle(x, y, r, width, color, onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the circle is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the circle is displayed on the UNIHIKER screen.  
 **r**:  The radius of the circle.  
 **width**: The width of the circle.
 **color**:  The colour of the circle.  
 **onclick**:  The callback function triggered when the circle is clicked.  
-### Return
+### **Return**
 **Circle object
-### Example Description
+### **Example Description**
 In this example, our main goal is to display a grey circle on the UNIHIKER screen and bind it to a click callback function.  
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_circle() function through this object to display the circle and set the parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_circle() function through this object to display the circle and set the parameters.  
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -33,6 +35,11 @@ import time
 while True:
     # Add a delay to prevent the program from exiting and to observe the effects
     time.sleep(1)
-```
+```  
+
 **Program Effect:**
-![image.png](img/6.draw_circle()/1718940543795-c8cd546c-4169-42c6-b4d5-bafcb5e89f0c.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/6.draw_circle()/1718940543795-c8cd546c-4169-42c6-b4d5-bafcb5e89f0c.png){width=300, style="display:block;margin: 0 auto"}  
+
+---
+
+ 

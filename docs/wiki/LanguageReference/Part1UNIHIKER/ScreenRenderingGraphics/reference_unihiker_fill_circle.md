@@ -1,22 +1,24 @@
-### Description
+### **Description**
 Showing circle on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.fill_circle(x, y, r,color , onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the center of the circle is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the center of the circle is displayed on the UNIHIKER screen.  
 **r**:  The radius of the circle.  
 **color**:  The fill colour of the circle.  
 **onclick**:  The callback function triggered when the circle is clicked.  
-### Return
+### **Return**
 **Filled circle object
-### Example Description
+### **Example Description**
 In this simple example, our goal is to display a green filled circle on the UNIHIKER and bind it to a click callback function. The circle has a radius of 80.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_circle() function through this object to display the circle and set the parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_circle() function through this object to display the circle and set the parameters.  
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -33,4 +35,8 @@ while True:
     time.sleep(1)
 ```
 **Program Effect:**
-![image.png](img/7.fill_circle()/1719568689882-b34a062a-d7a5-4a66-845e-510fcc354379.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/7.fill_circle()/1719568689882-b34a062a-d7a5-4a66-845e-510fcc354379.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

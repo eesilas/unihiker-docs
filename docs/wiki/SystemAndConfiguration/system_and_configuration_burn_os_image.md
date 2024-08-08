@@ -1,14 +1,14 @@
 If you need to update your UNIHIKER system to the latest version or restore a malfunctioning system, you can follow these steps to flash a new OS. Please note that the UNIHIKER comes with a Linux operating system based on Debian and various built-in features, which may be updated periodically.
-## 1- File Backup
+## **1- File Backup**
 
 - Before re-flashing the OS image, please note that all files on the UNIHIKER, including those in the root directory, will be cleared and cannot be restored. We recommend backing up any necessary files before proceeding with the firmware flashing process.
 - To save personal files from the root directory before flashing the OS, you can use the SMB function to copy them to your computer. After the OS is refreshed, you can copy the files back to the UNIHIKER. Please note that hidden files will not be copied.
-## 2- Tool Preparation
-### 1. Burning tool
+## **2- Tool Preparation**
+### **1. Burning tool**
 To update the system image for UNIHIKER, you can use the command-line tool or our developed UNIHIKER Batch Tool with a user-friendly GUI interface.
-### 1.1 Command-line Tool
+### **1.1 Command-line Tool**
 To use the command-line tool for updating the UNIHIKER system image, follow these instructions: [Click to view.](https://www.unihiker.com/wiki/burner_command_line)
-### 1.2 Batch Tool
+### **1.2 Batch Tool**
 Note: The burning tool for updating system images on the UNIHIKER has been upgraded to a batch burning tool, allowing you to burn images to up to 10 boards simultaneously. Please note that currently, only the Windows version is available. For Linux or Mac platforms, please use the command-line tool.
 **Windows version (no installation required, just extract and run):**
 
@@ -17,7 +17,7 @@ Note: The burning tool for updating system images on the UNIHIKER has been upgra
 | **Download:** | [Click to download](https://download3.dfrobot.com.cn/unihiker/Burner/UNIHIKER_Batch_Tool_V2.3_2023.4_en.zip) | Using the [Command-line Tool](https://www.unihiker.com/wiki/burner_command_line) | Using the[Command-line Tool](https://www.unihiker.com/wiki/burner_command_line) |
 | **Download from Google Drive:** | [Click to download](https://drive.google.com/drive/folders/1JU73SOyN5VmpB6ilbxVNvCB9qXfc-Qo-?usp=sharing) | / | / |
 
-### 2.OS Image
+### **2.OS Image**
 To begin, download the OS img image file that needs to be flashed. Once downloaded and extracted, you will have an img format image file.
 **Download V0.3.6 System Image**
 **Name:** unihiker_v0.3.6.md5.0234c1218cc19119c6ca78ec8fe01048.img
@@ -60,14 +60,17 @@ To begin, download the OS img image file that needs to be flashed. Once download
    - lsusb
 -onnxruntime
 -graphviz
-## 3- Operation Steps
-### 3.1- Load OS file
+## **3- Operation Steps**
+### **3.1- Load OS file**
 
 - To use the UNIHIKER Batch Tool, open the UNIHIKERBatchTool.exe file and click on the Load button. Select the system image (img) file and the file path will be displayed below.
 
-Note: The V2.3 image burning tool now includes a file verification function. After loading the system file, the md5 verification will be performed on the file, which may take between 30 seconds to 5 minutes depending on the computer's performance. If the md5 value after the file name is inconsistent, it will prompt that the image is damaged.
+!!! note
+    The V2.3 image burning tool now includes a file verification function. After loading the system file, the md5 verification will be performed on the file, which may take between 30 seconds to 5 minutes depending on the computer's performance. If the md5 value after the file name is inconsistent, it will prompt that the image is damaged.  
 ![](img/7.Burn OS Image/1720595533519-240588b2-4722-4b7f-be5d-9a27c066674c.png)
-### 3.2- Enter firmware flashing mode
+
+
+### **3.2- Enter firmware flashing mode**
 
 - Before using the batch tool, please disconnect the UNIHIKER from the power source and remove the memory card.
 - To enter firmware flashing mode, hold down the Home button on the board and connect it to your computer via USB cable. The board will display a white screen and should be recognized as a new device by the software.
@@ -75,29 +78,30 @@ Note: The V2.3 image burning tool now includes a file verification function. Aft
 
 ![](img/7.Burn OS Image/1720595551635-b2de2ce6-a76e-470e-9c41-a47839917be2.png)
 ![](img/7.Burn OS Image/1720595560307-32130b89-cd29-4b58-a7e9-28168be5633c.png)
-### 3.3- Start burning
+### **3.3- Start burning**
 
 - Once the board to be flashed is recognized, click on "Burn" to begin the firmware flashing process. If this is the first time connecting the board, the driver will be installed before flashing can begin.
 
-Note: While the firmware is being flashed, check the output information in the lower window. If it seems to be stuck at a certain step for more than 5 minutes, please refer to the troubleshooting section at the end of the page for possible solutions.
+!!! note
+    While the firmware is being flashed, check the output information in the lower window. If it seems to be stuck at a certain step for more than 5 minutes, please refer to the troubleshooting section at the end of the page for possible solutions.
 ![](img/7.Burn OS Image/1720595579656-76e54276-2a76-4190-88d7-825d89b253ce.png)
-### 3.4- Burning Completed
+### **3.4- Burning Completed**
 
 - If you are flashing multiple boards, you will need to wait for each one to reach 100% or prompt an error before proceeding. Once the progress reaches 100%, the firmware flashing process is complete.
 
 ![](img/7.Burn OS Image/1720595595184-7df036e7-9c21-49ab-8c90-3326e95a10ce.png)
-### 3.5- Install System
+### **3.5- Install System**
 
 - Once the firmware has finished flashing, click on "Install" to begin the installation process. The software will control all UNIHIKERs to restart and complete the installation of the new system.
 - The new system will be automatically installed on the UNIHIKER, and it may restart multiple times during the process, which usually takes about one minute. Once the installation is complete, the board will stay on the language selection screen.
 - During the installation process, please do not operate or power off the board. If a mistake is made, please re-flash the system.
 
 ![](img/7.Burn OS Image/1720595610836-2978848c-490c-42d6-b084-00723433b780.png)
-### 3.6- Initial Setup
+### **3.6- Initial Setup**
 
 - 1.On the language selection screen, you can use the AB buttons to move the cursor up and down, and the Home button to confirm your selection. After making your selection, the UNIHIKER will reboot.
 
-If you accidentally select the wrong language, you can reselect your desired language from the [Home Menu](https://www.unihiker.com/wiki/homemenu).
+If you accidentally select the wrong language, you can reselect your desired language from the [Home Menu](https://www.unihiker.com/wiki/homemenu).  
 ![image.png](img/7.Burn OS Image/1720595689703-97b17e0f-a1c5-4413-88f4-64181213aa4d.png)
 
 - 2.After selecting your language, the UNIHIKER logo will appear. Press the HOME button to enter the HOME menu. Use the A and B buttons to move the cursor up and down, and use the HOME button to confirm. Select "Enter" to check the system information and make sure that the system version matches the version of the system image that was just installed. If it does, then the system image has been successfully burned.
@@ -128,4 +132,8 @@ Then, make sure to follow the steps for burning the system image carefully. It's
 If you encounter any issues that cannot be resolved during use, please don't hesitate to contact us through either of the methods listed below:
 
 1. Join our UNIHIKER channel by the link https://discord.gg/rvvfNCvBKv.
-2. Send emails to our mailbox: unihiker@dfrobot.com
+2. Send emails to our mailbox: unihiker@dfrobot.com  
+
+---  
+
+

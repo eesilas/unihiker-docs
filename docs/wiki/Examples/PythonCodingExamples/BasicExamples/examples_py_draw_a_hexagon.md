@@ -1,12 +1,21 @@
-## Project Introduction
-By utilizing the screen display function of UNIHIKER, it is possible to achieve a polygonal display effect and create a polygonal display. This project primarily utilizes the draw_line() function to implement the drawing of polygons and provides a better demonstration of the capabilities of the screen click and line drawing functions for educational purposes.
+## **Project Introduction**
+By utilizing the screen display function of UNIHIKER, it is possible to achieve a polygonal display effect and create a polygonal display.   
+This project primarily utilizes the draw_line() function to implement the drawing of polygons and provides a better demonstration of the capabilities of the screen click and line drawing functions for educational purposes.  
+
 ![888.gif](img/8. Draw a hexagon/1720429190675-097eaf8e-27d1-49d5-96c0-7b248680b5dd.gif){width=300, style="display:block;margin: 0 auto"} 
 
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-To display a hexagonal shape on the UNIHIKER screen, we first need to create an object using the GUI() class. Then, a button is added to this object. Finally, a state variable "step" is set in the callback function of the button, so that each time the button is pressed, the step increases by 1. As a result, the hexagon will be gradually drawn on the screen, and the terminal will prompt for the button to be continuously clicked.
+## **Code**
+To display a hexagonal shape on the UNIHIKER screen, we first need to create an object using the GUI() class.   
+
+Then, a button is added to this object.   
+
+Finally, a state variable "step" is set in the callback function of the button, so that each time the button is pressed, the step increases by 1.    
+
+As a result, the hexagon will be gradually drawn on the screen, and the terminal will prompt for the button to be continuously clicked.  
+
 ```python
 from unihiker import GUI
 
@@ -46,5 +55,9 @@ step = 0
 while True:
     pass
 ```
-## Demo Effect
-![888.gif](img/8. Draw a hexagon/1720429190675-097eaf8e-27d1-49d5-96c0-7b248680b5dd.gif){width=300, style="display:block;margin: 0 auto"}
+## **Demo Effect**
+![888.gif](img/8. Draw a hexagon/1720429190675-097eaf8e-27d1-49d5-96c0-7b248680b5dd.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

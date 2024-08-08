@@ -1,31 +1,32 @@
-## Downloading and Installing the Python IDLE
+## **Downloading and Installing the Python IDLE**
 In this tutorial, we will demonstrate how to download and install Python IDLE on your Windows, Mac, or Linux computer.  
-### Python IDLE
+### **Python IDLE**
 Python IDLE is the official integrated development environment (IDE) for Python, offering an interactive interpreter and a multi-window text editor for writing and executing Python code. It supports features like code highlighting, automatic indentation, intelligent completion, and debugging tools, making it well-suited for Python beginners.  
 ![](img/Python IDLE - Python/1695800918266-54ec11c8-4e6a-4f0c-8dc6-92f0e2cd58e6.png){width=200, style="display:block;margin: 0 auto"}
-### Requirements
+### **Requirements**
 Python IDLE, an integrated editor bundled with Python, provides cross-platform compatibility across Windows, Linux, and macOS systems. Once Python is installed, IDLE becomes readily accessible. Python itself has modest hardware requirements, and its compatibility with various operating systems influences system costs based on the specific version in use.  
 
 - For Windows, Python 3.8 and above supports Windows 7 and higher. Python 3.9 and above requires Windows 8.1 or higher.  
 - For Linux, Python 3.9 and later versions have ceased support for 32-bit Linux systems, including popular distributions like Ubuntu. Therefore, if you intend to install Python 3.9 or higher on Linux, your system must be 64-bit.  
 - For macOS, Python 3.9 and later versions support macOS 10.9 (Mavericks) and above.  
-### Download
+### **Download**
 Python IDLE is automatically installed along with Python, so we just need to download and install Python.[ [Download from the official website]](https://www.python.org/downloads/)
 ![image.png](img/Python IDLE - Python/1695799202306-2efe7312-b048-4e73-b0bc-155224747fb5.png)
-### Installation and open Python IDLE
+### **Installation and open Python IDLE**
 #### Windows 
 ![image.png](img/Python IDLE - Python/1695783762311-6ab2f175-d4ba-482f-962e-cf482a74098c.png)
 #### macOS
 ![](img/Python IDLE - Python/1695801544149-f69496dc-3ab9-4ae0-ae35-837571ded6aa.jpeg)
 #### Linux
 ![](img/Python IDLE - Python/1695801460832-f09be662-6346-463b-92a3-62c352a54504.webp)
-## Starting up the UNIHIKER
-### Connect the UNIHIKER
+## **Starting up the UNIHIKER**
+### **Connect the UNIHIKER**
 Connect the UNIHIKER to your computer using the Type-C to USB cable. Once connected and powered on, the UNIHIKER logo will appear on the screen.
 ![](img/Python IDLE - Python/1691476703505-51223828-f994-438e-a0a5-f4577792ea1e.png){style="display:block;margin: 0 auto"}
-> Note1: Please ensure that you plug the USB cable directly into the computer's USB port without using an extension cord or dock. If you encounter any connection issues, please refer to the FAQ for a solution.  
-> Note2: When the UNIHIKER is connected to your PC via USB, the IP address is fixed at 10.1.2.3. You can find the IP address in the "Home" menu of the UNIHIKER.  
-## Run a simple example with Python IDLE
+!!! note ""
+    Note1: Please ensure that you plug the USB cable directly into the computer's USB port without using an extension cord or dock. If you encounter any connection issues, please refer to the FAQ for a solution.  
+    Note2: When the UNIHIKER is connected to your PC via USB, the IP address is fixed at 10.1.2.3. You can find the IP address in the "Home" menu of the UNIHIKER.  
+## **Run a simple example with Python IDLE**
 The Python IDLE software supports programming through Python code, you can create a simple example as follows.
 (1) Launch the Python IDLE software, and you will see a screen like this. At the top is the menu bar, and below is the terminal window.  
 ![image.png](img/Python IDLE - Python/1695788012961-0f312d13-6a33-46f5-98a0-4f3b25ebe94a.png){width=500, style="display:block;margin: 0 auto"}  
@@ -73,10 +74,14 @@ When we run the program, the words 'HI UNIHIKER' will display on the screen.
 
 ![image.png](img/Python IDLE - Python/1695787500323-03a3f1ce-bf45-4d37-9477-818350ca187d.png){width=300, style="display:block;margin: 0 auto"}  
   
-> Note: Here, we use Python IDLE as a code editor to compose Python programs. However, in reality, we have the flexibility to use various other editors, such as Notepad and more, to write our programs.   
+!!! Note     
+    We use Python IDLE as a code editor to compose Python programs in this sample. Moreover, we have the flexibility to use various other editors to realise programs, such as Notepad.   
   
-Congratulations, you have successfully implemented programming control for the UNIHIKER. Now, you can explore exciting projects or delve deeper into understanding the foundations of UNIHIKER. Remember, the possibilities are endless with UNIHIKER. Have fun exploring and learning!
+  
+---  
+**Congratulations, you have successfully implemented programming control for the UNIHIKER. Now, you can explore exciting projects or understanding deeper of UNIHIKER.The possibilities are endless with UNIHIKER. Have fun exploring and learning!**  
 
-1. Discover a wide range of straightforward programming exercises to improve your understanding of control structures with UNIHIKER: [Examples](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/ktu7u5wqrqocflu0)
-2. Explore the utilization of supplementary Python libraries specifically related to UNIHIKER functionalities: [Reference](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/btd6oualns4g6fgd)
-3. Gain insights into the built-in hardware capabilities of UNIHIKER: [Hardware ](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/ogm50gebc6wgp3dm)
+**1. Discover more programming exercises: [Examples](../../wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md)**  
+**2. Explore Python libraries related to UNIHIKER: [Reference](../../wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md)**  
+**3. Gain insights into the built-in hardware of UNIHIKER: [Hardware ](../../wiki/HardwareReference/hardware_reference_introduction.md)**    
+---  

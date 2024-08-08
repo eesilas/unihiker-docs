@@ -1,14 +1,14 @@
-### Core
+### **Core**
 | **Function** | **Description** |
 | --- | --- |
 | CPU | RK3308 Arm 64-bit 4-core 1.2GHz |
-| Memory | 512MB DDR3 |
+| **Memory | 512MB DDR3 |
 | Hard Disk | 16GB eMMC |
 | OS | debian 10 |
 | Wi-Fi & Bluetooth | RTL8723DS 2.4G&4.0 |
 | Co-processor | GD32VF103C8T6 RISC-V 108MHz & 64KB Flash & 32KB SRAM |
 
-### Onboard Components
+### **Onboard Components**
 | **Function** | **Description** |
 | --- | --- |
 | Button | Home, A/B |
@@ -19,7 +19,7 @@
 | LED | Blue LED |
 | 6-axis Motion Sensor | 3-axis accelerator and 3-axis gyroscope (ICM20689) |
 
-### Interface
+### **Interface**
 | **Function** | **Description** |
 | --- | --- |
 | USB Type-C | Connect CPU to a PC for coding; supply power for mainboard |
@@ -29,7 +29,7 @@
 | 4Pin I2C | Independent I2C channel, not shared with onboard I2C components |
 | Edge Connectors | Pin numbers are compatible with micro:bit, 19 independent I/O (Support 1 ×I2C, 1×UART, 2×SPI, 6×12-bit ADC, 5×10-bit PWM) |
 
-### Power Supply
+### **Power Supply**
 | **Function** | **Description** |
 | --- | --- |
 | Power Supply | Type-C 5V Power supply (Note: It can only be powered by Type-C) |

@@ -1,46 +1,46 @@
-## 1.1 sound_level()
-### Description
+## **1.1 sound_level()**
+### **Description**
 Getting ambient volume
-### Syntax
+### **Syntax**
 **Audio.sound_level()**
-### Parameters
+### **Parameters**
 **None
-### Return
+### **Return**
 ** Sound level
-## 1.2 record()
-### Description
+## **1.2 record()**
+### **Description**
 Recording sound with the microphone on UNIHIKER
-### Syntax
+### **Syntax**
 **
-### Parameters
+### **Parameters**
 **file: **The name of the file where the recording was saved.
 **duration:** The length of the recording, in seconds.
-### Return
+### **Return**
 **None
-## 1.3 start_record()
-### Description
+## **1.3 start_record()**
+### **Description**
 Start sound recording
-### Syntax
+### **Syntax**
 **Audio.start_record(file)**
-### Parameters
+### **Parameters**
 **file:** The name of the file where the recording was saved.
-### Return
+### **Return**
 **None
-## 1.4 stop_record()
-### Description
+## **1.4 stop_record()**
+### **Description**
 Stop sound recording
-### Syntax
+### **Syntax**
 **Audio.stop_record()**
-### Parameters
+### **Parameters**
 **None
-### Return
+### **Return**
 **None
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to use the functions in the previous text to measure the volume of sound, record the sound, start and end the recording.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+### **Example Code**
 First, instantiate an object of the Audio class within the UNIHIKER class. Then, use this object to call the `audio = Audio()` function to initialize the pins for recording audio. Once initialized, proceed to collect ambient sound volume 30 times within a loop. Following this, utilize the `audio.record()` function to capture a three-second audio clip. Finally, manage the recording process using the `audio.start_record()` and `audio.stop_record()` functions.  
 ```python
 from unihiker import Audio
@@ -67,4 +67,8 @@ print("stop recording")
 **Program Effect:**
 ![1720663424594[00h00m00s-00h00m16s].gif](img/1.Recording Audio(record)/1720663610490-30b737a3-73b0-4070-942e-82c68f69ae31.gif)
 The audio files are stored in the folder shown in the following figure.
-![](img/1.Recording Audio(record)/1720663663679-bd2e948b-9d13-4896-914f-1e22d58d475b.png){width=300, style="display:block;margin: 0 auto"}
+![](img/1.Recording Audio(record)/1720663663679-bd2e948b-9d13-4896-914f-1e22d58d475b.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

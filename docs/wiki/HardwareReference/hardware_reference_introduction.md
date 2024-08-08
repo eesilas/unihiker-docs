@@ -5,7 +5,7 @@ UNIHIKER also provides developers with a hassle-free experience by offering pre-
 Compact, feature-rich, and user-friendly, UNIHIKER offers an innovative development experience for learning, coding, and creating. It provides users with the opportunity to unleash their imagination and embark on a new journey.  
   
 ![](img/1.Introduction/1720518696129-5b15e4e7-fb49-4b88-b535-d7f26abdc562.png){width=300, style="display:block;margin: 0 auto"}
-## Features
+## **Features**
 
 - 2.8-inch touchscreen display
 - Easy setup is achieved through a Type-C cable, and programming can be done via a web browser.

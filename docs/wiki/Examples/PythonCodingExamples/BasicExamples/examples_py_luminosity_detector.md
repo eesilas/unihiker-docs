@@ -1,14 +1,19 @@
-## Project Introduction
-UNIHIKER is equipped with a light sensor located above the front screen, allowing for the detection of ambient light intensity. Based on this feature, a luminosity detector can be created. This project displays the light value detected by the light sensor on the screen. Additionally, the ambient light intensity is divided into four levels on average, and different brightness levels of small lamp background images are displayed under different light conditions. Below is an example of the luminosity detector.
-![1721617426985[00h00m00s-00h00m10s].gif](img/17.Luminosity detector/1721617488232-be48c0d5-1044-4356-be58-814674ddb4b1.gif) 
+## **Project Introduction**
+UNIHIKER is equipped with a light sensor positioned above the front screen, enabling detection of ambient light intensity. Leveraging this capability, a luminosity detector can be developed. This project involves displaying the light value detected by the sensor on the screen. Furthermore, the ambient light intensity is categorized into four levels on average, with varying brightness levels of small lamp background images displayed according to different light conditions. Below is an illustration of the luminosity detector in action.  
 
-## Hardware Required
+![1721617426985[00h00m00s-00h00m10s].gif](img/17.Luminosity detector/1721617488232-be48c0d5-1044-4356-be58-814674ddb4b1.gif)   
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-In this example, UNIHIKER is initialized with Board().begin(). Then, a GUI object is instantiated and an image object and a text object are created using the draw_image() and draw_text() methods, respectively. In the main loop, the intensity of ambient light is obtained using the light.read() method from the PinPong library, and the light value is displayed on the screen using the draw_text() method from the GUI library. Additionally, the ambient light intensity is divided into four levels on average, and different brightness levels of small lamp background images are displayed on the screen using the draw_image() method from the GUI library under different light conditions.
-**Note:** Put the photo materials in the same directory as this code.
-```python
+
+## **Hardware Required**
+
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code**
+In this example, UNIHIKER is initialized with Board().begin(). Then, a GUI object is instantiated and an image object and a text object are created using the draw_image() and draw_text() methods, respectively. In the main loop, the intensity of ambient light is obtained using the light.read() method from the PinPong library, and the light value is displayed on the screen using the draw_text() method from the GUI library. Additionally, the ambient light intensity is divided into four levels on average, and different brightness levels of small lamp background images are displayed on the screen using the draw_image() method from the GUI library under different light conditions.  
+
+**Note:** Put the photo materials in the same directory as this code.  
+
+```python 
 from unihiker import GUI
 import time
 
@@ -39,6 +44,14 @@ while True :
         img.config(image='light-5.png')
 
     time.sleep(1)
-```
-## Demo Effect
-![](img/17.Luminosity detector/1721617488232-be48c0d5-1044-4356-be58-814674ddb4b1.gif)
+```  
+
+
+## **Demo Effect**
+![](img/17.Luminosity detector/1721617488232-be48c0d5-1044-4356-be58-814674ddb4b1.gif)  
+
+
+---  
+
+
+

@@ -1,8 +1,8 @@
-### Description
+### **Description**
 Showing text on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.draw_text(x, y, w, text, color, origin, onclick, font_family,font_size,angle)**
-### Parameters
+### **Parameters**
 **x:** The x-coordinate where the text is displayed on the UNIHIKER screen. 
 **y:** The y-coordinate where the text is displayed on the UNIHIKER screen. 
 **w:** The width of the text displayed on the UNIHIKER screen. If the text exceeds this width, it will automatically wrap to the next line. This parameter is optional. 
@@ -13,16 +13,18 @@ Showing text on the UNIHIKER screen
 **font_family:** The font type of the text. 
 **font_size:** The font size of the text. 
 **angle:** The rotation angle of the text.  
-### Return
+### **Return**
 **Text object
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to display "Hello" at the bottom of UNIHIKER, and bind it with a click callback function.
 At the same time, a string of blue numbers is displayed on the left side of the UNIHIKER screen.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, then invoke the draw_text() function through this object to display and configure the text parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, then invoke the draw_text() function through this object to display and configure the text parameters.  
+
 ```python
 import time
 from unihiker import GUI   #import pack
@@ -48,5 +50,9 @@ while True:
 ```  
   
 **Program Effect:**  
-![image.png](img/1.draw_text()/1718939185451-ee46921a-9237-4bc9-8688-bfa6c132e26d.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/1.draw_text()/1718939185451-ee46921a-9237-4bc9-8688-bfa6c132e26d.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+
 

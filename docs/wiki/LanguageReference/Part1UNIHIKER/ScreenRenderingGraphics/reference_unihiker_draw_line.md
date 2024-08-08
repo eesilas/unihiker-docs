@@ -1,8 +1,8 @@
-### Description
+### **Description**
 Showing line on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.draw_line(x0, y0, x1, y1, width, color, onclick)**
-### Parameters
+### **Parameters**
 **x0**:  The starting x-coordinate where the line is displayed on the UNIHIKER screen.  
 **y0**:  The starting y-coordinate where the line is displayed on the UNIHIKER screen.  
 **x1**:  The ending x-coordinate where the line is displayed on the UNIHIKER screen.  
@@ -10,15 +10,17 @@ Showing line on the UNIHIKER screen
 **width**:  The thickness of the line.  
 **color**:  The colour of the line.  
 **onclick**:  The callback function triggered when the line is clicked.  
-### Return
+### **Return**
 **Line object
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to display a green line on the UNIHIKER, bound to a click callback function.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_line() function through this object to display the line and set the parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_line() function through this object to display the line and set the parameters.  
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -34,6 +36,11 @@ import time
 while True:
     # Add a delay to prevent the program from exiting and to observe the effects
     time.sleep(1)
-```
+```  
+
 **Program Effect:**
-![image.png](img/1.draw_line()/1719479668924-0daf5ce3-657e-4e40-9b3e-f4f68e327b46.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/1.draw_line()/1719479668924-0daf5ce3-657e-4e40-9b3e-f4f68e327b46.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

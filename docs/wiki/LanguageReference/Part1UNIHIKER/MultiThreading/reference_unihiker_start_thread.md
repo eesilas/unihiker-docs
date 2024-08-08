@@ -1,19 +1,21 @@
-### Description
+### **Description**
 Implementing thread activation
-### Syntax
+### **Syntax**
 **GUI.start_thread(Thread function name)**
-### Parameters
+### **Parameters**
 Name of the callback function
-### Return
+### **Return**
 ** Thread object.
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to implement thread startup through UNIHIKER.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
 Instantiate an object of the GUI class within the UNIHIKER class. Define two callback functions for display purposes. The first callback function initiates a clock thread using the start_thread() function and maintains its operation through a delay loop. The second callback function visually indicates the thread's activation and deactivation by printing characters.  
-Note:  Thread functions do not loop by default.
+Note:  Thread functions do not loop by default.  
+
 ```python
 import time
 from unihiker import GUI  # Import Package
@@ -42,6 +44,11 @@ gui.start_thread(print_test)
 
 while True:
     time.sleep(0.1)
-```
+```  
+
 **Program Effect:**
-![](img/1.start_thread()/1720581463678-298d8c56-a911-43ce-8efa-6c0882aec778.gif)
+![](img/1.start_thread()/1720581463678-298d8c56-a911-43ce-8efa-6c0882aec778.gif)  
+
+---  
+
+

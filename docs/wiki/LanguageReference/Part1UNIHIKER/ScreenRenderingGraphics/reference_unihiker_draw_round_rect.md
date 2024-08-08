@@ -1,8 +1,8 @@
-### Description
+### **Description**
 Showing rounded rectangle on UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.draw_round_rect(x, y, w, h, r, width, color , onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the rectangle is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the rectangle is displayed on the UNIHIKER screen.  
 **w**:  The width of the rectangle.  
@@ -11,15 +11,17 @@ Showing rounded rectangle on UNIHIKER screen
 **width**:  The thickness of the border.  
 **color**:  The colour of the border.  
 **onclick**:  The callback function triggered when the rectangle is clicked.  
-### Return
+### **Return**
 **Rounded rectangle object
-### Example Description
+### **Example Description**
 In this simple example, we aim to display a grey rounded rectangle at the centre of the UNIHIKER, bound to a click callback function. The rectangle's width is 140, its height is 120, the border's thickness is 3, and the radius of the rounded corners is 8.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_round_rect() function through this object to display the rounded rectangle and set the parameters.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the draw_round_rect() function through this object to display the rounded rectangle and set the parameters.  
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -36,6 +38,10 @@ import time
 while True:
     # Add a delay to prevent the program from exiting and to observe the effects
     time.sleep(1)
-```
+```  
+
 **Program Effect:**
-![image.png](img/4.draw_round_rect()/1719482415253-c865fe29-0d90-4e7f-872d-206ad13c87fe.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/4.draw_round_rect()/1719482415253-c865fe29-0d90-4e7f-872d-206ad13c87fe.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+

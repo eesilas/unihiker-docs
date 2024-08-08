@@ -1,12 +1,16 @@
-## Project Introduction
+## **Project Introduction**
 This project uses the GUI class from the UNIHIKER library and utilizes the draw_emoji() function to generate emotion emoji images. In the following two examples, the callback() function is utilized to change the emotion emoji on the screen after clicking the corresponding buttons. Below is an example showcasing the "Wink" emoji on the UNIHIKER screen.
 ![444.gif](img/4.Emoticon Master/1720428924484-f2ac4a93-0688-4c55-b151-7920c0d576a0.gif){width=300, style="display:block;margin: 0 auto"} 
 
-## Hardware Required
+## **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-In order to display a wink emoji on the UNIHIKER screen, we first use the instantiated GUI object to call the draw_circle() function and draw a circle. Then, the draw_emoji() function is called to add the wink emoji inside the circle.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code**
+
+To display a winking emoji on the UNIHIKER screen, begin by using the instantiated GUI object to invoke the draw_circle() function and create a circle. Subsequently, call the draw_emoji() function to place the winking emoji inside the circle.  
+
+
 ```python
 from unihiker import GUI
 
@@ -34,6 +38,10 @@ Text.config(origin = "top")
 while True:
     pass
 ```
-## Demo Effect
-![444.gif](img/4.Emoticon Master/1720428924484-f2ac4a93-0688-4c55-b151-7920c0d576a0.gif){width=300, style="display:block;margin: 0 auto"}
-## 
+## **Demo Effect**  
+
+![444.gif](img/4.Emoticon Master/1720428924484-f2ac4a93-0688-4c55-b151-7920c0d576a0.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

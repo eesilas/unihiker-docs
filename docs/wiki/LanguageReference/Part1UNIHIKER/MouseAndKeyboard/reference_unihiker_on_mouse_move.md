@@ -1,18 +1,20 @@
-### Description
+### **Description**
 Showing mouse coordinates on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.on_mouse_move(Name of the callback function)**
-### Parameters
+### **Parameters**
 Name of the callback function
-### Return
+### **Return**
 **None
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to display mouse coordinates at the bottom of UNIHIKER. As the mouse moves to different positions on the screen, the displayed coordinate information will update accordingly.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class. Define a callback function to display text on the screen. Then, use the object to call the on_mouse_move() function to capture mouse coordinates and bind the callback function for displaying them on the screen.  
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class. Define a callback function to display text on the screen. Then, use the object to call the on_mouse_move() function to capture mouse coordinates and bind the callback function for displaying them on the screen.    
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -38,4 +40,9 @@ while True:
     time.sleep(1)
 ```
 **Program Effect:**
-![mouse.gif](img/1.on_mouse_move()/1720666634292-09279399-19c8-465a-8740-9f4b41d5a52f.gif){width=300, style="display:block;margin: 0 auto"}
+![mouse.gif](img/1.on_mouse_move()/1720666634292-09279399-19c8-465a-8740-9f4b41d5a52f.gif){width=300, style="display:block;margin: 0 auto"}  
+
+
+---  
+
+

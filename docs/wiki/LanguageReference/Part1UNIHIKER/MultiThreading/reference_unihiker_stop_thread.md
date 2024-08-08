@@ -1,19 +1,21 @@
-### Description
+### **Description**
 Stop the thread running on UNIHIKER
-### Syntax
+### **Syntax**
 **GUI.stop_thread(Thread object)**
-### Parameters
+### **Parameters**
 ** Thread object
-### Return
+### **Return**
 **None
-### Example Description
+### **Example Description**
 In this simple example, our main goal is to stop the thread running on UNIHIKER.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
 Instantiate an object of the GUI class within the UNIHIKER class. Define two callback functions for display purposes. The first callback function initiates a clock thread using the start_thread() function and maintains its operation through a delay loop. After 6 seconds, the thread is closed using the stop_thread() function.
-Note:  Thread functions do not loop by default.
+Note:  Thread functions do not loop by default.  
+
 ```python
 import time
 from unihiker import GUI  # Import Package
@@ -34,6 +36,11 @@ gui.stop_thread(clock_thread)
 
 while True:
     time.sleep(0.1)
-```
+```  
+
 **Program Effect:**
-![stop_thread.gif](img/2.stop_thread()/1720670083979-641f45bb-5385-4ec3-b8a6-5e70be804a70.gif){width=300, style="display:block;margin: 0 auto"}
+![stop_thread.gif](img/2.stop_thread()/1720670083979-641f45bb-5385-4ec3-b8a6-5e70be804a70.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

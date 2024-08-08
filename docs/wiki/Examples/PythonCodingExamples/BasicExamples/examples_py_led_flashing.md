@@ -1,13 +1,17 @@
-## Project Introduction
+## **Project Introduction**
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the onboard LED of UNIHIKER to flash. This project uses the Pin(Pin.P25, Pin.OUT).write_digital(signal) method of in the PinPong library of Python to control a blue LED (marked as L) located on the back of the board.
 Below is an example of controlling the LED to flash.  
-![15.1.gif](img/15.LED Flashing/1717470431980-4d254e5e-ed28-4dd9-a421-e2a71ffc6064.gif){width=300, style="display:block;margin: 0 auto"} 
 
-## Hardware Required
+![15.1.gif](img/15.LED Flashing/1717470431980-4d254e5e-ed28-4dd9-a421-e2a71ffc6064.gif){width=300, style="display:block;margin: 0 auto"}  
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-In this example, the first step is to initialize UNIHIKER with Board().begin(). Then, the pin corresponding to the L LED is initialized as a digital output mode using Pin(Pin.P25, Pin.OUT). In the main loop, the value(1) method or write_digital(1) method of the L LED object is used to output a high level, which is maintained for 1 second. Following this, the value(0) method or write_digital(0) method of the L LED object is used to output a low level, which is also maintained for 1 second. This allows for the control of the onboard LED to flash using the microcontroller of UNIHIKER.
+
+## **Hardware Required**
+
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code**
+In this example, begin by initializing UNIHIKER with Board().begin(). Next, configure the pin assigned to the L LED as a digital output using Pin(Pin.P25, Pin.OUT). Within the main loop, utilize the value(1) or write_digital(1) method of the L LED object to set the output to high, maintaining it for 1 second. Subsequently, use the value(0) or write_digital(0) method to set the output to low for another 1 second. This sequence enables the microcontroller on UNIHIKER to control the onboard LED, causing it to flash intermittently.  
+
 ```python
 #  -*- coding: UTF-8 -*-
 
@@ -32,6 +36,13 @@ while True:
     # led.value(0)		# Method 1
     led.write_digital(0)	# Method 2
     time.sleep(1)
-```
-## Demo Effect
-![15.2.gif](img/15.LED Flashing/1717470438843-7704798b-8da6-4d59-9e65-f6301fe445fa.gif){width=300, style="display:block;margin: 0 auto"}
+```  
+
+## **Demo Effect**
+
+![15.2.gif](img/15.LED Flashing/1717470438843-7704798b-8da6-4d59-9e65-f6301fe445fa.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+
+

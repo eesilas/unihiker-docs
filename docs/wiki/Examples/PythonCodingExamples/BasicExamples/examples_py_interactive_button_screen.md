@@ -1,12 +1,17 @@
-## Project Introduction
-In this project, the add_button function from the GUI class was utilized to demonstrate the creation of buttons on the touch screen of the Unihiker. The first button will display its state upon clicking, while the second button hides all text.
-![555.gif](img/5. Interactive Button Screen/1720429015598-a3c53f0c-eb47-4375-aa28-b296b760d686.gif){width=300, style="display:block;margin: 0 auto"} 
+## **Project Introduction**
+In this project, the add_button function from the GUI class was utilized to demonstrate the creation of buttons on the touch screen of the Unihiker. The first button will display its state upon clicking, while the second button hides all text.  
 
-## Hardware Required
+![555.gif](img/5. Interactive Button Screen/1720429015598-a3c53f0c-eb47-4375-aa28-b296b760d686.gif){width=300, style="display:block;margin: 0 auto"}   
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code 
-In this example, two buttons were created using the add_button function. They are then assigned to their corresponding callback functions, "A" and "B". In function "A", the text of the first button is changed to "BtnA is Clicked" while the text of the second button remains the same. In function "B", the text of both buttons is changed to blank, as shown in the Demo effect section.
+
+## **Hardware Required**
+
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code** 
+
+In this example, two buttons were created using the add_button function. Each button is assigned its respective callback function, "A" and "B". In function "A", the text of the first button is updated to "BtnA is Clicked", while the text of the second button remains unchanged. In function "B", both buttons have their text cleared, as demonstrated in the Demo effect section.    
+
 ```python
 
 from unihiker import GUI
@@ -36,6 +41,12 @@ while True:
         
         #Prevent the program from exiting or getting stuck
         time.sleep(0.1)
-```
-## Demo Effect
-![555.gif](img/5. Interactive Button Screen/1720429015598-a3c53f0c-eb47-4375-aa28-b296b760d686.gif){width=300, style="display:block;margin: 0 auto"}
+```  
+
+## **Demo Effect**
+![555.gif](img/5. Interactive Button Screen/1720429015598-a3c53f0c-eb47-4375-aa28-b296b760d686.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+
+

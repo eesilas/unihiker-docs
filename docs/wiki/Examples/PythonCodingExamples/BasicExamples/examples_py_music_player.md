@@ -1,22 +1,37 @@
-## Project Introduction
-The audio playback function of UNIHIKER can be used to create a music player. This project utilizes the draw_image() method of the GUI() class in the UNIHIKER library to create the interface and buttons of the music player. The start_play(file) method of the Audio() class is used to control the start of playback, the pause_play() method is used to pause playback, the resume_play() method is used to continue playback, and the stop_play() method is used to stop playback and is tied to the button's callback function. Additionally, the draw_line() and draw_circle() methods of the GUI() class can be used to create a progress bar for the music player. The play_time_remain() method of the Audio() class can then be used to get the remaining playback time and bind it with the progress bar. Below is an example demonstrating the creation of a music player.  
-![14.1.gif](img/14.Music Player/1717470222438-ee966b72-fcc4-4f11-aadf-f9a6fc09cace.gif){width=300, style="display:block;margin: 0 auto"} 
+## **Project Introduction**
 
-## Hardware Required
+The audio playback feature of UNIHIKER allows for creating a music player. This project utilizes the draw_image() method from the GUI() class in the UNIHIKER library to design the interface and buttons of the music player. Control functions such as start_play(file), pause_play(), resume_play(), and stop_play() from the Audio() class manage playback operations, with the stop_play() function linked to a button's callback.    
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-- USB speaker
-## Code
-To create the GUI interface for the music player, first create instances of GUI and Audio. Then, use the draw_image() method of the GUI object to create the image objects, including the background and three buttons of the music player. Use the draw_line() and draw_circle() methods of the GUI() class to create the progress bar of the music player.
-In the second part, three callback functions are defined to handle the three buttons of the music player. In the callback function of the play button, starting or continuing playback is determined by checking the change of the flag variable. The start_play(file) method of the Audio() class is used to trigger the start of playback, and the pause_play() method is used to trigger the continuation of playback. In the callback functions of the pause button and the stop button, the pause_play() method and stop_play() method are used to trigger the pause and stop of playback, respectively.
-In the main function, the play_time_remain() method of the Audio() class is used to obtain the remaining playback time and calculate the coordinate parameters. Then, the config() method of the line and circle objects is used to update the coordinate parameters of the progress bar, achieving the movement of the progress bar. This allows for a fully functional music player using the audio playback function of UNIHIKER.
-**Note:**
+To enhance functionality, the GUI() class's draw_line() and draw_circle() methods are employed to construct a progress bar for tracking playback. The play_time_remain() method from the Audio() class calculates the remaining playback time, synchronizing it with the progress bar. Below is an example demonstrating the creation of a music player.  
 
-1. The audio and image files need to be stored in the directory where this code is located. The file "Love Theme.mp3" needs to be downloaded and renamed online by oneself.
 
-![image.png](img/14.Music Player/1720429909935-1ddcc80a-3012-40ad-8149-6314e5ef4e7a.png){width=400, style="display:block;margin: 0 auto"}   
+![14.1.gif](img/14.Music Player/1717470222438-ee966b72-fcc4-4f11-aadf-f9a6fc09cace.gif){width=300, style="display:block;margin: 0 auto"}   
 
-2. Connect the USB speaker to the Type-A port of UNIHIKER.
+
+## **Hardware Required**
+
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+- USB speaker  
+
+
+## **Code**
+
+To create the GUI interface for the music player, first create instances of GUI and Audio. Then, use the draw_image() method of the GUI object to create the image objects, including the background and three buttons of the music player. Use the draw_line() and draw_circle() methods of the GUI() class to create the progress bar of the music player.   
+
+In the second part, three callback functions are defined to handle the three buttons of the music player. In the callback function of the play button, starting or continuing playback is determined by checking the change of the flag variable. The start_play(file) method of the Audio() class is used to trigger the start of playback, and the pause_play() method is used to trigger the continuation of playback. In the callback functions of the pause button and the stop button, the pause_play() method and stop_play() method are used to trigger the pause and stop of playback, respectively.   
+
+In the main function, the play_time_remain() method of the Audio() class is used to obtain the remaining playback time and calculate the coordinate parameters. Then, the config() method of the line and circle objects is used to update the coordinate parameters of the progress bar, achieving the movement of the progress bar. This allows for a fully functional music player using the audio playback function of UNIHIKER.  
+
+
+!!! note
+
+    · The audio and image files need to be stored in the directory where this code is located. The file "Love Theme.mp3" needs to be downloaded and renamed online by oneself.
+
+    ![image.png](img/14.Music Player/1720429909935-1ddcc80a-3012-40ad-8149-6314e5ef4e7a.png){width=400, style="display:block;margin: 0 auto"}   
+
+    · Connect the USB speaker to the Type-A port of UNIHIKER.  
+
+
 ```python
 #  -*- coding: UTF-8 -*-
 
@@ -87,5 +102,12 @@ while True:
         play.config(w=16)
         pause.config(w=14)
         stop.config(w=16)
-```
-![14.2.gif](img/14.Music Player/1717470229667-38d0af44-4818-48dd-bda7-f295126c825d.gif){width=300, style="display:block;margin: 0 auto"}
+```  
+
+![14.2.gif](img/14.Music Player/1717470229667-38d0af44-4818-48dd-bda7-f295126c825d.gif){width=300, style="display:block;margin: 0 auto"}  
+
+
+
+---
+  
+

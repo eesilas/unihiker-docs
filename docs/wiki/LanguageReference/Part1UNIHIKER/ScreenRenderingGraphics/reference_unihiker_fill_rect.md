@@ -1,23 +1,25 @@
-### Description
+### **Description**
 Showing solid rectangle on the UNIHIKER screen
-### Syntax
+### **Syntax**
 **GUI.fill_rect(x, y, w, h, color , onclick)**
-### Parameters
+### **Parameters**
 **x**:  The x-coordinate where the rectangle is displayed on the UNIHIKER screen.  
 **y**:  The y-coordinate where the rectangle is displayed on the UNIHIKER screen.  
 **w**:  The width of the rectangle.  
 **h**:  The height of the rectangle.  
 **color**:  The colour of the rectangle.  
 **onclick**:  The callback function triggered when the rectangle is clicked.
-### Return
+### **Return**
 **Rectangle object
-### Example Description
+### **Example Description**
 In this example, our main objective is to display a rectangle on the UNIHIKER screen and bind it to a click callback function.
-### Hardware Required
+### **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
-Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_rect() function through this object to display the rectangle and set the appropriate attributes.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+### **Example Code**
+Instantiate an object of the GUI class within the UNIHIKER class, and call the fill_rect() function through this object to display the rectangle and set the appropriate attributes.  
+
 ```python
 from unihiker import GUI   # Import the package
 gui = GUI()  # Instantiate the GUI class
@@ -33,6 +35,11 @@ while True:
     # Add a delay to prevent the program from exiting and to observe the effects
     time.sleep(1)
 
-```
+```  
+
 **Program Effect:**
-![image.png](img/3.fill_rect()/1718940754891-b30ab14b-fc0a-4457-9f29-c3aa14e139db.png){width=300, style="display:block;margin: 0 auto"}
+![image.png](img/3.fill_rect()/1718940754891-b30ab14b-fc0a-4457-9f29-c3aa14e139db.png){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+

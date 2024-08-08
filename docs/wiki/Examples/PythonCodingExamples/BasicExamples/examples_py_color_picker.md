@@ -1,15 +1,20 @@
-## Project Introduction
-In this tutorial, we will be using the Unihiker GUI library to create an interactive color picker. With the simple click of a color, users can choose from a variety of options and have their selected color immediately displayed.
+## **Project Introduction**
+In this tutorial, we will use the Unihiker GUI library to create an interactive color picker. By clicking on a color, users can choose from various options and see their selected color displayed instantly.  
+
 ![999.gif](img/9.Color Picker/1720430539211-ac95d21f-be50-45dd-83d7-1dda900cbbbe.gif){width=300, style="display:block;margin: 0 auto"} 
 
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code 
-The objective of this project is to create a simple GUI interface where users can click on different color squares to modify the color of a displayed text on the screen. 
-To begin, we import the GUI library and instantiate a GUI object. Next, a text label is created to serve as the color indicator, with a default color set initially. 
-Then, an array of squares is generated using the fill_rect() function, with each square assigned a unique color and clickable action. 
-The lambda function is used within the fill_rect() function to create a temporary function that updates the text color to match the clicked square. A loop with time.sleep(1) is used to keep the program running and allow users to use the drawing feature without the program ending too quickly.
+## **Code** 
+The objective of this project is to create a simple GUI interface where users can click on different color squares to modify the color of a displayed text on the screen.   
+
+To begin, we import the GUI library and instantiate a GUI object. Next, a text label is created to serve as the color indicator, with a default color set initially.   
+
+Then, an array of squares is generated using the fill_rect() function, with each square assigned a unique color and clickable action.   
+
+The lambda function is used within the fill_rect() function to create a temporary function that updates the text color to match the clicked square. A loop with time.sleep(1) is used to keep the program running and allow users to use the drawing feature without the program ending too quickly.  
+
 ```python
 from unihiker import GUI  
 import time
@@ -31,6 +36,10 @@ gui.fill_rect(x=150, y=250, w=50, h=50,color="black",onclick=lambda:Text.config(
 while True:
    #Prevent the program from exiting or getting stuck
     time.sleep(1)
-```
-## Demo Effect
+```  
+  
+## **Demo Effect**
 ![999.gif](img/9.Color Picker/1720430539211-ac95d21f-be50-45dd-83d7-1dda900cbbbe.gif){width=300, style="display:block;margin: 0 auto"}
+
+---  
+

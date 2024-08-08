@@ -1,12 +1,17 @@
-## Project Introduction
-Using the screen display function of the line air board, it is possible to create an analog clock and a desktop clock. This project primarily utilizes the draw_clock() and fill_clock() functions to implement the analog clock display, providing a better demonstration of the capabilities of the draw_clock() function for educational purposes.
+## **Project Introduction**
+Using the screen display function of the line air board, it is possible to create an analog clock and a desktop clock. This project primarily utilizes the draw_clock() and fill_clock() functions to implement the analog clock display, providing a better demonstration of the capabilities of the draw_clock() function for educational purposes.  
+
 ![666.gif](img/6. Draw your Own Clock/1720429076945-79feafcd-b32a-4f07-ad0a-c05eaa8329c5.gif){width=300, style="display:block;margin: 0 auto"} 
 
-## Hardware Required
+## **Hardware Required**
 
-- [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-## Code
-In order to display a clock on the UNIHIKER screen, the instantiated GUI object is first used to call the draw_clock() function and draw a circle. Then, the draw_emoji() function is called to add the wink emoji inside the circle. Inside the while loop, the time parameter in the GUI object can be continuously updated. If the fill_clock() function is called, the clock will be filled with the selected color.
+- [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
+
+## **Code**
+
+To display a clock on the UNIHIKER screen, follow these steps: first, use the instantiated GUI object to invoke the draw_clock() function and create a circle. Next, call draw_emoji() to place a winking emoji inside the circle. Continuously update the time parameter within the GUI object in the while loop. Calling fill_clock() will fill the clock with the chosen color.  
+
+
 ```python
 from unihiker import GUI
 import time
@@ -26,5 +31,10 @@ while True:
 
     time.sleep(1)
 ```
-## Demo effect.
-![666.gif](img/6. Draw your Own Clock/1720429076945-79feafcd-b32a-4f07-ad0a-c05eaa8329c5.gif){width=300, style="display:block;margin: 0 auto"}
+## **Demo effect** 
+![666.gif](img/6. Draw your Own Clock/1720429076945-79feafcd-b32a-4f07-ad0a-c05eaa8329c5.gif){width=300, style="display:block;margin: 0 auto"}  
+
+---  
+
+
+
