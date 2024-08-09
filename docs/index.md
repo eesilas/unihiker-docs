@@ -5,7 +5,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 <div class="grid cards" markdown>
 
 -   :material-format-list-group: &nbsp; __[Getting Started][start]__  
-      here is the sample
+      Essential for Beginners
     &nbsp;__[![image.png](assets/images/started.png){width=230, style="display:block;margin: 0 auto"}][start]__
 
     __&nbsp;[Jupyter Notebook][jupyter] |&nbsp; [Mind+][mind+] |&nbsp; [VS Code][vscode] |&nbsp;  [Python IDLE][python] |&nbsp; [Terminal Tool][ssh] |&nbsp; [Thonny][thonny]__  
@@ -13,7 +13,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
 
 -   :material-file-tree: &nbsp; __[Examples][examples]__  
-      here is the sample
+      Get Started Quickly Through Projects
     &nbsp;__[![image.png](assets/images/examples.png){width=198, style="display:block;margin: 0 auto"}][examples]__  
 
 
@@ -23,7 +23,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
 
 -   :material-folder-open: &nbsp; __[Language Reference][unihiker-libraries]__  
-      here is the sample
+      Software Library and API Documentation
     &nbsp;__[![image.png](assets/images/language.png){width=200, style="display:block;margin: 0 auto"}][unihiker-libraries]__    
 
     __&nbsp;[UNIHIKER Libraries][unihiker-libraries] | Pinpong Libraries | USB Device__
@@ -31,7 +31,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
 
 -   :material-information: &nbsp; __[Hardware Reference][hardware]__  
-      here is the sample
+      Hardware-Related Information
     &nbsp;__[![image.png](assets/images/hardware.png){width=258, style="display:block;margin: 0 auto"}][hardware]__  
 
     __&nbsp;[Components][components] |&nbsp; [System Framework][system-framework] |&nbsp; [Specification][specification] |&nbsp;  [Overview][overview] |&nbsp; [Dimension][dimension] |&nbsp; [SVG & 3D File][3dfile]__
