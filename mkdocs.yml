@@ -18,6 +18,8 @@ copyright: 'Copyright &copy; 2024 - 2029 UNIHIKER Team'
 theme:
   name: material
   nav_style: dark
+  features:
+    - navigation.path  # Enable breadcrumbs
 
   # Default values, taken from mkdocs_theme.yml
   language: en
