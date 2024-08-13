@@ -17,6 +17,7 @@ copyright: 'Copyright &copy; 2024 - 2029 UNIHIKER Team'
 
 theme:
   name: material
+  custom_dir: overrides
   nav_style: dark
   features:
     - navigation.path  # Enable breadcrumbs
@@ -156,7 +157,7 @@ nav:
   - WIKI: 
     - index.md 
     - 🚩 Getting Started: 
-      - Getting Started: wiki//GettingStarted/get-started.md
+      - Getting Started: wiki/get-started.md
       - Jupyter Notebook: wiki/GettingStarted/gettingstarted_jupyternotebook.md
       - Mind+ Python & Graphical Python: wiki/GettingStarted/gettingstarted_mind+.md
       - VSCode - Python: wiki/GettingStarted/gettingstarted_vscode.md
@@ -233,10 +234,6 @@ nav:
     - 😀 Contact Us:
       - 1.Technical Discussion: wiki/ContactUs/contactus_technical_discussion.md
       - 2.Contact Us: wiki/ContactUs/contactus_contact_us.md
-
-
-
-          
 
   - FORUM: https://www.dfrobot.com/forum/?t=947&p=1
   - CONTACT US: https://www.unihiker.com/
