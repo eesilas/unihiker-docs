@@ -231,6 +231,12 @@ nav:
       - 5.SMB File Sharing: wiki/SystemAndConfiguration/system_and_configuration_smb_file_sharing.md
       - 6.Remote Desktop: wiki/SystemAndConfiguration/system_and_configuration_remote_desktop.md
       - 7.Burn OS Image: wiki/SystemAndConfiguration/system_and_configuration_burn_os_image.md
+    - 🔧 Troubleshooting: 
+      - Troubleshooting Index: wiki/Troubleshooting/specific_content.md
+      - Connection and OS:
+        - How do I get my UNIHIKER connected to a WiFi Internet?  : wiki/Troubleshooting/How_do_I_get_my_UNIHIKER_connected_to_a_WiFi_Internet.md
+      - Errors During Execution: 
+        - What should I do when the error message "RuntimeError Analog map retrieval time out" appears or the readings from onboard components are all 0.?:   wiki/Troubleshooting/RuntimeError_Analog_map_retrieval_time_out.md
     - 😀 Contact Us:
       - 1.Technical Discussion: wiki/ContactUs/contactus_technical_discussion.md
       - 2.Contact Us: wiki/ContactUs/contactus_contact_us.md

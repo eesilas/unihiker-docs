@@ -42,7 +42,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
 </div>
 
-  [start]: wiki/GettingStarted/get-started.md
+  [start]: wiki/get-started.md
   [examples]: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md
   [hardware]: wiki/HardwareReference/hardware_reference_introduction.md
   [jupyter]: wiki/GettingStarted/gettingstarted_jupyternotebook.md

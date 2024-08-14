@@ -7,12 +7,12 @@ The mentioned software can be interacted with UNIHIKER using the Python language
 Select your preferred choice and continue with the quickstart.
 
 
-- [**SSH Tools** - Python](gettingstarted_ssh.md)
-- [**Mind+** - Python & Graphical Python](gettingstarted_mind+.md)
-- [**Jupyter Notebook(build-in)** - Python](gettingstarted_jupyternotebook.md)
-- [**VSCode** - Python](gettingstarted_vscode.md)
-- [**Python IDLE** - Python](gettingstarted_python_idle.md)
-- [**Thonny** - Python](gettingstarted_thonny.md)
+- [**SSH Tools** - Python](GettingStarted/gettingstarted_ssh.md)
+- [**Mind+** - Python & Graphical Python](GettingStarted/gettingstarted_mind+.md)
+- [**Jupyter Notebook(build-in)** - Python](GettingStarted/gettingstarted_jupyternotebook.md)
+- [**VSCode** - Python](GettingStarted/gettingstarted_vscode.md)
+- [**Python IDLE** - Python](GettingStarted/gettingstarted_python_idle.md)
+- [**Thonny** - Python](GettingStarted/gettingstarted_thonny.md)
 
 
 
