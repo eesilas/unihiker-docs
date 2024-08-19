@@ -261,6 +261,10 @@ nav:
       - Part3 USB Devices:
         - USB Camera: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
         - USB Speaker: wiki/LanguageReference/Part3USBDevices/USB_Speaker.md
+    - 🪄 Playground:
+      - IOT: wiki/Playground/IOT.md
+      - AI: wiki/Playground/AI.md
+      - STEM: wiki/Playground/STEM.md
     - 🚀 Hardware Reference:
       - 1.Introduction: wiki/HardwareReference/hardware_reference_introduction.md
       - 2.On-board Components: wiki/HardwareReference/hardware_reference_onboard_components.md
