@@ -124,8 +124,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -187,6 +187,25 @@ nav:
           - 18.Digital Piano: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_digital_piano.md
           - 19.Noise Monitor: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_noise_monitor.md
           - 20.Pedometer: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_pedometer.md
+        - Intermediate Examples:
+          - 1.Blinking LED: wiki/Examples/PythonCodingExamples/IntermediateExamples/1_Blinking_LED.md
+          - 2.Colourful Light Strip: wiki/Examples/PythonCodingExamples/IntermediateExamples/2_Colourful_Light_Strip.md
+          - 3.Smart home temperature and humidity Monitor: wiki/Examples/PythonCodingExamples/IntermediateExamples/3_Smart_home_temperature_and_humidity_Monitor.md
+          - 4.RGB LED Color Palette: wiki/Examples/PythonCodingExamples/IntermediateExamples/4_RGB_LED_Color_Palette.md
+          - 5.Plant Moisture Monitoring: wiki/Examples/PythonCodingExamples/IntermediateExamples/5_Plant_Moisture_Monitoring.md
+          - 6.Ultrasonic Range Finder: wiki/Examples/PythonCodingExamples/IntermediateExamples/6_Ultrasonic_Range_Finder.md
+          - 7.Servo Motor Control: wiki/Examples/PythonCodingExamples/IntermediateExamples/7_Servo_Motor_Control.md
+        - Advance Examples:
+            - 1.AI Voice Controlled Lights: wiki/Examples/PythonCodingExamples/AdvanceExamples/1_AI_Voice_Controlled_Lights.md
+            - 2.Speech Synthesis Assistant: wiki/Examples/PythonCodingExamples/AdvanceExamples/2_Speech_Synthesis_Assistant.md
+            - 3.DIY Camera: wiki/Examples/PythonCodingExamples/AdvanceExamples/3_DIY_Camera.md
+            - 4.Smart Home Monitoring: wiki/Examples/PythonCodingExamples/AdvanceExamples/4_Smart_Home_Monitoring.md
+            - 5.License Plate Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/5_License_Plate_Recognition.md
+            - 6.Color Following Car: wiki/Examples/PythonCodingExamples/AdvanceExamples/6_Color_Following_Car.md
+            - 7.Text Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/7_Text_Recognition.md
+            - 8.QR Code Scanner: wiki/Examples/PythonCodingExamples/AdvanceExamples/8_QR_Code_Scanner.md
+            - 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
+            - 10.IoT Smart Home: wiki/Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
     - 📜 Language Reference:
       - Part1 UNIHIKER Libs:
         - Screen Display:
@@ -215,6 +234,33 @@ nav:
         - Audio Class:
           - 1.Recording Audio(record): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_recording_audio_record.md
           - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_audio_playback_play.md
+      - Part2 Pinpong Libs:
+        - Function Onboard:
+          - 1.L LED: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
+          - 2.Button A and Button B: wiki/LanguageReference/Part2PinPong/FunctionOnboard/2_Button_A_and_Button_B.md
+          - 3.Light Sensor: wiki/LanguageReference/Part2PinPong/FunctionOnboard/3_Light_Sensor.md
+          - 4.Accelerometer and Gyroscope: wiki/LanguageReference/Part2PinPong/FunctionOnboard/4_Accelerometer_and_Gyroscope.md
+          - 5.Buzzer: wiki/LanguageReference/Part2PinPong/FunctionOnboard/5_Buzzer.md
+        - Digital IO & Analog IO:
+          - 1.Digital Output(GPIO): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/1_Digital_Output_GPIO_.md
+          - 2.Digital Input(GPIO): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/2_Digital_Input_GPIO_.md
+          - 3.Analog Input(ADC): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/3_Analog_Input_ADC_.md
+          - 4.Analog Output(PWM): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/4_Analog_Output_PWM_.md
+        - Communication:
+          - 1.Serial Port(UART): wiki/LanguageReference/Part2PinPong/Communication/1_Serial_Port_UART_.md
+          - 2.I2C(Inter Integrated Circuit): wiki/LanguageReference/Part2PinPong/Communication/2_I2C_Inter_Integrated_Circuit_.md
+          - 3.SPI(Serial Peripheral Interface): wiki/LanguageReference/Part2PinPong/Communication/3_SPI_Serial_Peripheral_Interface_.md
+          - 4.Bluetooth: wiki/LanguageReference/Part2PinPong/Communication/4_Bluetooth.md
+        - Popular Modules:
+          - 1.Servo: wiki/LanguageReference/Part2PinPong/PopularModules/3_Servo.md
+          - 2.LED Strip: wiki/LanguageReference/Part2PinPong/PopularModules/4_LED_Strip.md
+          - 3.DHT11 Temperature&Humidity Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/1_DHT11_Temperature_Humidity_Sensor.md
+          - 4.Ultrasonic sensor: wiki/LanguageReference/Part2PinPong/PopularModules/2_Ultrasonic_sensor.md
+          - 5.OLED 2864 Display Screen: wiki/LanguageReference/Part2PinPong/PopularModules/5_OLED_2864_Display_Screen.md
+          - 6.Color recognition: wiki/LanguageReference/Part2PinPong/PopularModules/6_Color_recognition.md
+      - Part3 USB Devices:
+        - USB Camera: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
+        - USB Speaker: wiki/LanguageReference/Part3USBDevices/USB_Speaker.md
     - 🚀 Hardware Reference:
       - 1.Introduction: wiki/HardwareReference/hardware_reference_introduction.md
       - 2.On-board Components: wiki/HardwareReference/hardware_reference_onboard_components.md
@@ -232,11 +278,24 @@ nav:
       - 6.Remote Desktop: wiki/SystemAndConfiguration/system_and_configuration_remote_desktop.md
       - 7.Burn OS Image: wiki/SystemAndConfiguration/system_and_configuration_burn_os_image.md
     - 🔧 Troubleshooting: 
-      - Troubleshooting Index: wiki/Troubleshooting/specific_content.md
-      - Connection and OS:
-        - How do I get my UNIHIKER connected to a WiFi Internet?  : wiki/Troubleshooting/How_do_I_get_my_UNIHIKER_connected_to_a_WiFi_Internet.md
-      - Errors During Execution: 
-        - What should I do when the error message "RuntimeError Analog map retrieval time out" appears or the readings from onboard components are all 0.?:   wiki/Troubleshooting/RuntimeError_Analog_map_retrieval_time_out.md
+      - Troubleshooting Index: wiki/faq.md
+      - Error firmware version self boardname KeyError: wiki/Troubleshooting/Error_firmware_version_self_boardname__KeyError_.md
+      - Error NoneType object has no attribute boardname : wiki/Troubleshooting/Error_NoneType_object_has_no_attribute_boardname_.md
+      - Error python3 can't open file : wiki/Troubleshooting/Error_python3__can_t_open_file_.md
+      - Error RuntimeError Analog map retrieval time out or the readings from onboard components all 0 : wiki/Troubleshooting/Error_RuntimeError_Analog_map_retrieval_time_out_or_the_readings_from_onboard_components_all_0.md
+      - How can I adjust the screen brightness of UNIHIKER : wiki/Troubleshooting/How_can_I_adjust_the_screen_brightness_of_UNIHIKER.md
+      - How can I get the Mind graphical program to run on the UNIHIKER after disconnecting it from my computer : wiki/Troubleshooting/How_can_I_get_the_Mind_graphical_program_to_run_on_the_UNIHIKER_after_disconnecting_it_from_my_computer.md
+      - How can I upload resource files such as images required for my program to UNIHIKER : wiki/Troubleshooting/How_can_I_upload_resource_files_such_as_images_required_for_my_program_to_UNIHIKER.md
+      - How can multiple Unihikers be plugged into the main computer and assigned to different addresses : wiki/Troubleshooting/How_can_multiple_Unihikers_be_plugged_into_the_main_computer_and_assigned_to_different_addresses.md
+      - How to choose an expansion board for UNIHIKER : wiki/Troubleshooting/How_to_choose_an_expansion_board_for_UNIHIKER.md
+      - How to connect : wiki/Troubleshooting/How_to_connect.md
+      - How to connect a Bluetooth speaker : wiki/Troubleshooting/How_to_connect_a_Bluetooth_speaker.md
+      - How to set time, date and timezone on UNIHIKER : wiki/Troubleshooting/How_to_set_time_date_and_timezone_on_UNIHIKER.md
+      - How to shut down : wiki/Troubleshooting/How_to_shut_down.md
+      - How to update the system time if the SIOT time is incorrect : wiki/Troubleshooting/How_to_update_the_system_time_if_the_SIOT_time_is_incorrect.md
+      - Installing Python library failed Warning Retrying Errno 3 : wiki/Troubleshooting/Installing_Python_library_failed_Warning__Retrying_Errno_3.md
+      - The UNIHIKER cannot be connected to Mind : wiki/Troubleshooting/The_UNIHIKER_cannot_be_connected_to_Mind.md
+      - What should I do if the screen is black, white and I can't enter the system : wiki/Troubleshooting/What_should_I_do_if_the_screen_is_black_white_and_I_can_t_enter_the_system.md
     - 😀 Contact Us:
       - 1.Technical Discussion: wiki/ContactUs/contactus_technical_discussion.md
       - 2.Contact Us: wiki/ContactUs/contactus_contact_us.md
