@@ -1,21 +1,21 @@
-### Description
+### **Description**
 UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO. To achieve this, we will utilize the Python PinPong library to connect and control the temperature and humidity sensors externally through the side pins of the board.
-### Syntax
+### **Syntax**
 **Object.temp_c()**
 **Object.humidity()**
-### Parameters
+### **Parameters**
 **Pin.P21:** Pin number 21.
-### Return
+### **Return**
 **temperature **and** humidity**
-### Example Description
+### **Example Description**
 In this example, UNIHIKER is first initialized with Board().begin(). Then, we use dht11 = DHT11(Pin(Pin.P21)) to initialize the pin. At the same time, we need to initialize the screen image, we use gui=GUI(). Then we use the temp = dht11.temp_c() method to collect analog values of temperature. At the same time, we use  humi = dht11.humidity(). To achieve experimental results, two value setting functions can be set to change the value in the text on the screen.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: DHT11 Temperature & Humidity Sensor For Arduino](https://www.dfrobot.com/product-174.html)
 
 ![](img/1_DHT11_Temperature_Humidity_Sensor/1720168299436-cd6665bf-000b-4384-8541-013b1ce6b8b0.png)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

@@ -1,22 +1,22 @@
-### Description
+### **Description**
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. This project uses PinPong library of Python to control the ultrasonic sensor externally connected through side pins of the board. 
-### Syntax
+### **Syntax**
 **Object = Servo(Pin(Pin.P21))**
 **Object.angle(angle)**
-### Parameters
+### **Parameters**
 **Pin.P21:** Pin number 21.
 **angle: **Steering gear rotation angle.
-### Return
+### **Return**
 **steering gear rotation angle**
-### Example Description
+### **Example Description**
 In this example, UNIHIKER is first initialized with Board().begin(). At the same time, we use gui=GUI() to initialize the  GUI. Then, we use s1 = Servo(Pin(Pin.P21)) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen. In order to achieve virtual buttons on the screen, we defined four callback functions to control the output value of the servo rotation function. We use the botton_A = gui.add_button() method to set button properties. In order to maintain the long-term retention of the GUI interface, we have set a time delay function in the main function.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [9g 180° Clutch Servo](https://www.dfrobot.com/product-2120.html)
 
 ![](img/3_Servo/1720429474410-c65247e5-ac2e-4dc6-a5d2-c6fc14838d23.png)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

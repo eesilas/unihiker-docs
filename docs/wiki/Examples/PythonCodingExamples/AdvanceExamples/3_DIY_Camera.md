@@ -1,7 +1,10 @@
 ## **Project Introduction**
-To create a DIY Camera, we will use a USB camera as an expansion module. 
-To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCapture(0) method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
-To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.imshow() methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your DIY Camera project.
+To create a DIY Camera, we will use a USB camera as an expansion module.   
+
+To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCapture(0) method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
+
+To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.imshow() methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your DIY Camera project.  
+
 ![20240801_220924[00h00m00s-00h00m05s].gif](img/3_DIY_Camera/1722521420753-7d7a14ba-7082-4e76-bd6d-8cf598b72dd4.gif)
 ## **Hardware Required**
 
@@ -57,3 +60,6 @@ cv2.destroyAllWindows()  # Close all
 ## **Demo Effect**
 ![20240801_220924[00h00m00s-00h00m05s].gif](img/3_DIY_Camera/1722521436349-7e4260b8-3ff5-43c5-8c04-1d392b32c81d.gif)
 ![image.png](img/3_DIY_Camera/1722484609283-43af8260-5f5e-4da6-a731-7d598467208e.png)
+
+
+---

@@ -1,6 +1,8 @@
 ## **Project Introduction**
 In this section, we used an external knob and an external adjustable color LED to achieve a RGB LED colour palette.
-UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external RGB LED by Pin22. At the same time, we control the LED by an external knob whose function is adc21 = ADC(Pin(Pin.P21)). This project uses the NEOPIXEL_PIN = Pin.P22 method in the PinPong library of Python to control the RGB LED externally connected through side pins of the board. 
+UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO.   
+
+Based on this functionality, we can control the external RGB LED by Pin22. At the same time, we control the LED by an external knob whose function is adc21 = ADC(Pin(Pin.P21)). This project uses the NEOPIXEL_PIN = Pin.P22 method in the PinPong library of Python to control the RGB LED externally connected through side pins of the board. 
 Here is an example of controlling the konb to change the colour of the RGB LED. 
 ![4-480P[00h00m00s-00h00m09s].gif](img/4_RGB_LED_Color_Palette/1721282199734-6852abbc-134f-4a70-8f8c-30b78ffa79d3.gif)
 ## **Hardware Required**
@@ -53,3 +55,6 @@ while True:
 ```
 ## **Demo Effect**
 ![4-480P[00h00m00s-00h00m09s].gif](img/4_RGB_LED_Color_Palette/1721282199734-6852abbc-134f-4a70-8f8c-30b78ffa79d3.gif)
+
+
+---

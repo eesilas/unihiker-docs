@@ -1,6 +1,8 @@
 ## **Project Introduction**
 In this section, we simulate a plant humidity monitor through an external humidity sensor and GUI interface.
-UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external humidity sensor by Pin21. This project uses the adc21 = ADC(Pin(Pin.P21)) method in the PinPong library of Python to control the humidity sensor externally connected through side pins of the board. The reason for using humidity sensor is that the humidity sensor transfers parameters by reading analog signals, and UNIHIKER processes the data.
+UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external humidity sensor by Pin21.   
+
+This project uses the adc21 = ADC(Pin(Pin.P21)) method in the PinPong library of Python to control the humidity sensor externally connected through side pins of the board. The reason for using humidity sensor is that the humidity sensor transfers parameters by reading analog signals, and UNIHIKER processes the data.
 Here is an example of simulating a plant humidity monitor by moisture sensor. 
 ![5-480P[00h00m00s-00h00m06s].gif](img/5_Plant_Moisture_Monitoring/1721282244324-ebb72198-b2f7-4a84-9c99-58dd2f46570c.gif)
 ## **Hardware Required**
@@ -11,7 +13,8 @@ Here is an example of simulating a plant humidity monitor by moisture sensor.
 ![湿度.png](img/5_Plant_Moisture_Monitoring/1720428587006-4bbe6af4-89a4-470b-a204-927548288494.png)
 ### **GUI components**
 We use the following image to simulate and beautify the GUI interface.
-![plant.png](img/5_Plant_Moisture_Monitoring/1720405106239-2bbb6d5e-2b20-42f6-8d11-fc49a03473e2.png)
+![plant.png](img/5_Plant_Moisture_Monitoring/1720405106239-2bbb6d5e-2b20-42f6-8d11-fc49a03473e2.png)  
+
 We can add this image to the project folder, just like the operation in the basic example. 
 Note: The image size is 320x240, and the length unit is px.
 ## **Code**
@@ -44,3 +47,6 @@ while True:
 ```
 ## **Demo Effect**
 ![5-480P[00h00m00s-00h00m06s].gif](img/5_Plant_Moisture_Monitoring/1721282244324-ebb72198-b2f7-4a84-9c99-58dd2f46570c.gif)
+
+
+---

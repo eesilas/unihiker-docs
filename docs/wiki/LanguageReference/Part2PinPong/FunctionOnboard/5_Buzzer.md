@@ -1,22 +1,22 @@
-### Description
+### **Description**
 The UNIHIKER main controllers come equipped with an integrated buzzer, which can emit pre-set tones.
-### Syntax
+### **Syntax**
 **buzzer.play(buzzer.DADADADUM, buzzer.Once)**
-### Parameters
+### **Parameters**
 **buzzer.DADADADUM:** The music played by the buzzer.
 **buzzer.Once:** The playback mode of the buzzer.
 Note: 
 
 - Music includes: DADADADUM ENTERTAINER PRELUDE ODE NYAN RINGTONE FUNK BLUES BIRTHDAY WEDDING FUNERAL PUNCHLINE BADDY CHASE BA_DING WAWAWAWAA JUMP_UP JUMP_DOWN POWER_UP POWER_DOWN
 - The playback modes include: Once (play once) Forever (play continuously) OnceInBackground (play once in the background) ForeverInBackground (play continuously in the background)   buzzer.play(buzzer.DADADADUM, buzzer.Once)
-### Return
+### **Return**
 **None
-### Example Description
+### **Example Description**
 The code below uses the buzzer.play() function to play music on the buzzer. With different functions such as buzzer.pitch(), buzzer.stop(), buzzer.pitch(), and buzzer.redirect(), we can modify the tone, start and pause playback, and redirect the buzzer to a specific pin.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

@@ -1,4 +1,4 @@
-### Description
+### **Description**
 IIC (Inter Integrated Circuit) bus is a two-wire serial bus developed by NXP (formerly PHILIPS) company, used to connect microcontrollers and their peripheral devices. It is commonly used for master-slave communication between the master controller and slave devices, and is used in small data volume situations with short transmission distance and only one master at any time. Perform bidirectional transmission between the CPU and the controlled IC, as well as between ICs.
 IIC has only two buses: one is the bidirectional serial data line SDA, and the other is the serial clock line SCL: 
 
@@ -7,77 +7,77 @@ IIC has only two buses: one is the bidirectional serial data line SDA, and the o
 
 All serial data SDA connected to I2C bus devices are connected to the SDA of the bus, and the clock lines SCL of each device are connected to the SCL of the bus. Each device on the I2C bus has its own unique address to ensure the accuracy of access between different devices.
 Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93RroBDYpr8](https://www.youtube.com/watch?v=93RroBDYpr8)
-### Common functions
-#### 2.1.**Object = I2C()**
-##### Description
+### **Common functions**
+#### **2.1.**Object = I2C()****
+##### **Description**
 Define the initialization function for the I2C.
-##### Syntax
+##### **Syntax**
 **Object = I2C()**
-##### Parameters
+##### **Parameters**
 **None
-##### Return
+##### **Return**
 **None
-#### 2.2.**Object = I2C(bus_num=value)**
-##### Description
+#### **2.2.**Object = I2C(bus_num=value)****
+##### **Description**
 Set the port of the I2C.
-##### Syntax
+##### **Syntax**
 **Object = I2C(bus_num=value)**
-##### Parameters
+##### **Parameters**
 **value: **The port number of the I2C.
-##### Return
+##### **Return**
 **None
-#### 2.3.**Object.writeto(address,data)**
-##### Description
+#### **2.3.**Object.writeto(address,data)****
+##### **Description**
 Write data to the address.
-##### Syntax
+##### **Syntax**
 **Object.writeto(address,data)**
-##### Parameters
+##### **Parameters**
 **address: **The address where data is written.
 **data: **Write data.
-##### Return
+##### **Return**
 **None
-#### 2.4.**Object.readfrom(address,num)**
-##### Description
+#### **2.4.**Object.readfrom(address,num)****
+##### **Description**
 Read data.
-##### Syntax
+##### **Syntax**
 **Object.readfrom(address,num)**
-##### Parameters
+##### **Parameters**
 **address: **The address for reading data.
 **num: **Read the length of the data.
-##### Return
+##### **Return**
 The data read.
-#### 2.5.**Object.readfrom_mem(address,num1,num2)**
-##### Description
+#### **2.5.**Object.readfrom_mem(address,num1,num2)****
+##### **Description**
 Read data from registers.
-##### Syntax
+##### **Syntax**
 **Object.readfrom_mem(address,num1,num2)**
-##### Parameters
+##### **Parameters**
 **address: **The address for reading data.
 **num1: **Register number.
 **num2: **Read the length of the data.
-##### Return
+##### **Return**
 The data read.
-#### 2.6.**Object.writeto_mem(address,num,data)**
-##### Description
+#### **2.6.**Object.writeto_mem(address,num,data)****
+##### **Description**
 Write data to the register.
-##### Syntax
+##### **Syntax**
 **Object.writeto_mem(address,num,data)**
-##### Parameters
+##### **Parameters**
 **address: **The address for reading data.
 **num: **Register number.
 **data: **Write data.
-##### Return
+##### **Return**
 **None
-### Example Description
+### **Example Description**
 By utilizing the characteristics of I2C communication, data commands are sent to HUSKYLENS through UNIHIKER, which can control HUSKYLENS to switch recognition modes. After successful switching, HUSKYLENS sends communication data indicating successful mode switching to UNIHIKER. When UNIHIKER receives a data frame starting with "0x55, 0xaa, 0x11", it indicates that the response signal sent by HUSKYLENS has been successfully received by UNIHIKER.
 Tips: For more communication instructions, please refer to: [HUSKYLENSArduino/HUSKYLENS Protocol.md at master · HuskyLens/HUSKYLENSArduino · GitHub](https://github.com/HuskyLens/HUSKYLENSArduino/blob/master/HUSKYLENS%20Protocol.md)
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html) 
 - [Gravity: Huskylens - An Easy-to-use AI Camera | Vision Sensor](https://www.dfrobot.com/product-1922.html)
 
 ![image.png](img/2_I2C_Inter_Integrated_Circuit_/1723445225139-108c23b9-fee6-4429-9cc2-403ab30d84b2.png)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

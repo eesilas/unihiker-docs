@@ -1,33 +1,33 @@
-### Description
+### **Description**
 Digital signals are signals obtained by binary quantization of analog signals, and all pins on UNIHIKER support the output of this signal at a voltage level of 3.3V.
-### Common functions
-#### 1.1.Object.value()
-##### Description
+### **Common functions**
+#### **1.1.Object.value()**
+##### **Description**
 Output digital level.
-##### Syntax
+##### **Syntax**
 **Object.value(v)**
-##### Parameters
+##### **Parameters**
 **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.
-##### Return
+##### **Return**
 HIGH level or LOW level
-#### 1.2.Object.write_digital()
-##### Description
+#### **1.2.Object.write_digital()**
+##### **Description**
 Output digital level.
-##### Syntax
+##### **Syntax**
 **Object.write_digital(v)**
-##### Parameters
+##### **Parameters**
 **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.
-##### Return
+##### **Return**
 HIGH level or LOW level
-### Example Description
+### **Example Description**
 Below is a sample code using the PinPong Library to control an LED and print corresponding messages when the LED is turned on or off. This code allows for the changes in the output level of GPIO pins to be felt through the on/off of LED lights.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: Digital Piranha LED Module - Red](https://www.dfrobot.com/product-471.html)
 
 ![image.png](img/1_Digital_Output_GPIO_/1723018223112-121c4963-d384-4146-b17d-2687f7f23e60.png)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: UTF-8 -*-
 

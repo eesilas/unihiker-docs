@@ -1,6 +1,8 @@
 ## **Project Introduction**
 In this part, we will use an external light strips to achieve red, orange, yellow, green, blue, and purple colors.
-UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external light strips by Pin21. This project uses the np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) method in the PinPong library of Python to control a NeoPixel LED externally connected through side pins of the board.
+UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO.   
+
+Based on this functionality, we can control the external light strips by Pin21. This project uses the np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) method in the PinPong library of Python to control a NeoPixel LED externally connected through side pins of the board.
 Here is an example of controlling the NeoPixel LED to blink.
 ![2-480P[00h00m00s-00h00m07s].gif](img/2_Colourful_Light_Strip/1721282022249-1ad244eb-5d0a-41f5-9850-052c6ae63bf6.gif)
 ## **Hardware Required**
@@ -52,3 +54,5 @@ while True:
 ## **Demo Effect**
 ![2-480P[00h00m00s-00h00m07s].gif](img/2_Colourful_Light_Strip/1721282070837-c76388ff-0d8b-4a56-982b-593a09caea0b.gif)
 
+
+---
