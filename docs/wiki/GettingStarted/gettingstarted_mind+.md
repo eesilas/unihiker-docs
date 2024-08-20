@@ -1,10 +1,5 @@
 ## **Downloading and Installing the Mindplus (Mind+)**
 In this tutorial, we will guide you through the process of downloading and installing Mindplus on your Windows, Mac, or Linux computer.
-### **Requirements**
-
-- **Windows** - RAM 4GB or more ; Win 7 or newer
-- **Linux** - Ubuntu/Deeping
-- **Mac OS X** - Mac10.11 or newer
 
 ### **Mindplus (Mind+)**
 Mind+ is a software designed for teenagers that supports AI and IoT functions by integrating with popular mainboards and open-source hardware. It offers an easy programming experience through graphical building blocks and advanced languages like Python, C, and C++.
@@ -13,6 +8,7 @@ Download the Mind+ application that supports UNIHIKER **(V1.7.2 RC3.0 or above)*
 
 ![image.png](img/Mind+ - Python & Graphical Python/1691477041943-3a8c7375-2ba8-4dc3-a0df-15151648dbed.png)
 ### **Installation and open Mind+**
+After downloading the software, install it normally by clicking "Next". After the installation is complete, launch MindPlus, click on the gear button in the top right corner of the software to select the language.
 #### Windows 
 ![image.png](img/Mind+ - Python & Graphical Python/1691567857184-0d8501f0-1ee5-4585-8575-f27d64077d7e.png)
 #### Mac OS X
@@ -21,7 +17,7 @@ Download the Mind+ application that supports UNIHIKER **(V1.7.2 RC3.0 or above)*
 ![c0f598994ecf398275f2a3259fa1c0d.png](img/Mind+ - Python & Graphical Python/1694770829895-ee497990-961a-4708-83af-2abf29f82a1f.png)
 ## **Starting up the UNIHIKER**
 ### **Connect the UNIHIKER**
-To begin, connect the UNIHIKER board to your computer using the Type-C to USB cable. Once connected and powered on, the UNIHIKER logo will appear on the screen.
+To begin, connect the UNIHIKER to your computer using the Type-C to USB cable. Once connected and powered on, the UNIHIKER logo will appear on the screen.
 ![](img/Mind+ - Python & Graphical Python/1691476703505-51223828-f994-438e-a0a5-f4577792ea1e.png){width=800, style="display:block;margin: 0 auto"}   
 
 !!! note 
@@ -30,7 +26,7 @@ To begin, connect the UNIHIKER board to your computer using the Type-C to USB ca
 ## **Run a simple example with Python code**
 Mind+ software offers programming support through Python code and provides a user-friendly graphical interface for programming the UNIHIKER. To access the graphical programming interface, simply click here to launch the Mind+ software on your computer.  
 
-(1) To switch to code programming mode in the Mind+ software, click on the "Python" button in the upper right corner. This will allow you to write and execute Python code for your UNIHIKER board.  
+(1) To switch to code programming mode in the Mind+ software, click on the "Python" button in the upper right corner. This will allow you to write and execute Python code for your UNIHIKER.  
 
 ![image.png](img/Mind+ - Python & Graphical Python/1691562303403-8c6c9dc9-a3f3-401c-8d14-2cea8a79af65.png)  
 
@@ -60,11 +56,11 @@ gui.draw_text(text="HI UNIHIKER",origin="center",x=120,y=160,color="#0066CC")
 while True:
     time.sleep(1)
 ```
-(6) To run your code on the UNIHIKER, you will first need to connect to it. Click on the icon preceding the Terminal, and select "Connect Remote Terminal" from the menu. This will establish a connection to a remote terminal on the UNIHIKER board.  
+(6) To run your code on the UNIHIKER, you will first need to connect to it. Click on the icon preceding the Terminal, and select "Connect Remote Terminal" from the menu. This will establish a connection to a remote terminal on the UNIHIKER.  
 
 ![image.png](img/Mind+ - Python & Graphical Python/1691565537723-378d855e-3dc5-4fd0-a57f-8779e8df188e.png)  
 
-To connect to the UNIHIKER, click on the IP address 10.1.2.3 in the remote terminal menu. This will establish a connection between your computer and the UNIHIKER board.  
+To connect to the UNIHIKER, click on the IP address 10.1.2.3 in the remote terminal menu. This will establish a connection between your computer and the UNIHIKER.  
 
 ![image.png](img/Mind+ - Python & Graphical Python/1691565572761-bee204ac-e511-4091-a7b2-066654d2c217.png)  
 
