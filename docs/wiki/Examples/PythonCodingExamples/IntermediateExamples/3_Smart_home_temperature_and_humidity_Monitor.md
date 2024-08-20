@@ -1,7 +1,9 @@
 ## **Project Introduction**
 In this section, we will utilize an external temperature sensor to monitor the temperature. When the temperature exceeds a certain value, an alarm will be triggered by the buzzer.
-UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO. To achieve this, we will utilize the dht11 = DHT11(Pin(Pin.P21)) method from the Python PinPong library to connect and control the temperature and humidity sensors externally through the side pins of the board.
-Here is an example of how to collect data from the sensors. If we want to sound an alarm when the temperature is too high, we can utilize the onboard buzzer and use the buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground) method.
+UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO.   
+
+To achieve this, we will utilize the dht11 = DHT11(Pin(Pin.P21)) method from the Python PinPong library to connect and control the temperature and humidity sensors externally through the side pins of the board.
+Here is an example of how to collect data from the sensors. If we want to sound an alarm when the temperature is too high, we can utilize the onboard buzzer and use the buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground) method.  
 ![3-480P[00h00m00s-00h00m11s].gif](img/3_Smart_home_temperature_and_humidity_Monitor/1721282129667-b843eef5-b1de-46d4-a409-e866e7bb61f1.gif)
 ## **Hardware Required**
 
@@ -50,3 +52,6 @@ while True:
 ```
 ## **Demo Effect**
 ![3-480P[00h00m00s-00h00m11s].gif](img/3_Smart_home_temperature_and_humidity_Monitor/1721282129667-b843eef5-b1de-46d4-a409-e866e7bb61f1.gif)
+
+
+---

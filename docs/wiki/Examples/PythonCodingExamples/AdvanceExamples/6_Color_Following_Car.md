@@ -1,16 +1,26 @@
 ## **Project Introduction**
-To create a Color Following Car, a USB camera can be used as an expansion module. 
-The OpenCV library in Python provides the cap = cv2.VideoCapture(0) method, which can be utilized to control a USB camera using the UNIHIKER. This allows access and control of the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
-To control the color tracking device and shoot a video, the cap.read() and cv2.imshow() methods from the OpenCV library in Python can be used. This allows us to read the video stream from the camera and display it on the UNIHIKER board's screen. Additionally, the font = cv2.FONT_HERSHEY_SIMPLEX function can be utilized to enable color tracking for screen text display. Different functionalities and parameters of the OpenCV library can be experimented with to customize the DIY Color Following Car.
-![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520903525-bdfb4608-5d6a-4ebb-9f27-10da7bdebff7.gif)
+To create a Color Following Car, a USB camera can be used as an expansion module.   
+
+The OpenCV library in Python provides the cap = cv2.VideoCapture(0) method, which can be utilized to control a USB camera using the UNIHIKER. This allows access and control of the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
+
+To control the color tracking device and shoot a video, the cap.read() and cv2.imshow() methods from the OpenCV library in Python can be used. This allows us to read the video stream from the camera and display it on the UNIHIKER board's screen. Additionally, the font = cv2.FONT_HERSHEY_SIMPLEX function can be utilized to enable color tracking for screen text display. Different functionalities and parameters of the OpenCV library can be experimented with to customize the DIY Color Following Car.  
+
+![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520903525-bdfb4608-5d6a-4ebb-9f27-10da7bdebff7.gif)  
+
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
-![](img/6_Color_Following_Car/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)
+![](img/6_Color_Following_Car/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)  
+
 ## **Code**
-To implement video streaming and capturing with the Color Following Car, the OpenCV library in Python can be utilized. First, import cv2 and use cap = cv2.VideoCapture(0) to initialize the camera's function for video output. Then, cap.set(), cv2.namedWindow(), and cv2.setWindowProperty() can be used to set the frame rate, window initialization, and window size of the video stream. In the main loop, ret, frame = cap.read() can be used to initialize the video stream parameters. Using if statements, we can check if a certain key has been pressed. To close the camera, the function cap.release() can be implemented when the key 'b' is pressed. In terms of color tracking, the lower_green = np.array([]) function is used to define the threshold parameters of the colors we want to identify. The mask_green = cv2.inRange() function is used to take specially processed values for the colors that need to be recognized in the recognized images. The contours, hierarchy = cv2.findContours() function is used to transfer the processed image contours obtained. To customize the Color Following Car project, various parameters and functions can be experimented with.
+To implement video streaming and capturing with the Color Following Car, the OpenCV library in Python can be utilized.   
+First, import cv2 and use cap = cv2.VideoCapture(0) to initialize the camera's function for video output. Then, cap.set(), cv2.namedWindow(), and cv2.setWindowProperty() can be used to set the frame rate, window initialization, and window size of the video stream. In the main loop, ret, frame = cap.read() can be used to initialize the video stream parameters. Using if statements, we can check if a certain key has been pressed. To close the camera, the function cap.release() can be implemented when the key 'b' is pressed.   
+
+In terms of color tracking, the lower_green = np.array([]) function is used to define the threshold parameters of the colors we want to identify. The mask_green = cv2.inRange() function is used to take specially processed values for the colors that need to be recognized in the recognized images. The contours, hierarchy = cv2.findContours() function is used to transfer the processed image contours obtained. To customize the Color Following Car project, various parameters and functions can be experimented with.  
+
+
 ```python
 import numpy as np
 import cv2
@@ -89,3 +99,6 @@ cv2.destroyAllWindows()
 ```
 ## **Demo Effect**
 ![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520924507-36034f34-ef0c-4519-9c2c-741f6a5c0b3e.gif)
+
+
+---

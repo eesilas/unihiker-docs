@@ -1,6 +1,9 @@
 ## **Project Introduction**
 In this section, we simulate Ultrasonic Range Finder through an external ultrasonic range finder and GUI interface.
-UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external ultrasonic sensor by Pin21. This project uses the urm091 = ANALOG_URM09(Pin((Pin.P21))) method in the PinPong library of Python to control the ultrasonic sensor externally connected through side pins of the board. The reason for using the ultrasonic module is that it can detect the distance between the object in front of itself through ultrasonic waves, thereby simulating the scene of obstacles and timely braking when the vehicle is moving forward.
+UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO.   
+
+Based on this functionality, we can control the external ultrasonic sensor by Pin21. This project uses the urm091 = ANALOG_URM09(Pin((Pin.P21))) method in the PinPong library of Python to control the ultrasonic sensor externally connected through side pins of the board. The reason for using the ultrasonic module is that it can detect the distance between the object in front of itself through ultrasonic waves, thereby simulating the scene of obstacles and timely braking when the vehicle is moving forward.    
+
 Here is an example of simulating a Vehicle distance detector by ultrasonic range sensor. 
 ![6-480P[00h00m00s-00h00m07s].gif](img/6_Ultrasonic_Range_Finder/1721282299424-a193df2c-ecbd-42c9-802b-350d334d2898.gif)
 ## **Hardware Required**
@@ -11,7 +14,8 @@ Here is an example of simulating a Vehicle distance detector by ultrasonic range
 ![超声波.png](img/6_Ultrasonic_Range_Finder/1720429186802-f4c82209-f75e-4fad-a929-eb6fa7d8e52f.png)
 ### **GUI components**
 We use the following image to simulate and beautify the GUI interface.
-![car1.png](img/6_Ultrasonic_Range_Finder/1720407346180-06fb2c1c-cabd-4bdb-b147-a4472b8ece75.png)![car2.png](img/6_Ultrasonic_Range_Finder/1720407358814-ea3f46d8-7b07-4224-bd60-5d79f026d1e3.png)
+![car1.png](img/6_Ultrasonic_Range_Finder/1720407346180-06fb2c1c-cabd-4bdb-b147-a4472b8ece75.png)![car2.png](img/6_Ultrasonic_Range_Finder/1720407358814-ea3f46d8-7b07-4224-bd60-5d79f026d1e3.png)  
+
 We can add these two images to the project folder, just like the operation in the basic example.
 Note: The image size is 320x240, and the length unit is px.
 ## **Code**
@@ -48,3 +52,6 @@ while True:
 ```
 ## **Demo Effect**
 ![6-480P[00h00m00s-00h00m07s].gif](img/6_Ultrasonic_Range_Finder/1721282299424-a193df2c-ecbd-42c9-802b-350d334d2898.gif)
+
+
+---

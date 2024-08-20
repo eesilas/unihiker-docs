@@ -1,85 +1,85 @@
-### Description
+### **Description**
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. This project uses the PinPong library of Python to control a NeoPixel LED externally connected through side pins of the board. We will use an external light strips to achieve red, orange, yellow, green, blue, and purple colors.
-### Common functions
-#### 4.1.**Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)**
-##### Description
+### **Common functions**
+#### **4.1.**Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)****
+##### **Description**
 Define the initialization function for the light strip.
-##### Syntax
+##### **Syntax**
 **Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)**
-##### Parameters
+##### **Parameters**
 **NEOPIXEL_PIN**: User defined LED strip occupying pins.
 **PIXELS_NUM**: Users can choose the number of light beads they want to turn on.
-##### Return
+##### **Return**
 **None
-#### 4.2.**Object.brightness(value)**
-##### Description
+#### **4.2.**Object.brightness(value)****
+##### **Description**
 Set the brightness of the light.
-##### Syntax
+##### **Syntax**
 **Object.brightness(value)**
-##### Parameters
+##### **Parameters**
 **value: **The brightness of the lamp.
-##### Return
+##### **Return**
 The level that varies over time.
-#### 4.3.**Object[num] = (R,G,B)**
-##### Description
+#### **4.3.**Object[num] = (R,G,B)****
+##### **Description**
 Set the color of the light.
-##### Syntax
+##### **Syntax**
 **Object[num] = (R,G,B)**
-##### Parameters
+##### **Parameters**
 **num: **The number of the lamp.
 **R, G, B: **The numerical values of the three primary colors required for the mixing of light beads.
-##### Return
+##### **Return**
 Color that changes with the function.
-#### 4.4.**Object.range_color(num.start,num.end,color)**
-##### Description
+#### **4.4.**Object.range_color(num.start,num.end,color)****
+##### **Description**
 Set a range of LED lights on.
-##### Syntax
+##### **Syntax**
 **Object.range_color(num.start,num.end,color)**
-##### Parameters
+##### **Parameters**
 **num.start, num.end: **The range within which the light bulb is illuminated.
 **color: **The color of the light bead is displayed in hexadecimal.
-##### Return
+##### **Return**
 The level that changes with the range.
-#### 4.5.**Object.shift(num)**
-##### Description
+#### **4.5.**Object.shift(num)****
+##### **Description**
 Turn off the light beads in sequence. When the last light moves, the last light goes out.
-##### Syntax
+##### **Syntax**
 **Object.shift(num)**
-##### Parameters
+##### **Parameters**
 **num: **The number of light beads turned off each time.
-##### Return
+##### **Return**
 The level that varies over time.
-#### 4.6.**Object.rotate(num)**
-##### Description
+#### **4.6.**Object.rotate(num)****
+##### **Description**
 Cycle lighting of LED beads. When the last position of the light moves, the last position of the light moves to the first position, and the cyclic movement is suitable for creating a rotating halo.
-##### Syntax
+##### **Syntax**
 **Object.rotate(num)**
-##### Parameters
+##### **Parameters**
 **num: **The number of beads per cycle.
-##### Return
+##### **Return**
 The level that varies over time.
-#### 4.7.**Object.rainbow(LEDs,LED number,beginHue,color)**
-##### Description
+#### **4.7.**Object.rainbow(LEDs,LED number,beginHue,color)****
+##### **Description**
 Control the light strip to display rainbow colors. Set a light strip as a gradient color, with a range of values as shown in the table below:
 ![image.png](img/4_LED_Strip/1723099872034-38bef14c-28d6-4e94-8dba-5058bd425519.png)
-##### Syntax
+##### **Syntax**
 **Object.rainbow(LEDs,LED number,beginHue,color)**
-##### Parameters
+##### **Parameters**
 **LEDs: **The LED type.
 **LED number:** The number of LED.
 **beginHue:** Initial color tone value.
 **color: **Lamp bead color.
-##### Return
+##### **Return**
 **None
-### Example Description
+### **Example Description**
 In this example, the UNIHIKER is first initialized with Board().begin(). Then, we use NEOPIXEL_PIN = Pin.P21 to initialize the pin. To define the number of lights, we use PIXELS_NUM = 7. Finally, we use np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) to initialize the NeoPixel. In the main loop, we use the np[0] = (0, 255 ,0) function to change the color of the lights. We can also use the np.rainbow(0,7,0,0x0022FF) function to display a rainbow pattern. To achieve the desired results, two loops can be used to change the color of the lights and to turn them off sequentially.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [WS2812 RGB](https://www.dfrobot.com.cn/goods-2629.html)
 
 ![](img/4_LED_Strip/1720151071965-9ea00f50-9a4f-46b7-801e-1c4a6425cce5.png)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

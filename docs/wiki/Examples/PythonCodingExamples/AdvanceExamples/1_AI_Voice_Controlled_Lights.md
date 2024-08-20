@@ -1,6 +1,8 @@
 ## **Project Introduction**
-In this chapter, we have implemented an AI Voice-Controlled Lights by using external voice recognition module and an LED light.
-To control an external voice recognition module using the UNIHIKER, we can use from DF2301Q = DFRobot_DF2301Q_I2C(). This will allow us to access and control the audio through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO. Similar to the usage of LED in the first section 'Blinking LED' of the intermediate class in the previous chapter, we also need to initialize the external LED. Please refer to the first section of the previous chapter for details.
+In this chapter, we have implemented an AI Voice-Controlled Lights by using external voice recognition module and an LED light.  
+
+To control an external voice recognition module using the UNIHIKER, we can use from DF2301Q = DFRobot_DF2301Q_I2C(). This will allow us to access and control the audio through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO. Similar to the usage of LED in the first section 'Blinking LED' of the intermediate class in the previous chapter, we also need to initialize the external LED. Please refer to the first section of the previous chapter for details.  
+
 To control the response made by the speech recognition module after recognizing the sentence, we can use the DF2301Q_CMDID = DF2301Q.get_CMDID() methods from the DFRobot_DF2301Q library in Python. This will allow us to Control the state of the LED according to the user's voice through voice recognition module. You can explore different functionalities and parameters to customize your DIY AI Voice-Controlled Lights.
 ![image.png](img/1_AI_Voice_Controlled_Lights/1722577603981-46ca4795-8966-47d5-aa32-45012c5f3c34.png)
 ## **Hardware Required**
@@ -9,8 +11,10 @@ To control the response made by the speech recognition module after recognizing 
 - [Gravity: Offline Language Learning Voice Recognition Sensor for micro:bit / Arduino / ESP32 - I2C & UART](https://www.dfrobot.com/product-2665.html)
 - [Gravity: Digital Piranha LED Module - Red](https://www.dfrobot.com/product-471.html)
 
-![语音开关灯.png](img/1_AI_Voice_Controlled_Lights/1721633329002-37351b85-d85f-49a2-9541-5e957889e667.png)
-**Code**
+![语音开关灯.png](img/1_AI_Voice_Controlled_Lights/1721633329002-37351b85-d85f-49a2-9541-5e957889e667.png)  
+
+**Code**  
+
 To create a DIY AI Voice-Controlled Lights, we can use the DFRobot_DF2301Q library in Python. First, import DFRobot_DF2301Q  and use DF2301Q = DFRobot_DF2301Q_I2C() to initialize the voice recognition module output function. Then, we can use DF2301Q.set_volume(5) to set the volume audio output. We can use led.value(1) to control the state of the LED. Two discriminative statements are used here to recognize the recorded voice ID passed in by the voice module. You can experiment with different parameters and functions to customize your DIY AI Voice-Controlled Lights project further.
 ```python
 #  -*- coding: UTF-8 -*-
@@ -47,3 +51,6 @@ while True:
 ```
 ## **Demo Effect**
 ![image.png](img/1_AI_Voice_Controlled_Lights/1722577614492-6b4a12f1-f032-481b-a364-811652928d76.png)
+
+
+---

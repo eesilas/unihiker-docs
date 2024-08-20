@@ -1,6 +1,8 @@
 ## **Project Introduction**
 In this section, we use UNIHIKER to control an external servo for different types of rotation.
-UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external servo by Pin21. This project uses the s1 = Servo(Pin(Pin.P21)) method in the PinPong library of Python to control the servo externally connected through side pins of the board. We control the output level to drive the rotation of the servo by clicking the virtual button on UNIHIKER.
+UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external servo by Pin21.   
+
+This project uses the s1 = Servo(Pin(Pin.P21)) method in the PinPong library of Python to control the servo externally connected through side pins of the board. We control the output level to drive the rotation of the servo by clicking the virtual button on UNIHIKER.
 Here is an example of using UNIHIKER for servo drive. 
 ![7-480P[00h00m00s-00h00m09s].gif](img/7_Servo_Motor_Control/1721282400646-f2a0a9fc-93d4-439b-9b88-5a1d26b0de8a.gif)
 ## **Hardware Required**
@@ -10,7 +12,9 @@ Here is an example of using UNIHIKER for servo drive.
 
 ![舵机.png](img/7_Servo_Motor_Control/1720429474410-c65247e5-ac2e-4dc6-a5d2-c6fc14838d23.png)
 ## **Code**
-In this example, UNIHIKER is first initialized with Board().begin(). At the same time, we use gui=GUI() to initialize the  GUI. Then, we use s1 = Servo(Pin(Pin.P21)) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen. In order to achieve virtual buttons on the screen, we defined four callback functions to control the output value of the servo rotation function. We use the botton_A = gui.add_button() method to set button properties. In order to maintain the long-term retention of the GUI interface, we have set a time delay function in the main function.
+In this example, UNIHIKER is first initialized with Board().begin(). At the same time, we use gui=GUI() to initialize the  GUI. Then, we use s1 = Servo(Pin(Pin.P21)) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen.   
+
+In order to achieve virtual buttons on the screen, we defined four callback functions to control the output value of the servo rotation function. We use the botton_A = gui.add_button() method to set button properties. In order to maintain the long-term retention of the GUI interface, we have set a time delay function in the main function.
 ```python
 # -*- coding: utf-8 -*-
 
@@ -61,3 +65,6 @@ while True:
 ```
 ## **Demo Effect**
 ![7-480P[00h00m00s-00h00m09s].gif](img/7_Servo_Motor_Control/1721282400646-f2a0a9fc-93d4-439b-9b88-5a1d26b0de8a.gif)
+
+
+---

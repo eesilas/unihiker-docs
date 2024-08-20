@@ -1,32 +1,32 @@
-### Description
+### **Description**
 The digital input channel converts external signals into high or low levels of voltage or current, and then transmits them to the control system. The UNIHIKER GPIO interface allows for the reading of values from a specified digital pin, either HIGH level or LOW level.
-### Common functions
-#### 2.1.Object.value()
-##### Description
+### **Common functions**
+#### **2.1.Object.value()**
+##### **Description**
 Input digital level.
-##### Syntax
+##### **Syntax**
 ****)**
-##### Parameters
+##### **Parameters**
 **None
-##### Return
+##### **Return**
 HIGH level or LOW level
-#### 2.2.**Object.read_digital()**
-##### Description
+#### **2.2.**Object.read_digital()****
+##### **Description**
 Input digital level.
-##### Syntax
+##### **Syntax**
 **Object.read_digital()**
-##### Parameters
+##### **Parameters**
 **None
-##### Return
+##### **Return**
 HIGH level or LOW level
-### Example Description
+### **Example Description**
 The main focus of this project is to read input from an external digital sensor button module and use it to control the illumination of the onboard L-LED on the UNIHIKER. By monitoring the state of the sensor button module, the L-LED can be toggled between two states: illuminated and extinguished.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER]()
 - [Gravity: Digital Push Button (Yellow)](https://www.dfrobot.com/product-73.html)
 - [Gravity: Digital Piranha LED Module - Red](https://www.dfrobot.com/product-471.html)
-### Example Code
+### **Example Code**
 To initialize the P23 pin as a digital input on UNIKIKER, you can use the code below. Within a loop, the state of the P23 pin is continuously read to determine if it is in a high logic level. This information is then displayed through the terminal, with a "1" output when the button is pressed. Additionally, the value of the P23 pin can be used to control the state of the onboard LED (L light), allowing for the external button module to govern the status of the LED.
 Note:
 

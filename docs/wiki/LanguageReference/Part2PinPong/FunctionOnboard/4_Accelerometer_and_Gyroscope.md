@@ -1,19 +1,19 @@
-### Description
+### **Description**
 The back panel of the UNIHIKER is equipped with a 6-axis accelerometer-gyroscope sensor, which can read the X, Y, and Z values of acceleration individually, as well as the total strength in X, Y, and Z directions, and the X, Y, and Z values of the gyroscope.
-### Syntax
+### **Syntax**
 
 - **Accelerometer: **accelerometer.get_x() accelerometer.get_y() accelerometer.get_z() accelerometer.get_x()
 - **Gyroscope: **gyroscope.get_x() gyroscope.get_y() gyroscope.get_z()
-### Parameters
+### **Parameters**
 **None
-### Return
+### **Return**
 ****Accelerometer values and gyroscope values**
-### Example Description
+### **Example Description**
 The code below can be used to sense changes in value through the Accelerometer and Gyroscope sensor on UNIHIKER.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
-### Example Code
+### **Example Code**
 ```python
 # -*- coding: utf-8 -*-
 

@@ -1,4 +1,4 @@
-### Description
+### **Description**
 SPI stands for Serial Peripheral Interface, which, as the name suggests, is a serial peripheral device interface. It was first defined by Motorola on its MC68HCXX series processors.
 SPI, it is a high-speed, full duplex, synchronous communication bus that only occupies four wires on the chip pins, saving chip pins and space for PCB layout, providing convenience. It is mainly used in EEPROM, FLASH, real-time clock, AD converter, as well as between digital signal processors and digital signal decoders.
 SPI has two modes: master and slave. An SPI communication system needs to include one (and only one) master device and one or more slave devices. The master device provides the clock, and the slave device receives the clock. The read and write operations of the SPI interface are initiated by the master device. When there are multiple slave devices, they are managed through their respective chip selection signals.
@@ -19,42 +19,42 @@ SPI has two modes: master and slave. An SPI communication system needs to includ
 - Compared with RS-232 and CAN bus, it can only support very short distances.
 
 Tips: For more information, please refer to: [https://www.youtube.com/watch?v=tBgfStp40qQ](https://www.youtube.com/watch?v=tBgfStp40qQ)
-### Common functions
-#### 3.1.**Object = SPI(num, cs = Pin)**
-##### Description
+### **Common functions**
+#### **3.1.**Object = SPI(num, cs = Pin)****
+##### **Description**
 Define the initialization function for the SPI.
-##### Syntax
+##### **Syntax**
 **Object = SPI(num, cs = Pin)**
-##### Parameters
+##### **Parameters**
 **num**: The device number of SPI.
 **cs = Pin**: Definition of CS chip pin selection.
-##### Return
+##### **Return**
 **None
-#### 3.2.**buf = Object.read(num)**
-##### Description
+#### **3.2.**buf = Object.read(num)****
+##### **Description**
 Read bytes from the slave.
-##### Syntax
+##### **Syntax**
 **buf = Object.read(num)**
-##### Parameters
+##### **Parameters**
 **num: **The number of bytes read.
-##### Return
+##### **Return**
 Read data.
-#### 3.3.**Object.write(buf) **
-##### Description
+#### **3.3.**Object.write(buf) ****
+##### **Description**
 Send the content from buf.
-##### Syntax
+##### **Syntax**
 **Object.write(buf) **
-##### Parameters
+##### **Parameters**
 **buf: **User defined byte data group.
-##### Return
+##### **Return**
 **None
-### Example Description
+### **Example Description**
 The following code is a commonly used code for controlling SPI devices through UNIHIKER. Assuming the user has an SPI device, connecting it to the SPI pin of UNIHIKER can perform data writing and sending operations.
-### Hardware Required
+### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - SPI devices used by users
-### Example Code
+### **Example Code**
 ```python
 import time
 from pinpong.board import Board, Pin, SPI
