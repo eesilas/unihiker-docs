@@ -1,15 +1,15 @@
-## Project Introduction
+## **Project Introduction**
 In this section, we will utilize an external temperature sensor to monitor the temperature. When the temperature exceeds a certain value, an alarm will be triggered by the buzzer.
 UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO. To achieve this, we will utilize the dht11 = DHT11(Pin(Pin.P21)) method from the Python PinPong library to connect and control the temperature and humidity sensors externally through the side pins of the board.
 Here is an example of how to collect data from the sensors. If we want to sound an alarm when the temperature is too high, we can utilize the onboard buzzer and use the buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground) method.
 ![3-480P[00h00m00s-00h00m11s].gif](img/3_Smart_home_temperature_and_humidity_Monitor/1721282129667-b843eef5-b1de-46d4-a409-e866e7bb61f1.gif)
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: DHT11 Temperature & Humidity Sensor For Arduino](https://www.dfrobot.com/product-174.html)
 
 ![dht11.png](img/3_Smart_home_temperature_and_humidity_Monitor/1720168299436-cd6665bf-000b-4384-8541-013b1ce6b8b0.png)
-## Code
+## **Code**
 In this example, UNIHIKER is first initialized with Board().begin(). Then, we use dht11 = DHT11(Pin(Pin.P21)) to initialize the pin. At the same time, we need to initialize the screen image, we use gui=GUI(). At last, we use  buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground)  to make the buzzer sounds an alarm. Then we use the temp = dht11.temp_c() method to collect analog values of temperature. At the same time, we use  humi = dht11.humidity(). To achieve experimental results, two value setting functions can be set to change the value in the text on the screen.
 ```python
 # -*- coding: utf-8 -*-
@@ -48,5 +48,5 @@ while True:
   value2.config(text = humi)  # Update display distance value
   time.sleep(1)
 ```
-## Demo Effect
+## **Demo Effect**
 ![3-480P[00h00m00s-00h00m11s].gif](img/3_Smart_home_temperature_and_humidity_Monitor/1721282129667-b843eef5-b1de-46d4-a409-e866e7bb61f1.gif)

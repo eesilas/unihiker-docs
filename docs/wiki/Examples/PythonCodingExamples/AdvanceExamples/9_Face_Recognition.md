@@ -1,10 +1,10 @@
-## Project Introduction
+## **Project Introduction**
 Access control is a widely used tool in our daily lives. Have you ever wondered how it works? In this class, we will simulate and experience this function by combining the UNIHIKER and camera. Let's explore how this can be achieved.
 This project utilizes a USB camera to display the screen in real-time. When a face is detected on the screen, a welcome message and the person's name are added.
 In this project, we will learn how to use the OpenCV library to call a camera and display real-time video streams. We will also learn how to use the OpenCV library for face detection. Additionally, we will master the method of converting image formats using the PIL library's Image module, as well as the method of pasting images onto other images using the PIL library's Image module. You can experiment with different functionalities and parameters of the OpenCV library to customize your Face Recognition project.
 
 ![image.png](img/9_Face_Recognition/1722582651182-604d76ee-d265-49d5-a8c5-000f56425c4c.png)![image.png](img/9_Face_Recognition/1722582686975-0d9f7565-c97e-4e49-a3e0-160c75dc7414.png)![image.png](img/9_Face_Recognition/1722582716283-eb82e65a-8344-46f3-8e2a-fc7caa09289f.png)
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
@@ -12,7 +12,7 @@ In this project, we will learn how to use the OpenCV library to call a camera an
 - USB Speaker
 
 ![相机加喇叭.png](img/9_Face_Recognition/1722566416040-d1d451c8-eac1-4cd1-be2e-67199570e1d2.png)
-## Code
+## **Code**
 Facial detection is the process of searching for a face in a given image and determining its position, size, and pose. It is achieved by using a certain strategy and is often performed using a classifier, which helps determine whether an object belongs to a certain classification. A cascaded classifier can be thought of as a series of N single class classifiers. If an object meets the criteria of all classifiers in the series, then it is considered a valid result. For example, a human face has multiple attributes, and each attribute can be turned into a classifier. If a model satisfies all the attributes we define for a face (two eyebrows, two eyes, one nose, one mouth, a roughly U-shaped chin or contour, etc.), then it is considered a human face.
 Before starting the project, make sure to install the necessary libraries as shown in Section 7 of this chapter. The installation file is called 'install.py' and can be found in the 'Traditional Character Recognition - Image Recognition' folder.
 ![_9W3NM6{MJF_JD5]13AN)8C.png](img/9_Face_Recognition/1721877622477-1881651e-78b3-4d72-8626-7c44968f4158.png)
@@ -193,7 +193,7 @@ while True:
 cap.release()  # Release the camera
 cv2.destroyAllWindows()  # Close all
 ```
-## Demo Effect
+## **Demo Effect**
 ![](img/9_Face_Recognition/1722582651182-604d76ee-d265-49d5-a8c5-000f56425c4c.png)![](img/9_Face_Recognition/1722582686975-0d9f7565-c97e-4e49-a3e0-160c75dc7414.png)![](img/9_Face_Recognition/1722582716283-eb82e65a-8344-46f3-8e2a-fc7caa09289f.png)
 
 

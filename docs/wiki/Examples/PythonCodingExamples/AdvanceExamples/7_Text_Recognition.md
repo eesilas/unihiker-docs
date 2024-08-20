@@ -1,14 +1,14 @@
-## Project Introduction
+## **Project Introduction**
 Instead of manually typing out words read from books, a more efficient approach could be using the OCR function. OCR technology involves converting text from printed materials into digital image information using electronic devices such as scanners or cameras, and then applying text recognition technology to convert the image into computer-readable text using artificial intelligence. In this project, we will connect a camera to the blank board and utilize the Python pytexteract library to create a text recognition device that can recognize text from photos and output it onto paper.
 This project aims to connect a camera to the blank board and utilize the Python pytesseract library to create a text recognition device that can recognize text from photos and output it onto paper.
 ![image.png](img/7_Text_Recognition/1722507989421-99dfa25e-5aea-412c-adc9-28f9e1ee1d62.png)
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
 ![](img/7_Text_Recognition/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)
-## Code
+## **Code**
 To begin, the license plate recognition folder should be imported by dragging and dropping the pytesseract folder into the 'Files in the line blank board' folder. Next, the '0-Install_dependency.py' program file in the 'pytesseract' should be opened by double-clicking on it. Then, click the run button in the upper right corner and wait for automatic installation to complete. Finally, a new project file with the name "1-read_number_test.py" should be created in the same level directory as "0-Install_dependency.py".
 Tip 1: Please refrain from modifying the folder path and leave it as it is (under root).
 Tip 2: This folder contains necessary files for license plate recognition, including the recognition models. The "0-Install_dependency.py" program file is used for installing the required dependency libraries.
@@ -87,6 +87,6 @@ while True:
 cap.release() # Release usb camera.  # Release the camera
 cv2.destroyAllWindows() # Destory all windows created by opencv.  # Close all
 ```
-## Demo Effect
-## ![image.png](img/7_Text_Recognition/1722508004010-e625cd1f-32ba-476b-a8e5-67ea0579af8b.png)
+## **Demo Effect**
+## **![image.png](img/7_Text_Recognition/1722508004010-e625cd1f-32ba-476b-a8e5-67ea0579af8b.png)**
 ![image.png](img/7_Text_Recognition/1722502507202-2c020ad8-2a5f-4234-b855-b7a67c778636.png)

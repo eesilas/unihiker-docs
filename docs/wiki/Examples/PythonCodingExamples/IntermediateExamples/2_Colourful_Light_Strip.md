@@ -1,15 +1,15 @@
-## Project Introduction
+## **Project Introduction**
 In this part, we will use an external light strips to achieve red, orange, yellow, green, blue, and purple colors.
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external light strips by Pin21. This project uses the np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) method in the PinPong library of Python to control a NeoPixel LED externally connected through side pins of the board.
 Here is an example of controlling the NeoPixel LED to blink.
 ![2-480P[00h00m00s-00h00m07s].gif](img/2_Colourful_Light_Strip/1721282022249-1ad244eb-5d0a-41f5-9850-052c6ae63bf6.gif)
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [WS2812 RGB](https://www.dfrobot.com.cn/goods-2629.html)
 
 ![位图.png](img/2_Colourful_Light_Strip/1720151071965-9ea00f50-9a4f-46b7-801e-1c4a6425cce5.png)
-## Code
+## **Code**
 In this example, the UNIHIKER is first initialized with Board().begin(). Then, we use NEOPIXEL_PIN = Pin.P21 to initialize the pin. To define the number of lights, we use PIXELS_NUM = 7. Finally, we use np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) to initialize the NeoPixel. In the main loop, we use the np[0] = (0, 255 ,0) function to change the color of the lights. We can also use the np.rainbow(0,7,0,0x0022FF) function to display a rainbow pattern. To achieve the desired results, two loops can be used to change the color of the lights and to turn them off sequentially.
 ```python
 # -*- coding: utf-8 -*-
@@ -49,6 +49,6 @@ while True:
 
   np.clear()
 ```
-## Demo Effect
+## **Demo Effect**
 ![2-480P[00h00m00s-00h00m07s].gif](img/2_Colourful_Light_Strip/1721282070837-c76388ff-0d8b-4a56-982b-593a09caea0b.gif)
 

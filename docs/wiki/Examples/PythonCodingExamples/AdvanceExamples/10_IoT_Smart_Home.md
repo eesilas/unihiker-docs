@@ -1,17 +1,17 @@
-## Project Introduction
+## **Project Introduction**
 In the previous example, we combined sensors with a single blank board to create multiple small devices. However, in real IoT scenarios, it is often necessary to collect data from various locations and consolidate it into a central platform for remote access. Therefore, in this example, we will use 2 UNIHIKERs to design a multi-node smart IoT furniture system and simulate a real IoT scenario.
 In this project, you will need 2 UNIHIKERs connected to the same LAN segment as your computer. The second UNIHIKER will act as a server by opening the SIoT application separately. The humidity and temperature data detected by the first UNIHIKER will be displayed on its screen and also sent to the SIoT IoT platform on the second UNIHIKER. You will then subscribe to the messages received by the IoT platform on the second UNIHIKER and display the humidity and temperature data from the first UNIHIKER on its screen. Additionally, you will be able to control the on/off function of the LED lights on the first UNIHIKER through the second UNIHIKER.
 ![image.png](img/10_IoT_Smart_Home/1722576983341-6f28dbd3-f936-41b0-b29b-ef6dd4bb66bb.png)
 ![image.png](img/10_IoT_Smart_Home/1722577021209-1fc489c8-2ed2-4e3f-8254-bfda4393c662.png)
 
-## Hardware Required
+## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: Digital Piranha LED Module - Green](https://www.dfrobot.com/product-632.html)
 - [Gravity: DHT11 Temperature & Humidity Sensor For Arduino](https://www.dfrobot.com/product-174.html)
 
 ![IOT smart home.png](img/10_IoT_Smart_Home/1722408975121-8b80a92c-6de7-416a-94ee-090c8f36df40.png)
-## Code
+## **Code**
 Since two UNIHIKERs require simultaneous code debugging and data communication, it is important to have them on the same local area network address, such as '192.168.9'. This will allow for efficient communication and debugging between the two UNIHIKERs.
 ![image.png](img/10_IoT_Smart_Home/1722564009378-89c53eea-23cd-4192-b806-3e4e33c65dc4.png)![image.png](img/10_IoT_Smart_Home/1722563966802-ed832ef2-f7a4-4a9f-a9f7-abe9516a0b1a.png)
 To start, we need to import the folder 'IOT Smart Home' into two UNIHIKERs and create a new folder called 'img' in the 'intelligent terminal' UNIHIKER to store the necessary photos.
@@ -160,6 +160,6 @@ siot.loop()  # circulate
 while True:  # circulate
     time.sleep(0.5)  # Delay by 0.5 seconds
 ```
-## Demo Effect
+## **Demo Effect**
 ![](img/10_IoT_Smart_Home/1722576983341-6f28dbd3-f936-41b0-b29b-ef6dd4bb66bb.png)
 ![](img/10_IoT_Smart_Home/1722577021209-1fc489c8-2ed2-4e3f-8254-bfda4393c662.png)
