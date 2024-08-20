@@ -12,7 +12,7 @@
 | **Download from Google Drive:** | [Click to download](https://drive.google.com/drive/folders/1JU73SOyN5VmpB6ilbxVNvCB9qXfc-Qo-?usp=sharing) |
 
 ##  **Release Logs**
-### ** V0.3.6 :**
+### **V0.3.6 :**
 
 - The Local Web Page has been optimized to improve the WiFi connection process and reduce errors.
 - The WiFi list on the Local Web Page can now be filtered to remove the self hotspot, improving the user experience.
