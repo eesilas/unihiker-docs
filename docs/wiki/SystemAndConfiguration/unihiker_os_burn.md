@@ -3,7 +3,7 @@
 ## **Burning tool**
 You need to use the Command-line Tool to burn the system image. If you are using Windows, you can also choose a batch burning tool with a GUI interface.
 
-### **1.1. Batch Tool for Windows**
+## **1.1. Batch Tool for Windows**
 
 **Windows version (no installation required, just extract and run):**
 
@@ -49,7 +49,7 @@ You need to use the Command-line Tool to burn the system image. If you are using
 
 ![](img/7.Burn OS Image/1720595610836-2978848c-490c-42d6-b084-00723433b780.png)
 
-### **2.1- Command-line Tool**
+## **2.1- Command-line Tool**
 
 Unihiker's CPU is made by Rockchip, so we can use Rockchip's tool and execute commands to burn the system image.
 
