@@ -300,10 +300,9 @@ nav:
       - Installing Python library failed Warning Retrying Errno 3 : wiki/Troubleshooting/Installing_Python_library_failed_Warning__Retrying_Errno_3.md
       - The UNIHIKER cannot be connected to Mind : wiki/Troubleshooting/The_UNIHIKER_cannot_be_connected_to_Mind.md
       - What should I do if the screen is black, white and I can't enter the system : wiki/Troubleshooting/What_should_I_do_if_the_screen_is_black_white_and_I_can_t_enter_the_system.md
-    - 😀 Contact Us:
-      - 1.Technical Discussion: wiki/ContactUs/contactus_technical_discussion.md
-      - 2.Contact Us: wiki/ContactUs/contactus_contact_us.md
 
   - FORUM: https://www.dfrobot.com/forum/?t=947&p=1
-  - CONTACT US: https://www.unihiker.com/
+  - CONTACT US: 
+    - 1.Technical Discussion: wiki/ContactUs/contactus_technical_discussion.md
+    - 2.Contact Us: wiki/ContactUs/contactus_contact_us.md
 
