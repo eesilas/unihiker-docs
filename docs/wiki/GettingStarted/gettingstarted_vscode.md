@@ -1,32 +1,28 @@
 ## **Downloading and Installing the Visual Studio Code(VSCode)**
 In this tutorial, we will demonstrate how to download and install VSCode on your Windows, Mac, or Linux computer.   
 
-### **Requirements**
-● Windows - Win 7 or newer ; RAM: 1GB at least ; Disk Space: 200MB at least  
-● Linux -  CPU:1.6 GHz or faster processor; RAM:1 GB for 32-bit or 2 GB for 64-bit systems  
-● Mac OS X - Mac10.10 or later  
-
 ### **Visual Studio Code (VSCode)** 
 Visual Studio Code (VS Code) is an elegant, free, and open-source code editor developed by Microsoft. It serves as a cross-platform solution, supporting numerous programming languages such as Python and C++. With features including syntax highlighting, code completion, and error detection, it empowers developers with a robust set of tools. Furthermore, its extension plugin system allows for customization and enhanced functionality, catering to diverse development requirements.   
 
 ### **Download the Editor**
-[[Download the VSCode]](https://code.visualstudio.com/download) application that supports UNIHIKER.   
+[[Download the VSCode]](https://code.visualstudio.com/download) .   
 
 ![image.png](img/VSCode - Python/1695025959912-55f4a8d7-c24e-4916-bcf3-0e3a510e5918.png)  
 
 ### **Installation and open VSCode**
 #### Windows 
- Follow the instructions to install the VSCode software. [Click here](https://www.geeksforgeeks.org/how-to-install-visual-studio-code-on-windows/).  
+Install VSCode on your computer.
 
 ![image.png](img/VSCode - Python/1695026309181-077ce5d0-0771-4e6f-afc5-7a6e4ec56e7d.png)  
 
 #### macOS
- Follow the instructions to install the VSCode software. [Click here](https://adamtheautomator.com/visual-studio-code-on-mac/#:~:text=To%20install%20VS%20Code%20on%20Mac%3A%201%201.,the%20installation%20when%20you%20get%20the%20prompt%20below.).  
+Install VSCode on your computer.
 
 ![image.png](img/VSCode - Python/1695108244221-152e1447-b124-44fa-9419-d7fe6a8e1479.png)  
 
 #### Linux
- Follow the instructions to install the VSCode software. [Click here](https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/#:~:text=Using%20the%20Ubuntu%20Software%20Center.%20Downloading%20and%20installing,key%29.%20Installing%20via%20the%20Snapcraft%20store%20%28using%20Snap%29.).
+Install VSCode on your computer.
+
 ![070ee0f4c985d902b66e25775fddb0f.png](img/VSCode - Python/1695105735771-bc191987-6679-462e-9e77-64f485cf1375.png)  
 
 ## **Starting up the UNIHIKER**

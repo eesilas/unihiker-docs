@@ -1,4 +1,4 @@
-The UNIHIKER runs a local web page service, allowing you to access it directly from other devices. To do so, make sure that the device you are using (such as a computer, phone, or tablet) is on the same network as the UNIHIKER board (wired, wireless, or hotspot mode). Then, open the browser on the device and enter the UNIHIKER's IP address to access the webpage.
+The UNIHIKER runs a local web page service(port:80), allowing you to access it directly from other devices. To do so, make sure that the device you are using (such as a computer, phone, or tablet) is on the same network as the UNIHIKER board (wired, wireless, or hotspot mode). Then, open the browser on the device and enter the UNIHIKER's IP address to access the webpage.
 When the UNIHIKER is connected to your computer via a USB cable, you can easily open Chrome and enter the UNIHIKER IP (10.1.2.3) to access the local webpage.  
 
 !!! note
@@ -11,10 +11,20 @@ This page provides tutorials on how to use the UNIHIKER board and offers easy ac
 
 ## **Service Toggle**
 This page displays the running status of applications with backend management pages, such as SIoT and Jupyter. From here, you can turn the services on and off, or click on "Open Page" to access the corresponding service management page.
-Note: The login account for SIoT is "siot" and the password is "dfrobot".
+
 ![](img/3.Local Web Page/1720593748099-d49240fc-bfbf-4314-a5c0-551a6f5a2978.png)
+
+SIoT is a lightweight local MQTT server that communicates using the standard MQTT protocol and uses the SQLite database for local storage of received data. In Python, you can use the siot or paho library for communication.
+
+!!! note
+     Username: siot  
+     Password: dfrobot  
+     MQTT communication port: 1883  
+     WEB data viewing page port: 8080  
+
 ![](img/3.Local Web Page/1720593759927-87aa5b5c-2627-4330-900e-5af68cc8213a.png)
 ![](img/3.Local Web Page/1720593766610-003fa88d-c0c3-417b-a775-ca12e04a4ce3.png)
+
 ## **Network Settings**
 When entering the network settings page, the board will automatically scan for WiFi networks in the surrounding area. Select the desired WiFi network from the Name drop-down list and enter the password in the Password input box. Click "Connect" to connect the UNIHIKER to the WiFi network.
 Note: If the connection fails, try connecting multiple times or double check that the password is entered correctly.

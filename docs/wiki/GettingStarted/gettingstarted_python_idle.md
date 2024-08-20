@@ -41,11 +41,11 @@ The Python IDLE software supports programming through Python code, you can creat
 ① Click on the 'Save As' button.
 ![image.png](img/Python IDLE - Python/1695786006442-ce28673e-3755-4e93-be25-089ca1a95a5f.png){width=500, style="display:block;margin: 0 auto"}  
   
-② Input '\\10.1.2.3\' and enter the file directory of UNIHIKER.
+② Input ```\\10.1.2.3\``` and enter the file directory of UNIHIKER.
 ![image.png](img/Python IDLE - Python/1715754617540-85f87ceb-283f-4fd7-abd5-277bd302c7b6.png){width=500, style="display:block;margin: 0 auto"}  
   
 ③ Double-click the 'root' button .
-> Note1: If prompted to enter the access account and password, simply input 'root' as the account and 'dfrobot' as the password.
+> Note1: If prompted to enter the access account and password, simply input 'root' as the account and 'dfrobot' as the password.   
 > Note2: "Root" refers to the onboard memory space, while "media" refers to the external storage space. When an SD card or USB drive is connected, it automatically mounts to this directory.  
 ![image.png](img/Python IDLE - Python/1715754486933-218ed0b6-a76e-49ff-97ff-2b23d5693acd.png){width=500, style="display:block;margin: 0 auto"}  
   

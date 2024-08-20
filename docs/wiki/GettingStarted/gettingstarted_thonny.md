@@ -1,17 +1,16 @@
 ## **Downloading and Installing Thonny**
 In this tutorial, we will demonstrate how to download and install Thonny on your Windows, Mac, or Linux computer.  
-### **Requirements**
-● Windows - Win 7 or newer  
-● Linux -  100MB or more  
-● Mac OS X - Mac10.11 or later  
+
 ### **Thonny**
 Thonny is an IDE specifically designed for Python beginners, featuring a friendly user interface and robust code editing, running, and debugging capabilities. It simplifies Python code writing, making it straightforward and easy. Thonny also supports connecting and programming the UNIHIKER through its built-in SSH remote functionality.  
 ### **Download the Editor**
 Download the Thonny application that supports UNIHIKER.  
-● for Windows : [[Download]](https://img.dfrobot.com.cn/wiki/none/49990b1e1e72cb7c95f161be759c86ba.zip).  
-● for Linux and MacOS:[ [Select and download Thonny from the official Website]](https://thonny.org/)(Version 3.3.13 is better).  
+
 !!! tip 
     Thonny does not support Python versions below version 3.8 starting from version 4.x, which may prevent the UNIHIKER from connecting. Please use the link provided to download and install version 3.3.13.  
+
+● for Windows : [[Download]](https://img.dfrobot.com.cn/wiki/none/49990b1e1e72cb7c95f161be759c86ba.zip).  
+● for Linux and MacOS:[ [Select and download Thonny from the official Website]](https://thonny.org/)(Version 3.3.13 is better).  
 
 ![image.png](img/Thonny - Python/1696923314677-c1bac993-661a-45ca-b763-2453d3a8b857.png)  
   

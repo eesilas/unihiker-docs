@@ -280,7 +280,10 @@ nav:
       - 4.SSH Connection: wiki/SystemAndConfiguration/system_and_configuration_ssh_connection.md
       - 5.SMB File Sharing: wiki/SystemAndConfiguration/system_and_configuration_smb_file_sharing.md
       - 6.Remote Desktop: wiki/SystemAndConfiguration/system_and_configuration_remote_desktop.md
-      - 7.Burn OS Image: wiki/SystemAndConfiguration/system_and_configuration_burn_os_image.md
+      - 7.Burn OS Image: 
+        - OS: wiki/SystemAndConfiguration/unihiker_os.md
+        - Image Guide: wiki/SystemAndConfiguration/unihiker_os_image.md
+        - Burning Tool: wiki/SystemAndConfiguration/unihiker_os_burn.md
     - 🔧 Troubleshooting: 
       - Troubleshooting Index: wiki/faq.md
       - Error firmware version self boardname KeyError: wiki/Troubleshooting/Error_firmware_version_self_boardname__KeyError_.md
