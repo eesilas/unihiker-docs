@@ -3,7 +3,7 @@
 ## **Burning tool**
 You need to use the Command-line Tool to burn the system image. If you are using Windows, you can also choose a batch burning tool with a GUI interface.
 
-### **1.1. Batch Tool for Windows**
+## **1.1. Batch Tool for Windows**
 
 **Windows version (no installation required, just extract and run):**
 
@@ -49,7 +49,7 @@ You need to use the Command-line Tool to burn the system image. If you are using
 
 ![](img/7.Burn OS Image/1720595610836-2978848c-490c-42d6-b084-00723433b780.png)
 
-### **2.1- Command-line Tool**
+## **2.1- Command-line Tool**
 
 Unihiker's CPU is made by Rockchip, so we can use Rockchip's tool and execute commands to burn the system image.
 
@@ -170,29 +170,6 @@ rkdeveloptool.exe ld
 #bruner the OS  image, and make sure to replace the file name with the actual name of the img file.
 flash.bat unihiker_v0.3.5.md5.9acbf38210ef954d5e9a0c1389830732.img
 ```
-
-### **4- FAQ**
-
-| **Q** | **If the device to be burned is not displayed, what should I do?** |
-| --- | --- |
-| A | First, make sure your computer can access the UNIHIKER board correctly. When the board is powered on normally and displays the logo on the screen, you should be able to access the board's webpage menu by entering 10.1.2.3 in your web browser.Then, make sure to follow the steps for burning the system image carefully. It's important to turn off the board and disconnect it from power first, then press and hold the Home button before connecting the USB cable to the PC to let the board enter system image burning mode. |
-
-| **Q** | **The system burning is complete and the progress reaches 100%, but the UNIHIKER still cannot boot up after one minute.** |
-| --- | --- |
-| A | Maybe the system file is not fully downloaded. You can try to downloading the file from a different source. |
-
-| **Q** | **What should I do if I get stuck at the "Starting" or "Installing Driver" step for more than 5 minutes?** |
-| --- | --- |
-| A | Restart the burning tool and try burning again. If it still exists, power off the board and re-enter the burning mode, then restart the burning tool to burn. or try using the Command-line Tool |
-
-| **Q** | **How can I create a full image backup for the UNIHIKER?** |
-| --- | --- |
-| A | [click](https://www.dfrobot.com/forum/topic/327538) |
-
-If you encounter any issues that cannot be resolved during use, please don't hesitate to contact us through either of the methods listed below:
-
-1. Join our UNIHIKER channel by the link https://discord.gg/rvvfNCvBKv.
-2. Send emails to our mailbox: unihiker@dfrobot.com  
 
 ---  
 
