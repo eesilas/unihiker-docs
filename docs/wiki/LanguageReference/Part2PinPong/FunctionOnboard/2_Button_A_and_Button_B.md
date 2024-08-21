@@ -33,3 +33,6 @@ while True:
 ```
 **Program Effect:**
 ![image.png](img/2_Button_A_and_Button_B/1722825556844-9bed9afb-91ec-4882-81c4-dd9f44852617.png)
+
+
+---

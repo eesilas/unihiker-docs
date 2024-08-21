@@ -280,3 +280,6 @@ finally:
 **Program Effect:**
 ![image.png](img/4_Bluetooth/1723444000728-ea18ea52-93b4-45fd-a947-574272d485fd.png)
 ![image.png](img/4_Bluetooth/1723444082445-76c4ba9a-dc74-4573-b9b2-40eccc7bdeb5.png)
+
+
+---

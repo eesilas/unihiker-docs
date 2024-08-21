@@ -36,3 +36,6 @@ while True:
 **Program Effect:**
 ![](img/1_L_LED_/1717470438843-7704798b-8da6-4d59-9e65-f6301fe445fa.gif)
 ![image.png](img/1_L_LED_/1722825383752-f9876273-6251-40a1-a841-5a034e186b05.png)
+
+
+---

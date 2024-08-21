@@ -11,7 +11,7 @@ Here is an example of controlling the konb to change the colour of the RGB LED.
 - [Gravity: Analog Rotation Potentiometer Sensor for Arduino - Rotation 300°](https://www.dfrobot.com/product-87.html)
 - [Gravity: Digital RGB LED Module](https://www.dfrobot.com/product-1848.html)
 
-![旋钮.png](img/4_RGB_LED_Color_Palette/1720173317069-19729515-5e81-4ca0-896b-af73b833ec39.png)
+![旋钮.png](img/4_RGB_LED_Color_Palette/1720173317069-19729515-5e81-4ca0-896b-af73b833ec39.png){width=400, style="display:block;margin: 0 auto"}
 ## **Code**
 In this example, UNIHIKER is first initialized with Board().begin(). Then, we use NEOPIXEL_PIN = Pin.P22 to initialize the pin. As in the second section, the function that controls LED RGB in this article is np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM). In the main loop, we use the np[0] = (0, 255 ,0) function to change the colour of the lights. In this part, binary color matching is used to adjust the colour in lighting through multi judgment statements.
 ```python

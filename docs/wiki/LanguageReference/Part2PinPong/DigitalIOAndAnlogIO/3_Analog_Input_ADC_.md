@@ -46,3 +46,6 @@ while True:
 ```
 **Program Effect:**
 ![image.png](img/3_Analog_Input_ADC_/1722840105862-b3479334-2ef9-4f12-9d8c-8974c0bfd11c.png)
+
+
+---

@@ -5,14 +5,15 @@ To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCaptur
 
 To control the Camera based facial detection, we can use the getAndRenderFace(img) function from the OpenCV library in Python. This will allow us to detect the faces from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your Smart Home Monitoring.  
 
-![image.png](img/4_Smart_Home_Monitoring/1722491962521-5fe98458-c72e-4065-9134-ff7c8826940e.png)![20240801_220338[00h00m00s-00h00m03s].gif](img/4_Smart_Home_Monitoring/1722521084228-fc6d5492-c0d8-4b26-9d47-1e5f1a9820f1.gif)  
+![image.png](img/4_Smart_Home_Monitoring/1722491962521-5fe98458-c72e-4065-9134-ff7c8826940e.png){width=270} 
+![20240801_220338[00h00m00s-00h00m03s].gif](img/4_Smart_Home_Monitoring/1722521084228-fc6d5492-c0d8-4b26-9d47-1e5f1a9820f1.gif)  
 
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
-![](img/4_Smart_Home_Monitoring/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)  
+![](img/4_Smart_Home_Monitoring/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}  
 
 ## **Code**
 To implement video streaming and capturing with the Smart Home Monitoring project, we can use the OpenCV library in Python.   
@@ -91,7 +92,8 @@ cap.release()  # Release usb camera.
 cv2.destroyAllWindows()  # Destory all windows created by opencv. 
 ```
 ## **Demo Effect**
-![](img/4_Smart_Home_Monitoring/1722491962521-5fe98458-c72e-4065-9134-ff7c8826940e.png)![20240801_220338[00h00m00s-00h00m03s].gif](img/4_Smart_Home_Monitoring/1722521070853-315d9583-412f-44a2-9e0b-4289e9aa996d.gif)
+![image.png](img/4_Smart_Home_Monitoring/1722491962521-5fe98458-c72e-4065-9134-ff7c8826940e.png){width=270} 
+![20240801_220338[00h00m00s-00h00m03s].gif](img/4_Smart_Home_Monitoring/1722521084228-fc6d5492-c0d8-4b26-9d47-1e5f1a9820f1.gif)  
 
 
 ---

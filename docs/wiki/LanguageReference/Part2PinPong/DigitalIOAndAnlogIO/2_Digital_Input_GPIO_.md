@@ -56,3 +56,6 @@ while True:
 **Program Effect:**
 ![image.png](img/2_Digital_Input_GPIO_/1722838953234-a191f90e-311b-41b7-9e96-c35b946d8a15.png)
 
+
+
+---

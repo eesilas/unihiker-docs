@@ -73,3 +73,6 @@ while True:
     spi0.write(w_buf)         # Spir0 sends buf
     time.sleep(1)
 ```
+
+
+---

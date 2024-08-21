@@ -3,13 +3,13 @@ Instead of manually typing out words read from books, a more efficient approach 
 
 This project aims to connect a camera to the blank board and utilize the Python pytesseract library to create a text recognition device that can recognize text from photos and output it onto paper.  
 
-![image.png](img/7_Text_Recognition/1722507989421-99dfa25e-5aea-412c-adc9-28f9e1ee1d62.png)
+![image.png](img/7_Text_Recognition/1722507989421-99dfa25e-5aea-412c-adc9-28f9e1ee1d62.png){width=300， style="display:block;margin: 0 auto"}
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
-![](img/7_Text_Recognition/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)
+![](img/7_Text_Recognition/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}
 ## **Code**
 To begin, the license plate recognition folder should be imported by dragging and dropping the pytesseract folder into the 'Files in the line blank board' folder. Next, the '0-Install_dependency.py' program file in the 'pytesseract' should be opened by double-clicking on it. Then, click the run button in the upper right corner and wait for automatic installation to complete. Finally, a new project file with the name "1-read_number_test.py" should be created in the same level directory as "0-Install_dependency.py".  
 
@@ -17,7 +17,7 @@ Tip 1: Please refrain from modifying the folder path and leave it as it is (unde
 Tip 2: This folder contains necessary files for license plate recognition, including the recognition models. The "0-Install_dependency.py" program file is used for installing the required dependency libraries.  
 
 
-![](img/7_Text_Recognition/1721720440221-8030a311-ae9a-4591-8e08-a6e8c2d7aab9.png)  
+![](img/7_Text_Recognition/1721720440221-8030a311-ae9a-4591-8e08-a6e8c2d7aab9.png)
 
 The first step is to introduce essential function libraries, including the OpenCV library for image recognition and the pyteseract library for text recognition. Afterward, a callback function is set up to display the recognized text on UNIHIKER's screen.    
 
@@ -96,7 +96,8 @@ cap.release() # Release usb camera.  # Release the camera
 cv2.destroyAllWindows() # Destory all windows created by opencv.  # Close all
 ```
 ## **Demo Effect**
-## **![image.png](img/7_Text_Recognition/1722508004010-e625cd1f-32ba-476b-a8e5-67ea0579af8b.png)**
+## 
+![image.png](img/7_Text_Recognition/1722508004010-e625cd1f-32ba-476b-a8e5-67ea0579af8b.png){width=300， style="display:block;margin: 0 auto"}
 ![image.png](img/7_Text_Recognition/1722502507202-2c020ad8-2a5f-4234-b855-b7a67c778636.png)
 
 

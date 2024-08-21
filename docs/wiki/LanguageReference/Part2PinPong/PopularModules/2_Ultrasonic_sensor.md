@@ -44,3 +44,6 @@ while True:
 **Program Effect:**
 ![image.png](img/2_Ultrasonic_sensor/1722925528232-827ef5a1-d4c1-4a87-afe4-0b8bc15d8aff.png)
 ![image.png](img/2_Ultrasonic_sensor/1722925643812-caa9f9f5-fce1-469e-8166-d38104c0e39f.png)
+
+
+---

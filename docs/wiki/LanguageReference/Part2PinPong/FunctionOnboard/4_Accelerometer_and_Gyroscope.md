@@ -36,3 +36,6 @@ while True:
 ```
 **Program Effect:**
 ![image.png](img/4_Accelerometer_and_Gyroscope/1722592060788-fab66288-e5c6-4866-8396-08949590c71f.png)
+
+
+---

@@ -120,3 +120,6 @@ while True:
 ```
 **Program Effect:**
 ![](img/4_LED_Strip/1721282070837-c76388ff-0d8b-4a56-982b-593a09caea0b.gif)
+
+
+---

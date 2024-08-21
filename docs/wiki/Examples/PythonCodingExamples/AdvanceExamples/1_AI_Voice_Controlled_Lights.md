@@ -11,7 +11,7 @@ To control the response made by the speech recognition module after recognizing 
 - [Gravity: Offline Language Learning Voice Recognition Sensor for micro:bit / Arduino / ESP32 - I2C & UART](https://www.dfrobot.com/product-2665.html)
 - [Gravity: Digital Piranha LED Module - Red](https://www.dfrobot.com/product-471.html)
 
-![语音开关灯.png](img/1_AI_Voice_Controlled_Lights/1721633329002-37351b85-d85f-49a2-9541-5e957889e667.png)  
+![语音开关灯.png](img/1_AI_Voice_Controlled_Lights/1721633329002-37351b85-d85f-49a2-9541-5e957889e667.png){width=600, style="display:block;margin: 0 auto"}  
 
 **Code**  
 

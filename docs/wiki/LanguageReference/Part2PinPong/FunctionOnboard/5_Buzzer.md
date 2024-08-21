@@ -42,3 +42,6 @@ while True:
 ```
 **Program Effect:**
 ![image.png](img/5_Buzzer/1722825855482-4f0c353a-efd8-493f-85f6-a2c1ccb68027.png)
+
+
+---

@@ -10,7 +10,7 @@ Here is an example of simulating a plant humidity monitor by moisture sensor.
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: Analog Soil Moisture Sensor for Arduino](https://www.dfrobot.com/product-599.html)
 
-![湿度.png](img/5_Plant_Moisture_Monitoring/1720428587006-4bbe6af4-89a4-470b-a204-927548288494.png)
+![湿度.png](img/5_Plant_Moisture_Monitoring/1720428587006-4bbe6af4-89a4-470b-a204-927548288494.png){width=400, style="display:block;margin: 0 auto"}
 ### **GUI components**
 We use the following image to simulate and beautify the GUI interface.
 ![plant.png](img/5_Plant_Moisture_Monitoring/1720405106239-2bbb6d5e-2b20-42f6-8d11-fc49a03473e2.png)  

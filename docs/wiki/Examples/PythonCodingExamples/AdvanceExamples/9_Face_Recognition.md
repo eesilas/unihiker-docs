@@ -14,7 +14,7 @@ In this project, we will learn how to use the OpenCV library to call a camera an
 - USB Docking Station
 - USB Speaker
 
-![相机加喇叭.png](img/9_Face_Recognition/1722566416040-d1d451c8-eac1-4cd1-be2e-67199570e1d2.png)
+![相机加喇叭.png](img/9_Face_Recognition/1722566416040-d1d451c8-eac1-4cd1-be2e-67199570e1d2.png){width=400， style="display:block;margin: 0 auto"}
 ## **Code**
 Facial detection is the process of searching for a face in a given image and determining its position, size, and pose. It is achieved by using a certain strategy and is often performed using a classifier, which helps determine whether an object belongs to a certain classification. A cascaded classifier can be thought of as a series of N single class classifiers. If an object meets the criteria of all classifiers in the series, then it is considered a valid result. For example, a human face has multiple attributes, and each attribute can be turned into a classifier. If a model satisfies all the attributes we define for a face (two eyebrows, two eyes, one nose, one mouth, a roughly U-shaped chin or contour, etc.), then it is considered a human face.  
 

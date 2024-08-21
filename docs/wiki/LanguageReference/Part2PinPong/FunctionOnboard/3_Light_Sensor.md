@@ -30,3 +30,6 @@ while True:
 ```
 **Program Effect:**
 ![image.png](img/3_Light_Sensor/1722825676701-ff85f0e5-8044-417e-a34a-287f27333449.png)
+
+
+---

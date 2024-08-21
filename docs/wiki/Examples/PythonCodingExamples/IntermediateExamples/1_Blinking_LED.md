@@ -10,7 +10,7 @@ Here is an example of controlling the LED to blink.
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: Digital Piranha LED Module - Green](https://www.dfrobot.com/product-632.html)
 
-![image.png](img/1_Blinking_LED/1720060887828-8dcafd88-7ad5-4094-a1e1-121ec785611e.png)
+![image.png](img/1_Blinking_LED/1720060887828-8dcafd88-7ad5-4094-a1e1-121ec785611e.png){width=400, style="display:block;margin: 0 auto"}
 ## **Code**
 In this example, the UNIHIKER is first initialized with Board().begin().   
 

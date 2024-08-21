@@ -5,14 +5,14 @@ The OpenCV library in Python provides the cap = cv2.VideoCapture(0) method, whic
 
 To control the color tracking device and shoot a video, the cap.read() and cv2.imshow() methods from the OpenCV library in Python can be used. This allows us to read the video stream from the camera and display it on the UNIHIKER board's screen. Additionally, the font = cv2.FONT_HERSHEY_SIMPLEX function can be utilized to enable color tracking for screen text display. Different functionalities and parameters of the OpenCV library can be experimented with to customize the DIY Color Following Car.  
 
-![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520903525-bdfb4608-5d6a-4ebb-9f27-10da7bdebff7.gif)  
+![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520903525-bdfb4608-5d6a-4ebb-9f27-10da7bdebff7.gif){width=400， style="display:block;margin: 0 auto"}    
 
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
-![](img/6_Color_Following_Car/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)  
+![](img/6_Color_Following_Car/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}    
 
 ## **Code**
 To implement video streaming and capturing with the Color Following Car, the OpenCV library in Python can be utilized.   
@@ -98,7 +98,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## **Demo Effect**
-![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520924507-36034f34-ef0c-4519-9c2c-741f6a5c0b3e.gif)
+![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520924507-36034f34-ef0c-4519-9c2c-741f6a5c0b3e.gif){width=400， style="display:block;margin: 0 auto"}  
 
 
 ---

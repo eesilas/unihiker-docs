@@ -125,3 +125,6 @@ while(1):
 **Program Effect:**
 ![image.png](img/2_I2C_Inter_Integrated_Circuit_/1723445579853-84aef214-5a19-45a3-bf04-d4541b19b264.png)
 ![image.png](img/2_I2C_Inter_Integrated_Circuit_/1723200814198-560390f6-7632-49af-aa56-00cceda75c66.png)
+
+
+---

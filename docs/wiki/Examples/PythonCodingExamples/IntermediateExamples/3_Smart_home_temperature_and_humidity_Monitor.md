@@ -10,7 +10,7 @@ Here is an example of how to collect data from the sensors. If we want to sound 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: DHT11 Temperature & Humidity Sensor For Arduino](https://www.dfrobot.com/product-174.html)
 
-![dht11.png](img/3_Smart_home_temperature_and_humidity_Monitor/1720168299436-cd6665bf-000b-4384-8541-013b1ce6b8b0.png)
+![dht11.png](img/3_Smart_home_temperature_and_humidity_Monitor/1720168299436-cd6665bf-000b-4384-8541-013b1ce6b8b0.png){width=400, style="display:block;margin: 0 auto"}
 ## **Code**
 In this example, UNIHIKER is first initialized with Board().begin(). Then, we use dht11 = DHT11(Pin(Pin.P21)) to initialize the pin. At the same time, we need to initialize the screen image, we use gui=GUI(). At last, we use  buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground)  to make the buzzer sounds an alarm. Then we use the temp = dht11.temp_c() method to collect analog values of temperature. At the same time, we use  humi = dht11.humidity(). To achieve experimental results, two value setting functions can be set to change the value in the text on the screen.
 ```python

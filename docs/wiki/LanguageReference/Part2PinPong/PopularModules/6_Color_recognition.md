@@ -86,3 +86,6 @@ while True:
 ![image.png](img/6_Color_recognition/1723089008313-c825006d-a39c-4b31-a4ab-fc3a7039b6b7.png)![image.png](img/6_Color_recognition/1723089035437-245e082a-fe56-4aa4-8716-dbadd5aa7b25.png)
 ![](img/6_Color_recognition/1723089184692-b25b8aca-e07f-4dac-8dd5-e1456636db67.png)![image.png](img/6_Color_recognition/1723089113536-056b4316-4e61-475e-ae95-14b61c649965.png)
 ![image.png](img/6_Color_recognition/1723089211071-f35d8d8e-5b92-4dbb-ad97-6f4e43c63ca9.png)![image.png](img/6_Color_recognition/1723089230549-4a5ee5a8-0f3b-4f38-ae10-f79a3c599fbf.png)
+
+
+---

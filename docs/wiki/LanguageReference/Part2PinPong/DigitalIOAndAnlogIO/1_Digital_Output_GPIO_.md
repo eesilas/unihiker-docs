@@ -51,3 +51,6 @@ while True:
 **Program Effect:**
 ![20240805_154353[00h00m00s-00h00m05s].gif](img/1_Digital_Output_GPIO_/1722843885000-ab87e462-fbf8-41c3-ad2d-afeee0e974a2.gif)
 ![image.png](img/1_Digital_Output_GPIO_/1722825395989-dcda8b3a-c08b-4eee-ab6f-1a971144b844.png)
+
+
+---

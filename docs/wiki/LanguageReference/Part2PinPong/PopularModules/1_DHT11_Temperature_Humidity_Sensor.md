@@ -54,3 +54,6 @@ while True:
 **Program Effect:**
 ![image.png](img/1_DHT11_Temperature_Humidity_Sensor/1722910631219-2b9d77c2-e009-4c41-8390-97c473119ce6.png)
 ![image.png](img/1_DHT11_Temperature_Humidity_Sensor/1722910528597-07bd88bd-f7f4-4bf7-b541-b8046672179b.png)
+
+
+---

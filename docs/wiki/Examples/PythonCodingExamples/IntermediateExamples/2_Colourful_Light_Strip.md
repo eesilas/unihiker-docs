@@ -10,7 +10,7 @@ Here is an example of controlling the NeoPixel LED to blink.
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [WS2812 RGB](https://www.dfrobot.com.cn/goods-2629.html)
 
-![位图.png](img/2_Colourful_Light_Strip/1720151071965-9ea00f50-9a4f-46b7-801e-1c4a6425cce5.png)
+![位图.png](img/2_Colourful_Light_Strip/1720151071965-9ea00f50-9a4f-46b7-801e-1c4a6425cce5.png){width=400, style="display:block;margin: 0 auto"}
 ## **Code**
 In this example, the UNIHIKER is first initialized with Board().begin(). Then, we use NEOPIXEL_PIN = Pin.P21 to initialize the pin. To define the number of lights, we use PIXELS_NUM = 7. Finally, we use np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM) to initialize the NeoPixel. In the main loop, we use the np[0] = (0, 255 ,0) function to change the color of the lights. We can also use the np.rainbow(0,7,0,0x0022FF) function to display a rainbow pattern. To achieve the desired results, two loops can be used to change the color of the lights and to turn them off sequentially.
 ```python

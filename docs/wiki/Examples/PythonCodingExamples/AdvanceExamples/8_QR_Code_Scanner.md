@@ -5,14 +5,14 @@ To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCaptur
 
 To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.imshow() methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your QR Code Scanner.  
 
-![20240801_215321[00h00m00s-00h00m06s].gif](img/8_QR_Code_Scanner/1722520579761-9323c717-8d22-434a-a1dd-ec9de7e3ea6f.gif)  
+![20240801_215321[00h00m00s-00h00m06s].gif](img/8_QR_Code_Scanner/1722520579761-9323c717-8d22-434a-a1dd-ec9de7e3ea6f.gif){width=400， style="display:block;margin: 0 auto"}  
 
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
-![](img/8_QR_Code_Scanner/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)
+![](img/8_QR_Code_Scanner/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}
 ## **Code**
 To begin, the license plate recognition folder should be imported by dragging and dropping the pytesseract folder into the 'Files in the line blank board' folder. Next, the '0-Install_dependency.py' program file in the 'pytesseract' should be opened by double-clicking on it. Then, click the run button in the upper right corner and wait for automatic installation to complete. Finally, a new project file with the name "1-read_number_test.py" should be created in the same level directory as "0-Install_dependency.py".   
 
@@ -83,7 +83,7 @@ if __name__ == '__main__':  # If this file runs as the main program
     main()  # Call the main function
 ```
 ## **Demo Effect**
-![20240801_215321[00h00m00s-00h00m06s].gif](img/8_QR_Code_Scanner/1722520660463-d8df7d4c-4b0b-42da-8d54-da1b0e93c3e3.gif)
+![20240801_215321[00h00m00s-00h00m06s].gif](img/8_QR_Code_Scanner/1722520660463-d8df7d4c-4b0b-42da-8d54-da1b0e93c3e3.gif){width=400， style="display:block;margin: 0 auto"}  
 ![image.png](img/8_QR_Code_Scanner/1722504192961-6e0c51f9-b91a-47c3-8342-a005dc3ed094.png)
 
 

@@ -11,7 +11,7 @@ Here is an example of simulating a Vehicle distance detector by ultrasonic range
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [Gravity: URM09 Ultrasonic Distance Sensor (2～500cm, Analog)](https://www.dfrobot.com/product-1862.html)
 
-![超声波.png](img/6_Ultrasonic_Range_Finder/1720429186802-f4c82209-f75e-4fad-a929-eb6fa7d8e52f.png)
+![超声波.png](img/6_Ultrasonic_Range_Finder/1720429186802-f4c82209-f75e-4fad-a929-eb6fa7d8e52f.png){width=400, style="display:block;margin: 0 auto"}
 ### **GUI components**
 We use the following image to simulate and beautify the GUI interface.
 ![car1.png](img/6_Ultrasonic_Range_Finder/1720407346180-06fb2c1c-cabd-4bdb-b147-a4472b8ece75.png)![car2.png](img/6_Ultrasonic_Range_Finder/1720407358814-ea3f46d8-7b07-4224-bd60-5d79f026d1e3.png)  
