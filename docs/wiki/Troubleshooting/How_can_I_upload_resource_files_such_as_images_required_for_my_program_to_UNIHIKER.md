@@ -4,8 +4,7 @@
 
 | **Q** | **What should I do if the touchscreen of the Unihiker is not responding?** |
 | --- | --- |
-| A | Initially, you can use the AB buttons along with the Home button to select the "[Calibrate Touch Screen](https://www.unihiker.com/wiki/homemenu)
-" function to calibrate the screen. If this doesn't resolve the issue, you may try [Burn OS Image](https://www.unihiker.com/wiki/burner). |
+| A | Initially, you can use the AB buttons along with the Home button to select the "[Calibrate Touch Screen](https://www.unihiker.com/wiki/homemenu)" function to calibrate the screen. If this doesn't resolve the issue, you may try [Burn OS Image](https://www.unihiker.com/wiki/burner). |
 
 | **Q** | **Is the touchscreen resistive or capacitive?** |
 | --- | --- |
