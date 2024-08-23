@@ -76,7 +76,8 @@ theme:
 # Plugins
 plugins:
   - search:
-      separator: '[/s/-,:!=/[/]()"`/]+|/.(?!/d)|&[lg]t;|(?!/b)(?=[A-Z][a-z])'
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - minify:
       minify_html: true
   - glightbox
