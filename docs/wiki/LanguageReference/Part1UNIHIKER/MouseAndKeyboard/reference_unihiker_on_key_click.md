@@ -1,39 +1,38 @@
-## **2.1 on_a_click()**
-### **Description**
-Showing key 'A' clicks on the UNIHIKER board
-### **Syntax**
-**GUI.on_a_click(Name of the callback function)**
-### **Parameters**
-Name of the callback function
-### **Return**
-**None
-## **2.2 on_b_click()**
-### **Description**
-Showing key 'B' clicks on the UNIHIKER board
-### **Syntax**
-**GUI.on_b_click(Name of the callback function)**
-### **Parameters**
-Name of the callback function
-### **Return**
-**None
+## **2.1 on_a_click( )**
+
+| **Syntax**          | **GUI.on_a_click(Name of the callback function)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Showing key 'A' clicks on the UNIHIKER board   |  
+| **Parameters**      | Name of the callback function  |  
+| **Return**          | **None  |  
+
+
+## **2.2 on_b_click( )**
+| **Syntax**          | **GUI.on_b_click(Name of the callback function)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Showing key 'B' clicks on the UNIHIKER board   |  
+| **Parameters**      | Name of the callback function  |  
+| **Return**          | **None  |  
+
+
+
 ## **2.3 on_key_click()**
-### **Description**
-Showing key clicks on the UNIHIKER board
-### **Syntax**
-**GUI.on_key_click(Key name, callback function name)**
-### **Parameters**
-Name of the callback function
-### **Return**
-**None
+| **Syntax**          | **GUI.on_key_click(Key name, callback function name)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Showing key clicks on the UNIHIKER board   |  
+| **Parameters**      | Name of the callback function  |  
+| **Return**          | **None  |  
+
+
+
 ## **2.4 wait_a_click()   wait_b_click()**
-### **Description**
-Waiting for key A/B to be pressed
-### **Syntax**
-**GUI.wait_a_click()  GUI.wait_b_click()**
-### **Parameters**
-Key name, callback function name.
-### **Return**
-**None
+| **Syntax**          | **GUI.wait_a_click()  GUI.wait_b_click()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Waiting for key A/B to be pressed   |  
+| **Parameters**      | Key name, callback function name.  |  
+| **Return**          | **None  |  
+
+
 
 ## **Example Description**
 In this simple example, our objective is to utilize the A and B buttons positioned on the side of UNIHIKER. We have defined three callback functions: one for "A key pressed", another for "B key pressed", and the third for "space pressed". Upon pressing any of these buttons, the interface will detect the signal via the on_key_click() function. Simultaneously, the Mind+ output window will display information corresponding to the pressed button.

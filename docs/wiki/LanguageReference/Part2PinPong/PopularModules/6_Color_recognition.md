@@ -4,34 +4,32 @@ A color sensor is a sensing device that can recognize the color of an object. Th
 Tips: When in use, connect the color sensor to the IIC interface. When taking colors, be sure to place the color sensor 3-10mm above the object.
 ### **Common functions**
 
-
-| `Object = TCS34725()`    |                            |
+#### 1.1 TCS34725( )
+| **Syntax**          | **Object = TCS34725()**      |  
 | :--------------     | :--------------------      |
 | **Description**     | Define the initialization function for the color sensor.      |  
-| **Syntax**          | **Object = TCS34725()**      |   
 | **Parameters**      | **None  |  
 | **Return**          | **None    |  
 
 
-| `Object.begin()`    |                            |
+#### 1.2 begin( )
+| **Syntax**          | **Object.begin()**     |   
 | :--------------     | :--------------------      |
 | **Description**     | Turn on the color sensor.     |  
-| **Syntax**          | **Object.begin()**     |   
 | **Parameters**      | **None  |  
 | **Return**          | **None    |  
 
 
 
 
-
-| `r,g,b,c = Object.get_rgbc()`    |                            |
+#### 1.3 get_rgbc( )
+| **Syntax**          | **r,g,b,c = Object.get_rgbc()**     |   
 | :--------------     | :--------------------      |
 | **Description**     | Obtain the detected color parameter values.      |  
-| **Syntax**          | **r,g,b,c = Object.get_rgbc()**     |   
-| **Parameters**      | **r:**Red color value.  |  
-|                     | **g:**Green color value.  |  
-|                     | **b:**Blue color value.  |  
-|                     | **c:**Filter out the original infrared light.  |  
+| **Parameters**      | **r:** Red color value.  |  
+|                     | **g:** Green color value.  |  
+|                     | **b:** Blue color value.  |  
+|                     | **c:** Filter out the original infrared light.  |  
 | **Return**          | Detected values of r, g, and b.    |  
 
 

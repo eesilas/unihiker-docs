@@ -1,40 +1,44 @@
 ## **1.1 sound_level()**
-### **Description**
-Getting ambient volume
-### **Syntax**
-**Audio.sound_level()**
-### **Parameters**
-**None
-### **Return**
-** Sound level
+| **Syntax**          | **Audio.sound_level()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Getting ambient volume   |  
+| **Parameters**      | **None |  
+| **Return**          | Sound level  |  
+
+
+
+
 ## **1.2 record()**
-### **Description**
-Recording sound with the microphone on UNIHIKER
-### **Syntax**
-**
-### **Parameters**
-**file: **The name of the file where the recording was saved.
-**duration:** The length of the recording, in seconds.
-### **Return**
-**None
+| **Syntax**          | **Audio.record(file,duration)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Recording sound with the microphone on UNIHIKER   |  
+| **Parameters**      | **file:** The name of the file where the recording was saved. |  
+|                     | **duration:** The length of the recording, in seconds. |
+| **Return**          | **None  |  
+
+
+
 ## **1.3 start_record()**
-### **Description**
-Start sound recording
-### **Syntax**
-**Audio.start_record(file)**
-### **Parameters**
-**file:** The name of the file where the recording was saved.
-### **Return**
-**None
+| **Syntax**          | **Audio.start_record(file)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Start sound recording   |  
+| **Parameters**      | **file:** The name of the file where the recording was saved. |  
+| **Return**          | Remaining duration in seconds  |  
+
+
+
+
 ## **1.4 stop_record()**
-### **Description**
-Stop sound recording
-### **Syntax**
-**Audio.stop_record()**
-### **Parameters**
-**None
-### **Return**
-**None
+| **Syntax**          | **Audio.stop_record()**   |   
+| :--------------     | :--------------------      |
+| **Description**     | Stop sound recording   |  
+| **Parameters**      | **None |  
+| **Return**          | **None  |  
+
+
+
+
+
 ### **Example Description**
 In this simple example, our main goal is to use the functions in the previous text to measure the volume of sound, record the sound, start and end the recording.
 ### **Hardware Required**

@@ -1,53 +1,65 @@
-## 4.1.Control USB Speaker to play audio through UNIHIKER's unique Audio library
+## 1.Control USB Speaker to play audio through UNIHIKER's unique Audio library
 ### Description
 Through this example, we can learn how to control USB speakers to play audio using Python libraries. The Audio library is a specially packaged Python library on UNIHIKER that provides various functions for playing audio.
 ### Common functions
-#### 1.**play()**
-##### Description
-Playing music with the external USB speaker on UNIHIKER.
-##### Syntax
-**Audio.play(file)**
-##### Parameters
-**file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.
-##### Return
-**None
-#### 2.**start_**play()
-##### Description
-Begin to play the music with external USB speaker on UNIHIKER.
-##### Syntax
-**Audio.start_play(file)**
-##### Parameters
-**file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.
-##### Return
-**None
-#### 3.**pause_**play()
-##### Description
-Pause the music when it is playing with the external USB speaker on UNIHIKER.
-##### Syntax
-**Audio.pause_play()**
-##### Parameters
-**None
-##### Return
-**None
-#### 4.**resume_**play()
-##### Description
-Resume the paused music.
-##### Syntax
-**Audio.resume_play()**
-##### Parameters
-**None
-##### Return
-**None
-#### 5.**stop_**play()
-##### Description
-Stop the playing music.
-##### Syntax
-**Audio.stop_play()**
-##### Parameters
-**None
-##### Return
-**None
-Tips: For more common functions, please refer to Section 2 of Audio Class.
+
+
+#### 1.1 play( )
+| **Syntax**          | **Audio.play(file)**     |   
+| :--------------     | :--------------------      |
+| **Description**     | Playing music with the external USB speaker on UNIHIKER.     |  
+| **Parameters**      | **file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.  |  
+| **Return**          | **None  |  
+
+
+
+
+#### 1.2 start_play()
+| **Syntax**          | **Audio.start_play(file)**     |   
+| :--------------     | :--------------------      |
+| **Description**     | Begin to play the music with external USB speaker on UNIHIKER.    |  
+| **Parameters**      | **file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.  |  
+| **Return**          | **None  |  
+
+
+
+
+#### 1.3 pause_play()
+| **Syntax**          | **Audio.pause_play()**     |   
+| :--------------     | :--------------------      |
+| **Description**     | Pause the music when it is playing with the external USB speaker on UNIHIKER.     |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
+
+
+#### 1.4 resume_play( )
+| **Syntax**          | **Audio.resume_play()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Resume the paused music.    |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
+
+#### 1.5 stop_play()
+| **Syntax**          | **Audio.stop_play()**     |   
+| :--------------     | :--------------------      |
+| **Description**     | Stop the playing music.     |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
+Tips: For more common functions, please refer to Section 2 of Audio Class.  
+
+
 ### Example Description
 In this simple example, we'll start by playing a 7-second music track through the external USB speaker on UNIHIKER. Once the playback finishes, we'll automatically start playing an 8-second music track and then retrieve the remaining playback time twice. Following this, the music playback will pause automatically, resume after a few seconds, and finally stop playing altogether.
 Tips: For more code details, please refer to Section 2 of Audio Class.
@@ -98,69 +110,80 @@ print("Playback Ended")
 Note: The file should be located within the same directory as this code.
 ![image.png](img/1_USB_Speaker/1720605374181-ab1a9484-6d4e-4176-b876-a6b399ff0311.png)
 The speaker commences playing music in accordance with the established settings, concurrently presenting the pertinent status on the terminal.
-![](img/1_USB_Speaker/1720665139722-d7a2cc00-d157-4805-b689-4b9a5ba612b1.png)
-## **4.2.Using the Python library pyttsx3 for speech synthesis to control USB audio playback**
+![](img/1_USB_Speaker/1720665139722-d7a2cc00-d157-4805-b689-4b9a5ba612b1.png)  
+
+
+
+
+## **2.Using the Python library pyttsx3 for speech synthesis to control USB audio playback**
 ### Description
 To control a USB speaker using the UNIHIKER, we can use onboard USB interface. This will allow us to access and control the audio through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
 To control the audio, we can use the methods from the pyttsx3 library in Python. This will allow us to Control the synthesis of audio and play it according to the user's wishes through parameter settings. You can explore different functionalities and parameters of the pyttsx3 library to customize your DIY Speech Synthesis Assistant.
 ### Common functions
-#### 1.**Object = pyttsx3.init()**
-##### Description
-Initialize pyttsx3.
-##### Syntax
-**Object = pyttsx3.init()**
-##### Parameters
-**None
-##### Return
-**None
-#### 2.**Object.setProperty('volume',value)**
-##### Description
-Set the pronunciation volume (within the range of 0-1).
-##### Syntax
-**Object.setProperty('volume',value)**
-##### Parameters
-**'volume': **Attribute: Sound.
-**value: **Range of sound size: 0-1.
-##### Return
-The value of sound.
-#### 3.**Object.setProperty('rate',value)**
-##### Description
-Set the reading speed.
-##### Syntax
-**Object.setProperty('rate',value)**
-##### Parameters
-**rate: **Attribute: Rate.
-**value: **Range of rate size: 0-200.
-##### Return
-The value of rate.
-#### 4.**Object.say("text")**
-##### Description
-Read the content aloud in English.
-##### Syntax
-**Object.say("hello, i am unihiker") **
-##### Parameters
-**"text": **The statement that the user wants the USB speaker to play.
-##### Return
-**None
-#### 5.**Object.save_to_file("text", "file name")**
-##### Description
-Save the content as audio (named test. mp3).
-##### Syntax
-**Object.save_to_file("hello, i am unihiker", "test.mp3")**
-##### Parameters
-**"text": **The statement that the user wants the USB speaker to play.
-**"file name": **File name.
-##### Return
-The file "test.mp3".
-#### 6.**Object.runAndWait()**
-##### Description
-Run the TTS engine and wait for the reading to complete.
-##### Syntax
-**Object.runAndWait()**
-##### Parameters
-**None
-##### Return
-**None
+
+
+#### 2.1 pyttsx3.init( )
+| **Syntax**          | **Object = pyttsx3.init()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Initialize pyttsx3.    |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
+#### 2.2 setProperty( )
+| **Syntax**          | **Object.setProperty('volume',value)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Set the pronunciation volume (within the range of 0-1).   |  
+| **Parameters**      | **'volume':** Attribute: Sound.  |  
+|                     | **value:** Range of sound size: 0-1.  |
+| **Return**          | The value of sound.  |  
+
+
+
+
+#### 2.3 Object.setProperty( )
+| **Syntax**          | **Object.setProperty('rate',value)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Set the reading speed.   |  
+| **Parameters**      | **rate:** Attribute: Rate.  |  
+|                     | **value:** Range of rate size: 0-200.  |
+| **Return**          | The value of rate.   |  
+
+
+
+
+#### 2.4 Object.say( )
+| **Syntax**          | **Object.say("hello, i am unihiker")**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Read the content aloud in English.    |  
+| **Parameters**      | **"text":**The statement that the user wants the USB speaker to play.  |  
+| **Return**          | **None  |  
+
+
+
+
+#### 2.5 save_to_file( )
+| **Syntax**          | **Object.save_to_file("hello, i am unihiker", "test.mp3")**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Save the content as audio (named test. mp3).    |  
+| **Parameters**      | **"text":** The statement that the user wants the USB speaker to play. |  
+|                     | **"file name":** File name.   |
+| **Return**          | The file "test.mp3".  |  
+
+
+
+#### 2.6 runAndWait( )
+| **Syntax**          | **Object.runAndWait()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Run the TTS engine and wait for the reading to complete.   |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
 ### Example Description
 To create a DIY speech synthesis assistant, we can use the pyttsx3 library in Python. First, import pyttsx3 and use engine = pyttsx3.init() to initialize the audio output function. Then, we can use engine.setProperty() to set the volume and speed of audio output. To input text, we can use engine.say() and the Python library will automatically recognize the language and play it. To save the audio output, we can use the function engine.save(). You can experiment with different parameters and functions to customize your DIY Speech Synthesis Assistant project further.
 ### Hardware Required

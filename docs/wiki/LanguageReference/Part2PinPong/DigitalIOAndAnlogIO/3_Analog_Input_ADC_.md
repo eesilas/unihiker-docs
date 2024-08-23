@@ -1,21 +1,37 @@
 ### **Description**
 A typical analog-to-digital converter converts an input voltage signal into an output digital signal. UNIHIKER supports 8 channels of 12-bit high-precision analog input ADC, corresponding to the following pins: P0, P1, P2, P3, P4, P10, P21 and P22.
 ### **Common functions**
-| `Object = ADC(Pin(Pin.num)), Object.read()`    |                            |
+
+#### 1.1 ADC(Pin( ))
+| **Syntax**          | **ADC(Pin(Pin.num))**         | 
 | :--------------     | :--------------------      |
 | **Description**     | Define a pin as an ADC input and read the value through a function.       |  
-| **Syntax**          | **Object = ADC(Pin(Pin.num)), Object.read()**         |  
 | **Parameters**      | **Pin.num**: Pin number.                     |  
 | **Return**          | Digital quantity converted from analog quantity    |  
 
-
-| `Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()`    |                            |
+#### 1.2 read()
+| **Syntax**          | **Object.read()**         |  
 | :--------------     | :--------------------      |
 | **Description**     | Define a pin as an ADC input and read the value through a function.       |  
+| **Parameters**      | **                     |  
+| **Return**          | Digital quantity converted from analog quantity    |  
+
+
+#### 1.3 Pin( )
 | **Syntax**          | **Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**         |  
-| **Parameters**      | **Pin.num**: Pin number.                     |  
-|                     | **Pin.ANALOG**: Pin initialization to level output. |
+| :--------------     | :--------------------      |
+| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
+| **Parameters**      | **Pin.ANALOG**: Pin initialization to level output. |
 | **Return**          | Digital quantity converted from analog quantity    |  
+
+#### 1.4 read_analog( )
+| **Syntax**          | **Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**         | 
+| :--------------     | :--------------------      |
+| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
+| **Parameters**      | **Pin.ANALOG**: Pin initialization to level output. |
+| **Return**          | Digital quantity converted from analog quantity    |  
+
+
 
 
 

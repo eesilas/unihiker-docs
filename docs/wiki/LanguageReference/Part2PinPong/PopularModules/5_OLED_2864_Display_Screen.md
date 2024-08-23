@@ -3,44 +3,42 @@ OLED 2864 display module is a compact monochrome graphic display module from DFR
 UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO. To achieve this, we will utilize the Python PinPong library to connect and control the OLED 2864 Display Screen externally through the side pins of the board.
 ### **Common functions**
 
-| `Object=SSD1306_I2C(width=128, height=8*8)`    |                            |
+
+#### 1.1 SSD1306_I2C( )
+| **Syntax**          | **Object=SSD1306_I2C(width=128, height=8*8)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Define the initialization function for the OLED 2864.      |  
-| **Syntax**          | **Object=SSD1306_I2C(width=128, height=8*8)**      |   
 | **Parameters**      | **width**: User can define OLED width.  |  
 |                     | **height**: Users can define OLED height. |
 | **Return**          | **None    |  
 
 
-
-| `Object.fill(num)`    |                            |
+#### 1.2 fill( )
+| **Syntax**          | **oled1.fill(num)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Control whether the OLED lights up in full screen.      |  
-| **Syntax**          | **oled1.fill(num)**      |   
-| **Parameters**      | **num:**There are two values: 0 and 1. 0 represents not illuminating the full screen, and 1 represents illuminating the full screen.  |  
+| **Parameters**      | **num:** There are two values: 0 and 1. 0 represents not illuminating the full screen, and 1 represents illuminating the full screen.  |  
 | **Return**          | **None    |  
 
 
 
-
-| `Object.text("t",x,y)`    |                            |
+#### 1.3 text( )
+| **Syntax**          | **Object.text("t",x,y)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Control the text displayed on the screen.      |  
-| **Syntax**          | **Object.text("t",x,y)**      |   
-| **Parameters**      | **t:**User defined display of text.  |  
-|                     | **x:**The x-axis value displayed in text. |
-|                     | **y:**The y-axis value displayed in text. |
+| **Parameters**      | **t:** User defined display of text.  |  
+|                     | **x:** The x-axis value displayed in text. |
+|                     | **y:** The y-axis value displayed in text. |
 | **Return**          | Text displayed on the screen.    |  
 
 
 
 
 
-
-| `Object.show()`    |                            |
+#### 1.4 show( )
+| **Syntax**          | **Object.show()**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Control the text displayed on the screen.      |  
-| **Syntax**          | **Object.show()**      |   
 | **Parameters**      | **None  |  
 | **Return**          | **None    |  
 
