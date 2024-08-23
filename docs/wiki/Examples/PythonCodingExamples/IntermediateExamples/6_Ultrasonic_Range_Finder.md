@@ -19,7 +19,13 @@ We use the following image to simulate and beautify the GUI interface.
 We can add these two images to the project folder, just like the operation in the basic example.
 Note: The image size is 320x240, and the length unit is px.
 ## **Code**
-In this example, UNIHIKER is first initialized with Board().begin(). At the same time, we use gui=GUI() to initialize the  GUI. Then, we use urm091 = ANALOG_URM09(Pin((Pin.P21))) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen. In the main loop, we use the dis = urm091.distance_cm() method to get the value of the distance. At last, We used a check statement to determine whether the distance was enough to brake, in order to complete the image switching.
+In this example:
+
+- UNIHIKER is first initialized with Board().begin(). 
+- Use gui=GUI() to initialize the  GUI. 
+- Use urm091 = ANALOG_URM09(Pin((Pin.P21))) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen. 
+- In the main loop, we use the dis = urm091.distance_cm() method to get the value of the distance. 
+- We used a check statement to determine whether the distance was enough to brake, in order to complete the image switching.
 ```python
 #  -*- coding: UTF-8 -*-
 

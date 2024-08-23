@@ -1,25 +1,24 @@
 ### **Description**
 A typical analog-to-digital converter converts an input voltage signal into an output digital signal. UNIHIKER supports 8 channels of 12-bit high-precision analog input ADC, corresponding to the following pins: P0, P1, P2, P3, P4, P10, P21 and P22.
 ### **Common functions**
-#### **3.1.Object = ADC(Pin(Pin.num)), Object.read()**
-##### **Description**
-Define a pin as an ADC input and read the value through a function.
-##### **Syntax**
-**Object = ADC(Pin(Pin.num)), Object.read()**
-##### **Parameters**
-**Pin.num**: Pin number.
-##### **Return**
-Digital quantity converted from analog quantity
-#### **3.2.Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**
-##### **Description**
-Define a pin as an ADC input and read the value through a function.
-##### **Syntax**
-**Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**
-##### **Parameters**
-**Pin.num**: Pin number.
-**Pin.ANALOG**: Pin initialization to level output.
-##### **Return**
-Digital quantity converted from analog quantity
+| `Object = ADC(Pin(Pin.num)), Object.read()`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
+| **Syntax**          | **Object = ADC(Pin(Pin.num)), Object.read()**         |  
+| **Parameters**      | **Pin.num**: Pin number.                     |  
+| **Return**          | Digital quantity converted from analog quantity    |  
+
+
+| `Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
+| **Syntax**          | **Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**         |  
+| **Parameters**      | **Pin.num**: Pin number.                     |  
+|                     | **Pin.ANALOG**: Pin initialization to level output. |
+| **Return**          | Digital quantity converted from analog quantity    |  
+
+
+
 ### **Example Description**
 Below is a sample code using the PinPong Library to print the analog value of the UNIHIKER P21 pin.
 ### **Hardware Required**

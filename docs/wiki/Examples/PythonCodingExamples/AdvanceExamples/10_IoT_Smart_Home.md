@@ -15,7 +15,8 @@ In this project, you will need 2 UNIHIKERs connected to the same LAN segment as 
 ![IOT smart home.png](img/10_IoT_Smart_Home/1722408975121-8b80a92c-6de7-416a-94ee-090c8f36df40.png)  
 
 ## **Code**
-Since two UNIHIKERs require simultaneous code debugging and data communication, it is important to have them on the same local area network address, such as '192.168.9'. This will allow for efficient communication and debugging between the two UNIHIKERs.  
+To enable simultaneous code debugging and data communication between two UNIHIKERs, it is crucial to have them connected to the same local area network address, such as '192.168.9'. This ensures efficient communication and debugging capabilities between the two UNIHIKERs.
+  
 
 ![image.png](img/10_IoT_Smart_Home/1722564009378-89c53eea-23cd-4192-b806-3e4e33c65dc4.png)![image.png](img/10_IoT_Smart_Home/1722563966802-ed832ef2-f7a4-4a9f-a9f7-abe9516a0b1a.png)  
 

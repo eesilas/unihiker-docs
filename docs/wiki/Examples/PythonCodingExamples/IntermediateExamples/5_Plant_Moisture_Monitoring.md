@@ -18,7 +18,11 @@ We use the following image to simulate and beautify the GUI interface.
 We can add this image to the project folder, just like the operation in the basic example. 
 Note: The image size is 320x240, and the length unit is px.
 ## **Code**
-In this example, the UNIHIKER is first initialized with Board().begin(). Then, we use adc21 = ADC(Pin(Pin.P21)) to initialize the pin. Additionally, we use gui=GUI() to initialize the GUI and use txt=gui.draw_text() to display the desired content on the screen. In the main loop, we use the value.config(text = adc21.read()) method to change the displayed value of humidity.
+In this example:  
+
+- The UNIHIKER is first initialized with Board().begin(). 
+- Use adc21 = ADC(Pin(Pin.P21)) to initialize the pin. Additionally, we use gui=GUI() to initialize the GUI and use txt=gui.draw_text() to display the desired content on the screen. 
+- In the main loop, we use the value.config(text = adc21.read()) method to change the displayed value of humidity.
 ```python
 # -*- coding: utf-8 -*-
 # Experimental effect: Simulate a plant humidity monitor through an external humidity sensor and GUI interface

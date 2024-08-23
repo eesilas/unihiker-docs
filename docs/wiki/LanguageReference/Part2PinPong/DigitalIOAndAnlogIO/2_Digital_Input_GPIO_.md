@@ -1,24 +1,24 @@
 ### **Description**
 The digital input channel converts external signals into high or low levels of voltage or current, and then transmits them to the control system. The UNIHIKER GPIO interface allows for the reading of values from a specified digital pin, either HIGH level or LOW level.
-### **Common functions**
-#### **2.1.Object.value()**
-##### **Description**
-Input digital level.
-##### **Syntax**
-****)**
-##### **Parameters**
-**None
-##### **Return**
-HIGH level or LOW level
-#### **2.2.**Object.read_digital()****
-##### **Description**
-Input digital level.
-##### **Syntax**
-**Object.read_digital()**
-##### **Parameters**
-**None
-##### **Return**
-HIGH level or LOW level
+### **Common functions**  
+| `Object.value()`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Input digital level.       |  
+| **Syntax**          | **Object.value()**         |  
+| **Parameters**      | **None                     |  
+| **Return**          | HIGH level or LOW level    |  
+
+  
+| `Object.read_digital()`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Input digital level.       |  
+| **Syntax**          | **Object.read_digital()**         |  
+| **Parameters**      | **None                     |  
+| **Return**          | HIGH level or LOW level    |  
+
+
+
+
 ### **Example Description**
 The main focus of this project is to read input from an external digital sensor button module and use it to control the illumination of the onboard L-LED on the UNIHIKER. By monitoring the state of the sensor button module, the L-LED can be toggled between two states: illuminated and extinguished.
 ### **Hardware Required**

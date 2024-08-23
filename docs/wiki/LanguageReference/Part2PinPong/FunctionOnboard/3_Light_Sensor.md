@@ -1,13 +1,13 @@
 ### **Description**
-The UNIHIKER microcontrollers come equipped with a Light Sensor, which allows for the acquisition of ambient light intensity.
-Note: The ambient light intensity values output by the light sensor are in analog form, ranging from 0-4095, and are not expressed in lux units.
+The UNIHIKER microcontrollers come equipped with a Light Sensor, which allows for the acquisition of ambient light intensity.  
+> Note: The ambient light intensity values output by the light sensor are in analog form, ranging from 0-4095, and are not expressed in lux units.
 ### **Syntax**
 **light.read()**
 Note: The photovoltaic sensor is directly connected to the P29 interface in the circuitry of UNIHIKER, making it possible to read its value through the ADC input method.
 ### **Parameters**
 **None 
 ### **Return**
-****The range of the ambient light intensity values is from 0 to 4095.**
+**The range of the ambient light intensity values is from 0 to 4095.**
 ### **Example Description**
 The code below is used to sense changes in ambient light through the light intensity sensor on UNIHIKER.
 ### **Hardware Required**

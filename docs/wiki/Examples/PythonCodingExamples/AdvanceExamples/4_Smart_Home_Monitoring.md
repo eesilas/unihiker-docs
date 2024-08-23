@@ -1,9 +1,9 @@
 ## **Project Introduction**
-To create a Smart Home Monitor, we will use a USB camera as an expansion module.   
+To create a Smart Home Monitor, we will utilize a USB camera as an expansion module.
 
-To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCapture(0) method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
+To control the USB camera using UNIHIKER, we can utilize the cap = cv2.VideoCapture(0) method from the Python OpenCV library. This method allows us to access and control the camera through the board's side interface, which is connected to a microcontroller responsible for managing onboard components and GPIO.
 
-To control the Camera based facial detection, we can use the getAndRenderFace(img) function from the OpenCV library in Python. This will allow us to detect the faces from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your Smart Home Monitoring.  
+For Camera-based facial detection, we can employ the getAndRenderFace(img) function from the Python OpenCV library. This function enables us to detect faces from the camera feed and display them on the screen of the UNIHIKER board. Feel free to explore the various functionalities and parameters of the OpenCV library to customize your Smart Home Monitoring system.
 
 ![image.png](img/4_Smart_Home_Monitoring/1722491962521-5fe98458-c72e-4065-9134-ff7c8826940e.png){width=270} 
 ![20240801_220338[00h00m00s-00h00m03s].gif](img/4_Smart_Home_Monitoring/1722521084228-fc6d5492-c0d8-4b26-9d47-1e5f1a9820f1.gif)  
@@ -22,7 +22,7 @@ First, import cv2 and use cap = cv2.VideoCapture(0) to initialize the camera's f
 
 In the main loop, we can use the ret, frame = cap.read() method to initialize the video stream parameters. We set up a callback function getAndRenderFace(img) to accurately recognize faces, which will be called by img = getAndRenderFace(img) in the main loop. Then, we can use if statements to check if a certain key has been pressed. To close the camera, we can use the function cap.release() when the key 'a' is pressed.   
 
-You can play around with different parameters and functions to customize your Smart Home Monitoring project.  
+Feel free to experiment with various parameters and functions to personalize your Smart Home Monitoring project.   
 
 ```python
 #  -*- coding: UTF-8 -*-

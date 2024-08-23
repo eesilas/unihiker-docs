@@ -13,7 +13,15 @@ To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.i
 
 ![image.png](img/3_DIY_Camera/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}
 ## **Code**
-To implement video streaming and capturing with the DIY Camera project, we can use the OpenCV library in Python. First, import cv2 and use cap = cv2.VideoCapture(0) to initialize the camera's function for video output. Then, we can use cap.set(), cv2.namedWindow(), and cv2.setWindowProperty() to set the frame rate, window initialization, and window size of the video stream. In the main loop, we can use the ret, frame = cap.read() method to initialize the video stream parameters. Then, we can use if statements to check if a certain key has been pressed, and use cv2.imwrite() to capture and save the current frame when the key 'a' is pressed. To close the camera, we can use the function cap.release() when the key 'b' is pressed. You can play around with different parameters and functions to customize your DIY Camera project.
+To implement video streaming and capturing with the DIY Camera project, we can use the OpenCV library in Python.  
+
+- Import cv2 and use cap = cv2.VideoCapture(0) to initialize the camera's function for video output.   
+- We can use cap.set(), cv2.namedWindow(), and cv2.setWindowProperty() to set the frame rate, window initialization, and window size of the video stream.  
+- In the main loop, we can use the ret, frame = cap.read() method to initialize the video stream parameters. Then, we can use if statements to check if a certain key has been pressed, and use cv2.imwrite() to capture and save the current frame when the key 'a' is pressed.   
+- Press the 'b' key and use the function cap.release() to close the camera. 
+- Feel free to explore and experiment with a variety of parameters and features to personalize your DIY camera project according to your specific needs and preferences.
+
+
 ```python
 #  -*- coding: UTF-8 -*-
 import cv2  # Import OpenCV library

@@ -20,34 +20,36 @@ SPI has two modes: master and slave. An SPI communication system needs to includ
 
 Tips: For more information, please refer to: [https://www.youtube.com/watch?v=tBgfStp40qQ](https://www.youtube.com/watch?v=tBgfStp40qQ)
 ### **Common functions**
-#### **3.1.**Object = SPI(num, cs = Pin)****
-##### **Description**
-Define the initialization function for the SPI.
-##### **Syntax**
-**Object = SPI(num, cs = Pin)**
-##### **Parameters**
-**num**: The device number of SPI.
-**cs = Pin**: Definition of CS chip pin selection.
-##### **Return**
-**None
-#### **3.2.**buf = Object.read(num)****
-##### **Description**
-Read bytes from the slave.
-##### **Syntax**
-**buf = Object.read(num)**
-##### **Parameters**
-**num: **The number of bytes read.
-##### **Return**
-Read data.
-#### **3.3.**Object.write(buf) ****
-##### **Description**
-Send the content from buf.
-##### **Syntax**
-**Object.write(buf) **
-##### **Parameters**
-**buf: **User defined byte data group.
-##### **Return**
-**None
+
+#### 1.1 SPI( )
+| **Syntax**          | **Object = SPI(num, cs = Pin)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Define the initialization function for the SPI.      |  
+| **Parameters**      | **num**: The device number of SPI.   |  
+|                     | **cs = Pin**: Definition of CS chip pin selection. |
+| **Return**          | **None    |  
+
+
+#### 1.2 read( )
+| **Syntax**          | **buf = Object.read(num)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Read bytes from the slave.      |  
+| **Parameters**      | **num**: The number of bytes read.   |  
+| **Return**          | Read data.    |  
+
+
+#### 1.3 write( )
+| **Syntax**          | **Object.write(buf)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Send the content from buf.      |  
+| **Parameters**      | **buf:**User defined byte data group.   |  
+| **Return**          | **None    |  
+
+
+
+
+
+
 ### **Example Description**
 The following code is a commonly used code for controlling SPI devices through UNIHIKER. Assuming the user has an SPI device, connecting it to the SPI pin of UNIHIKER can perform data writing and sending operations.
 ### **Hardware Required**

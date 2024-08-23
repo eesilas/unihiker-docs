@@ -8,66 +8,59 @@ IIC has only two buses: one is the bidirectional serial data line SDA, and the o
 All serial data SDA connected to I2C bus devices are connected to the SDA of the bus, and the clock lines SCL of each device are connected to the SCL of the bus. Each device on the I2C bus has its own unique address to ensure the accuracy of access between different devices.
 Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93RroBDYpr8](https://www.youtube.com/watch?v=93RroBDYpr8)
 ### **Common functions**
-#### **2.1.**Object = I2C()****
-##### **Description**
-Define the initialization function for the I2C.
-##### **Syntax**
-**Object = I2C()**
-##### **Parameters**
-**None
-##### **Return**
-**None
-#### **2.2.**Object = I2C(bus_num=value)****
-##### **Description**
-Set the port of the I2C.
-##### **Syntax**
-**Object = I2C(bus_num=value)**
-##### **Parameters**
-**value: **The port number of the I2C.
-##### **Return**
-**None
-#### **2.3.**Object.writeto(address,data)****
-##### **Description**
-Write data to the address.
-##### **Syntax**
-**Object.writeto(address,data)**
-##### **Parameters**
-**address: **The address where data is written.
-**data: **Write data.
-##### **Return**
-**None
-#### **2.4.**Object.readfrom(address,num)****
-##### **Description**
-Read data.
-##### **Syntax**
-**Object.readfrom(address,num)**
-##### **Parameters**
-**address: **The address for reading data.
-**num: **Read the length of the data.
-##### **Return**
-The data read.
-#### **2.5.**Object.readfrom_mem(address,num1,num2)****
-##### **Description**
-Read data from registers.
-##### **Syntax**
-**Object.readfrom_mem(address,num1,num2)**
-##### **Parameters**
-**address: **The address for reading data.
-**num1: **Register number.
-**num2: **Read the length of the data.
-##### **Return**
-The data read.
-#### **2.6.**Object.writeto_mem(address,num,data)****
-##### **Description**
-Write data to the register.
-##### **Syntax**
-**Object.writeto_mem(address,num,data)**
-##### **Parameters**
-**address: **The address for reading data.
-**num: **Register number.
-**data: **Write data.
-##### **Return**
-**None
+
+
+#### 1.1 I2C( )
+| `Object = I2C(bus_num=value)`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Set the port of the I2C.      |  
+| **Syntax**          | **Object = I2C(bus_num=value)**        |  
+| **Parameters**      | **value:** The port number of the I2C. (optional)  |  
+| **Return**          | **None    |  
+
+
+#### 1.2 writeto( )
+| **Syntax**          | **Object.writeto(address,data)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Write data to the address.      |  
+| **Parameters**      | **address:** The address where data is written.   |  
+|                     | **data:** Write data. |
+| **Return**          | **None    |  
+
+
+#### 1.3 readfrom( )
+| **Syntax**          | **Object.readfrom(address,num)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Read data.      |  
+| **Parameters**      | **address:** The address for reading data.   |  
+|                     | **num:** Read the length of the data. |
+| **Return**          | The data read.    |  
+
+
+#### 1.4 readfrom_mem( )
+| **Syntax**          | **Object.readfrom_mem(address,num1,num2)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Read data from registers.      |  
+| **Parameters**      | **address:** The address for reading data.   |  
+|                     | **num1:** Register number. |
+|                     | **num2:** Read the length of the data. |
+| **Return**          | The data read.    |  
+
+
+
+#### 1.5 writeto_mem( )
+| **Syntax**          | **Object.writeto_mem(address,num,data)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Write data to the register.      |  
+| **Parameters**      | **address:** The address for reading data.   |  
+|                     | **num1:** Register number. |
+|                     | **data:** Write data. |
+| **Return**          | The data read.    |  
+
+
+
+
+
 ### **Example Description**
 By utilizing the characteristics of I2C communication, data commands are sent to HUSKYLENS through UNIHIKER, which can control HUSKYLENS to switch recognition modes. After successful switching, HUSKYLENS sends communication data indicating successful mode switching to UNIHIKER. When UNIHIKER receives a data frame starting with "0x55, 0xaa, 0x11", it indicates that the response signal sent by HUSKYLENS has been successfully received by UNIHIKER.
 Tips: For more communication instructions, please refer to: [HUSKYLENSArduino/HUSKYLENS Protocol.md at master · HuskyLens/HUSKYLENSArduino · GitHub](https://github.com/HuskyLens/HUSKYLENSArduino/blob/master/HUSKYLENS%20Protocol.md)

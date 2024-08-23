@@ -6,7 +6,7 @@ UNIHIKER is equipped with a microcontroller that is responsible for controlling 
 ### **Parameters**
 **Pin.P21:** Pin number 21.
 ### **Return**
-**temperature **and** humidity**
+**temperature** and **humidity**
 ### **Example Description**
 In this example, UNIHIKER is first initialized with Board().begin(). Then, we use dht11 = DHT11(Pin(Pin.P21)) to initialize the pin. At the same time, we need to initialize the screen image, we use gui=GUI(). Then we use the temp = dht11.temp_c() method to collect analog values of temperature. At the same time, we use  humi = dht11.humidity(). To achieve experimental results, two value setting functions can be set to change the value in the text on the screen.
 ### **Hardware Required**

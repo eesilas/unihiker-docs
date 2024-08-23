@@ -15,7 +15,11 @@ To control the response made by the speech recognition module after recognizing 
 
 **Code**  
 
-To create a DIY AI Voice-Controlled Lights, we can use the DFRobot_DF2301Q library in Python. First, import DFRobot_DF2301Q  and use DF2301Q = DFRobot_DF2301Q_I2C() to initialize the voice recognition module output function. Then, we can use DF2301Q.set_volume(5) to set the volume audio output. We can use led.value(1) to control the state of the LED. Two discriminative statements are used here to recognize the recorded voice ID passed in by the voice module. You can experiment with different parameters and functions to customize your DIY AI Voice-Controlled Lights project further.
+To create a DIY AI Voice-Controlled Lights, we can use the DFRobot_DF2301Q library in Python. 
+
+- Import DFRobot_DF2301Q  and use DF2301Q = DFRobot_DF2301Q_I2C() to initialize the voice recognition module output function. 
+- Use DF2301Q.set_volume(5) to set the volume audio output. We can use led.value(1) to control the state of the LED. Two discriminative statements are used here to recognize the recorded voice ID passed in by the voice module.   
+- You can experiment with different parameters and functions to customize your DIY AI Voice-Controlled Lights project further.  
 ```python
 #  -*- coding: UTF-8 -*-
 

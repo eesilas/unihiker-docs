@@ -1,24 +1,23 @@
 ### **Description**
 Digital signals are signals obtained by binary quantization of analog signals, and all pins on UNIHIKER support the output of this signal at a voltage level of 3.3V.
 ### **Common functions**
-#### **1.1.Object.value()**
-##### **Description**
-Output digital level.
-##### **Syntax**
-**Object.value(v)**
-##### **Parameters**
-**v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.
-##### **Return**
-HIGH level or LOW level
-#### **1.2.Object.write_digital()**
-##### **Description**
-Output digital level.
-##### **Syntax**
-**Object.write_digital(v)**
-##### **Parameters**
-**v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.
-##### **Return**
-HIGH level or LOW level
+| `Object.value()`    |                            |
+| :--------------     | :--------------------      |
+| **Description**     | Output digital level.      |  
+| **Syntax**          | **Object.value(v)**        |  
+| **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
+| **Return**          | HIGH level or LOW level    |  
+
+
+| `Object.write_digital()`    |                       |
+| :--------------     | :--------------------      |
+| **Description**     | Output digital level       |  
+| **Syntax**          | **Object.write_digital(v)**   |  
+| **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
+| **Return**          | HIGH level or LOW level    |  
+
+
+
 ### **Example Description**
 Below is a sample code using the PinPong Library to control an LED and print corresponding messages when the LED is turned on or off. This code allows for the changes in the output level of GPIO pins to be felt through the on/off of LED lights.
 ### **Hardware Required**

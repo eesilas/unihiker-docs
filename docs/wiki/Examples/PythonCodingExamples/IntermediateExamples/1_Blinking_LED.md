@@ -14,13 +14,9 @@ Here is an example of controlling the LED to blink.
 ## **Code**
 In this example, the UNIHIKER is first initialized with Board().begin().   
 
-Then, we use pwm0 = PWM(Pin(Pin.P21)) to initialize the pin, which can output a PWM wave.   
+Then, we use pwm0 = PWM(Pin(Pin.P21)) to initialize the pin, which can output a PWM wave. To change the frequency of the PWM wave, we can use the pwm0.freq(1000) method.   
 
-To change the frequency of the PWM wave, we can use the pwm0.freq(1000) method.   
-
-In the main loop, we use the range() function to generate a loop array and then use the pwm0.duty() function to adjust the PWM duty cycle.   
-
-To achieve the desired results, two loops can be used to control the gradient of brightness by setting the starting and ending values.
+In the main loop, we use the range() function to generate a loop array and then use the pwm0.duty() function to adjust the PWM duty cycle. To achieve the desired results, two loops can be used to control the gradient of brightness by setting the starting and ending values.
 ```python
 # -*- coding: utf-8 -*-
 

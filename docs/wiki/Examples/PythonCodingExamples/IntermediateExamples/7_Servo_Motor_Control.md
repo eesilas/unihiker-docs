@@ -12,9 +12,12 @@ Here is an example of using UNIHIKER for servo drive.
 
 ![舵机.png](img/7_Servo_Motor_Control/1720429474410-c65247e5-ac2e-4dc6-a5d2-c6fc14838d23.png){width=400, style="display:block;margin: 0 auto"}
 ## **Code**
-In this example, UNIHIKER is first initialized with Board().begin(). At the same time, we use gui=GUI() to initialize the  GUI. Then, we use s1 = Servo(Pin(Pin.P21)) to initialize the pin. We use txt=gui.draw_text() to display the content we want to display on the screen.   
+In this example:
 
-In order to achieve virtual buttons on the screen, we defined four callback functions to control the output value of the servo rotation function. We use the botton_A = gui.add_button() method to set button properties. In order to maintain the long-term retention of the GUI interface, we have set a time delay function in the main function.
+- UNIHIKER is first initialized with Board().begin(). 
+- Use gui=GUI() to initialize the  GUI. Then, we use s1 = Servo(Pin(Pin.P21)) to initialize the pin. 
+- Use txt=gui.draw_text() to display the content we want to display on the screen.   
+- In order to achieve virtual buttons on the screen, we defined four callback functions to control the output value of the servo rotation function. We use the botton_A = gui.add_button() method to set button properties. In order to maintain the long-term retention of the GUI interface, we have set a time delay function in the main function.
 ```python
 # -*- coding: utf-8 -*-
 

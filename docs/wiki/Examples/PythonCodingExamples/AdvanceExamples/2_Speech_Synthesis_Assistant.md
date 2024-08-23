@@ -14,7 +14,11 @@ To control the audio, we can use the engine = pyttsx3.init()methods from the pyt
 ![image.png](img/2_Speech_Synthesis_Assistant/1721633121611-fafe0fb5-e71f-4b6e-b972-635853187f3d.png){width=400， style="display:block;margin: 0 auto"}    
 
 **Code**  
-To create a DIY speech synthesis assistant, we can use the pyttsx3 library in Python. First, import pyttsx3 and use engine = pyttsx3.init() to initialize the audio output function. Then, we can use engine.setProperty() to set the volume and speed of audio output. To input text, we can use engine.say() and the Python library will automatically recognize the language and play it. To save the audio output, we can use the function engine.save(). You can experiment with different parameters and functions to customize your DIY Speech Synthesis Assistant project further.  
+To create a DIY speech synthesis assistant, we can use the pyttsx3 library in Python.   
+
+- First, import pyttsx3 and use engine = pyttsx3.init() to initialize the audio output function. Then, we can use engine.setProperty() to set the volume and speed of audio output. 
+- To input text, we can use engine.say() and the Python library will automatically recognize the language and play it.   
+- To save the audio output, we can use the function engine.save(). You can experiment with different parameters and functions to customize your DIY Speech Synthesis Assistant project further.  
 
 
 ```python

@@ -2,83 +2,77 @@
 Universal Asynchronous Receiver/Transmitter, commonly known as UART, it is a serial, asynchronous, full duplex communication protocol. UNIHIKER supports UART communication protocol for data transmission through edge connector.
 Tips: For more information, please refer to: [https://www.youtube.com/watch?v=vxIjoycPucY](https://www.youtube.com/watch?v=vxIjoycPucY)
 ### **Common functions**
-#### **1.1.**Object = UART(bus_num=value)****
-##### **Description**
-Define the serial port number for the UART serial port.
-##### **Syntax**
-**Object = UART(bus_num=value)**
-##### **Parameters**
-**bus_num**: UART serial port number.
-##### **Return**
-**None
-#### **1.2.**Object.init(baud_rate=115200,bits=8,parity=0,stop=1)****
-##### **Description**
-Initialize UART serial port parameters.
-##### **Syntax**
-**Object.init(baud_rate=115200,bits=8,parity=0,stop=1)**
-##### **Parameters**
-**bus_num: **The default port number chosen by the user is 0.
-**baud_rate:** Generally, there are options such as 9600, 115200 for selecting baud rate. The actual meaning is to transmit so many bits per second.
-**bits:** It can be a 5-8 bits logical "0" or "1". Such as ASCI code (7 bits) and extended BCD code (8 bits). Small end transmission.
-**parity: **After adding this bit to the data, the number of "1" bits should be even (even check) or odd (odd check) to verify the correctness of data transmission.
-**stop:** It is an end marker for character data. Fixed at high level.
-##### **Return**
-**None
-#### **1.3.**Object.deinit()****
-##### **Description**
-Close UART serial port.
-##### **Syntax**
-**Object.deinit()**
-##### **Parameters**
-**None
-##### **Return**
-**None
-#### **1.4.**Object.any()****
-##### **Description**
-Get the number of bytes available to read from UART
-##### **Syntax**
-**Object.any()**
-##### **Parameters**
-**None
-##### **Return**
-The data read by UART.
-#### **1.5.**Object.write(buf)****
-##### **Description**
-Write data to the UART. 
-##### **Syntax**
-**Object.write(buf)**
-##### **Parameters**
-**buf**: Buf is a list of bytes.
-##### **Return**
-Write data to the serial port.
-#### **1.6.**Object.read(n)****
-##### **Description**
-Read characters from the UART.
-##### **Syntax**
-**Object.read(n)**
-##### **Parameters**
-**n: **The number of bytes read from the data.
-##### **Return**
-Returns None or a list of bytes.
-#### **1.7.**buf = Object.readline()****
-##### **Description**
-Read the data received from the serial port by line and put it in the buffer. Reads until newline or None if timeout occurs.
-##### **Syntax**
-**buf = Object.readline()**
-##### **Parameters**
-**None
-##### **Return**
-The data received from the serial port by line and put it in the buffer.
-#### **1.8.**Object.readinto(buf, nbytes)****
-##### **Description**
-Read bytes into buf. If nbytes is specified, read at most that many bytes. Otherwise, read at most len(buf) bytes.
-##### **Syntax**
-**Object.readinto(buf, nbytes)**
-##### **Parameters**
-**buf: **Range for reading data.
-**nbytes:** The number of bytes read.
-##### **Return**
-Bytes read  into buf. 
+
+#### 1.1 UART( )
+| **Syntax**          | **Object = UART(bus_num=value)**        | 
+| :--------------     | :--------------------      |
+| **Description**     | Define the serial port number for the UART serial port.      |  
+| **Parameters**      | **bus_num**: UART serial port number.   |  
+| **Return**          | **None    |  
+
+#### 1.2 init( )
+
+| **Syntax**          | **Object.init(baud_rate=115200,bits=8,parity=0,stop=1)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Initialize UART serial port parameters.      |  
+| **Parameters**      | **bus_num:**The default port number chosen by the user is 0.   | 
+|                     |  **baud_rate:** Generally, there are options such as 9600, 115200 for selecting baud rate. The actual meaning is to transmit so many bits per second. |
+|                     | **bits:** It can be a 5-8 bits logical "0" or "1". Such as ASCI code (7 bits) and extended BCD code (8 bits). Small end transmission.|
+|                     | **parity:**After adding this bit to the data, the number of "1" bits should be even (even check) or odd (odd check) to verify the correctness of data transmission.|
+|                     | **stop:** It is an end marker for character data. Fixed at high level. |
+| **Return**          | **None    |  
+
+
+#### 1.3 deinit( )
+| **Syntax**          | **Object.deinit()**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Close UART serial port.      |  
+| **Parameters**      | **None   | 
+| **Return**          | **None    |  
+
+
+#### 1.4 any( )
+| **Syntax**          | **Object.any()**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Get the number of bytes available to read from UART      |  
+| **Parameters**      | **None   | 
+| **Return**          | The data read by UART.    |  
+
+
+#### 1.5 write( )
+| **Syntax**          | **Object.write(buf)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Write data to the UART.       |  
+| **Parameters**      | **buf**: Buf is a list of bytes.   | 
+| **Return**          | Write data to the serial port    |  
+
+#### 1.6 read( )
+| **Syntax**          | **Object.read(n)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Read characters from the UART.       |  
+| **Parameters**      | **n:**The number of bytes read from the data.   | 
+| **Return**          | Returns None or a list of bytes.    |  
+
+
+#### 1.7 readline( )
+| **Syntax**          | **buf = Object.readline()**        | 
+| :--------------     | :--------------------      |
+| **Description**     | Read the data received from the serial port by line and put it in the buffer. Reads until newline or None if timeout occurs.       |  
+| **Parameters**      | **None   | 
+| **Return**          | The data received from the serial port by line and put it in the buffer.    |  
+
+
+#### 1.8 readinto( )
+| **Syntax**          | **Object.readinto(buf, nbytes)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Read bytes into buf. If nbytes is specified, read at most that many bytes. Otherwise, read at most len(buf) bytes.       |  
+| **Parameters**      | **buf:**Range for reading data.   | 
+| **Return**          | Bytes read  into buf.     |  
+
+
+
+
+
 ### **Example Description**
 In the following code, we use UART communication protocol for simple data transmission. We use UNIHIKER and a computer as the sending and receiving ends respectively, and perform half duplex data transmission and reception at the same time. The sending and receiving operations on the computer are performed on the serial debugging assistant, while the sending and receiving operations on the line blank board are performed on Mind+.
 ### **Hardware Required**
