@@ -43,7 +43,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 </div>
 
   [start]: wiki/get-started.md
-  [examples]: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md
+  [examples]: wiki/Examples/PythonCodingExamples/index.md
   [hardware]: wiki/HardwareReference/hardware_reference_introduction.md
   [jupyter]: wiki/GettingStarted/gettingstarted_jupyternotebook.md
   [mind+]: wiki/GettingStarted/gettingstarted_mind+.md
@@ -52,12 +52,12 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
   [ssh]: wiki/GettingStarted/gettingstarted_ssh.md
   [vscode]: wiki/GettingStarted/gettingstarted_vscode.md
 
-  [python-coding]: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md
+  [python-coding]: wiki/Examples/PythonCodingExamples/index.md
 
 
 
-  [unihiker-libraries]: wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
-  [pinpong-libraries]: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
+  [unihiker-libraries]: wiki/LanguageReference/Part1UNIHIKER/index.md
+  [pinpong-libraries]: wiki/LanguageReference/Part2PinPong/index.md
   [usb-device]: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
 
   [components]: wiki/HardwareReference/hardware_reference_onboard_components.md

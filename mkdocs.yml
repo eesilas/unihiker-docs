@@ -210,7 +210,6 @@ nav:
             - 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
             - 10.IoT Smart Home: wiki/Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
     - 📜 Language Reference:
-      - Reference Index: wiki/LanguageReference/index.md
       - Part1 UNIHIKER Libs:
         - wiki/LanguageReference/Part1UNIHIKER/index.md
         - Screen Display:
