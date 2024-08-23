@@ -10,24 +10,15 @@ This project utilizes the dynamic display features of a flexible panel, providin
 ## **Code**
 When utilizing the unihiker library to display text on the screen, the initial step is to create a GUI object. Then, the draw_text() function of the GUI object is used to generate a text object, specifying the desired content, coordinate position, font size, color, and other attributes of the text. In cases where certain attributes of the text need to be updated or modified, the config() function of the text object can be directly used to achieve this.  
 
-```python
-from unihiker import GUI
-import time 
+
+````python title="hello_unihiker"
+--8<-- "examplesCode/hello_unihiker.py"
+````
 
 
-gui = GUI()
-
-Text = gui.draw_text(text='Hello , Unihiker !',x=15,y=120,font_size=20)
-Text.config(color='#0000FF')
-
-
-while True:
-    time.sleep(1)
-```
 ## **Demo Effect**
 ![image.png](img/1.Hello,Unihiker/1720601923889-30aab991-42a1-40f7-869f-5bbd7f1729a9.png){width=300, style="display:block;margin: 0 auto"}  
 
 ---  
-
 
 

@@ -148,6 +148,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.critic
+  - pymdownx.snippets
   # - markdown.extensions.meta
 
 extra_css:
