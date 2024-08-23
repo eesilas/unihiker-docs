@@ -26,7 +26,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
       Software Library and API Documentation
     &nbsp;__[![image.png](assets/images/language.png){width=200, style="display:block;margin: 0 auto"}][unihiker-libraries]__    
 
-    __&nbsp;[UNIHIKER Libraries][unihiker-libraries] | Pinpong Libraries | USB Device__
+    __&nbsp;[UNIHIKER Libraries][unihiker-libraries] | [Pinpong Libraries][pinpong-libraries] | [USB Device][usb-device]__
 
 
 
@@ -55,8 +55,10 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
   [python-coding]: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md
 
 
-  [unihiker-libraries]: wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
 
+  [unihiker-libraries]: wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
+  [pinpong-libraries]: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
+  [usb-device]: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
 
   [components]: wiki/HardwareReference/hardware_reference_onboard_components.md
   [system-framework]: wiki/HardwareReference/hardware_reference_unihiker_system_framework.md
