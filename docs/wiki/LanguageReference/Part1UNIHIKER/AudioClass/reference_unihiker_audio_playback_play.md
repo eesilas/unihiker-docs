@@ -1,57 +1,58 @@
-## **2.1 play()**
-### **Description**
-Playing music with the external USB speaker on UNIHIKER
-### **Syntax**
-**Audio.play(file)**
-### **Parameters**
-**file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.
-### **Return**
-**None
-## **2.2 **start_**play()**
-### **Description**
-Begin to play the music with external USB speaker on UNIHIKER
-### **Syntax**
-**Audio.start_play(file)**
-### **Parameters**
-**file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.
-### **Returns**
-**None
-## **2.3 **pause_**play()**
-### **Description**
-Pause the music when it is playing with the external USB speaker on UNIHIKER
-### **Syntax**
-**Audio.pause_play()**
-### **Parameters**
-**None
-### **Returns**
-**None
-## **2.4 **resume_**play()**
-### **Description**
-Resume the paused music
-### **Syntax**
-**Audio.resume_play()**
-### **Parameters**
-**None
-### **Returns**
-**None
-## **2.5 **stop_**play()**
-### **Description**
-Stop the playing music
-### **Syntax**
-**Audio.stop_play()**
-### **Parameters**
-**None
-### **Returns**
-**None
-## **2.6 **play_time_remain**()**
-### **Description**
-Obtain the remaining duration of the music
-### **Syntax**
-**Audio.play_time_remain()**
-### **Parameters**
-**None
-### **Returns**
-**Remaining duration in seconds
+## **1.1 play()**
+| **Syntax**          | **Audio.play(file)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Playing music with the external USB speaker on UNIHIKER   |  
+| **Parameters**      | **file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.  |  
+| **Return**          | **None  |  
+
+
+## **1.2 start_play()**
+| **Syntax**          | **Audio.start_play(file)**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Begin to play the music with external USB speaker on UNIHIKER   |  
+| **Parameters**      | **file**: File name to be played. It can be in different audio formats such as WAV, MP3, etc.  |  
+| **Return**          | **None  |  
+
+
+## **1.3 pause_play()**
+| **Syntax**          | **Audio.pause_play()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Pause the music when it is playing with the external USB speaker on UNIHIKER   |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+## **1.4 resume_play()**
+| **Syntax**          | **Audio.resume_play()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Resume the paused music   |  
+| **Parameters**      | **None  |  
+| **Return**          | **None  |  
+
+
+
+
+## **1.5 stop_play()**
+| **Syntax**          | **Audio.stop_play()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Stop the playing music   |  
+| **Parameters**      | **None |  
+| **Return**          | **None  |  
+
+
+
+## **1.6 play_time_remain**()**
+| **Syntax**          | **Audio.play_time_remain()**    |   
+| :--------------     | :--------------------      |
+| **Description**     | Obtain the remaining duration of the music   |  
+| **Parameters**      | **None |  
+| **Return**          | Remaining duration in seconds  |  
+
+
+
+
+
 ## **Example Description**
 In this simple example, we'll start by playing a 7-second music track through the external USB speaker on UNIHIKER. Once the playback finishes, we'll automatically start playing an 8-second music track and then retrieve the remaining playback time twice. Following this, the music playback will pause automatically, resume after a few seconds, and finally stop playing altogether.
 ## **Hardware Required**

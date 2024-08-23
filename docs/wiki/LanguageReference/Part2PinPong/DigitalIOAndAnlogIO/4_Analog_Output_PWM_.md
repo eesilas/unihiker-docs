@@ -1,25 +1,31 @@
 ### **Description**
 PWM wave is a very effective technique for controlling analog circuits using the digital output of microprocessors, widely used in many fields from measurement, communication to power control and conversion. UNIHIKER supports 8 channels of 10-bit PWM output, corresponding to the following pins: P0, P2, P3, P10, P16, P21, P22 and P23.
 ### **Common functions**  
-| `Object = PWM(Pin(board,Pin.num)), Object.duty(i)`    |                            |
+
+
+#### 1.1 PWM(Pin( ))
+| **Syntax**          | **PWM(Pin(board,Pin.num))**         |  
 | :--------------     | :--------------------      |
 | **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
-| **Syntax**          | **Object = PWM(Pin(board,Pin.num)), Object.duty(i)**         |  
 | **Parameters**      | **board:** UNIHIKER.  |
 |                     | **Pin.num:** Pin number. |
-|                     |  **i:** Control the duty cycle of PWM waves.                |  
 | **Return**          | Continuous, time-varying current    |  
 
 
-| `Object = Pin(Pin.num, Pin.PWM), Object.write_analog(i)`    |                            |
+#### 1.2 duty( )
+| **Syntax**          | **Object.duty(i)**         |  
 | :--------------     | :--------------------      |
 | **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
-| **Syntax**          | **Object = Pin(Pin.num, Pin.PWM), Object.write_analog(i)**         |  
-| **Parameters**      | **Pin.num:** Pin number.  |
-|                     | **Pin.PWM:** Initialize pins to PWM mode. |
-|                     | **i:**Control the duty cycle of PWM waves.                |  
+| **Parameters**      | **i:** Control the duty cycle of PWM waves.                |  
 | **Return**          | Continuous, time-varying current    |  
 
+
+#### 1.3 
+| **Syntax**          | **Object.write_analog(i)**         |  
+| :--------------     | :--------------------      |
+| **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
+| **Parameters**      | **i:**Control the duty cycle of PWM waves.                |  
+| **Return**          | Continuous, time-varying current    |  
 
 
 ### **Example Description**

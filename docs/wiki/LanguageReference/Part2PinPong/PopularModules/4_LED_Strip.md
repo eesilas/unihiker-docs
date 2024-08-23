@@ -2,69 +2,64 @@
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. This project uses the PinPong library of Python to control a NeoPixel LED externally connected through side pins of the board. We will use an external light strips to achieve red, orange, yellow, green, blue, and purple colors.
 ### **Common functions**
 
-| `Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)`    |                            |
+#### 1.1 NeoPixel(Pin( ),  )
+| **Syntax**          | **Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Define the initialization function for the light strip.      |  
-| **Syntax**          | **Object = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)**      |   
 | **Parameters**      | **NEOPIXEL_PIN**: User defined LED strip occupying pins.   |  
 |                     | **PIXELS_NUM**: Users can choose the number of light beads they want to turn on. |
 | **Return**          | **None    |  
 
 
-
-| `Object.brightness(value)`    |                            |
+#### 1.2 brightness( )
+| **Syntax**          | **Object.brightness(value)**       |   
 | :--------------     | :--------------------      |
 | **Description**     | Set the brightness of the light.      |  
-| **Syntax**          | **Object.brightness(value)**       |   
 | **Parameters**      | **value:**The brightness of the lamp.   |  
 | **Return**          | The level that varies over time.    |  
 
 
 
-
-| `Object[num] = (R,G,B)`    |                            |
+#### 1.3 LED Color
+| **Syntax**          | **Object[num] = (R,G,B)**       |   
 | :--------------     | :--------------------      |
 | **Description**     | Set the color of the light.     |  
-| **Syntax**          | **Object[num] = (R,G,B)**       |   
 | **Parameters**      | **num: **The number of the lamp.   |  
 |                     | **R, G, B: **The numerical values of the three primary colors required for the mixing of light beads. |
 | **Return**          | Color that changes with the function.    |  
 
 
 
-
-| `Object.range_color(num.start,num.end,color)`    |                            |
+#### 1.4 range_color( )
+| **Syntax**          | **Object.range_color(num.start,num.end,color)**       |   
 | :--------------     | :--------------------      |
 | **Description**     | Set a range of LED lights on.      |  
-| **Syntax**          | **Object.range_color(num.start,num.end,color)**       |   
 | **Parameters**      | **num.start, num.end: **The range within which the light bulb is illuminated.   | 
 |                     | **color: **The color of the light bead is displayed in hexadecimal. |
 | **Return**          | The level that changes with the range.    |  
 
 
 
-
-| `Object.shift(num)`    |                            |
+#### 1.5 shift( )
+| **Syntax**          | **Object.shift(num)**       |   
 | :--------------     | :--------------------      |
 | **Description**     | Turn off the light beads in sequence. When the last light moves, the last light goes out.      |  
-| **Syntax**          | **Object.shift(num)**       |   
 | **Parameters**      | **num:**The number of light beads turned off each time.   |  
 | **Return**          | The level that varies over time.    |  
 
 
-| `Object.rotate(num)`    |                            |
+#### 1.6 rotate( )
+| **Syntax**          | **Object.rotate(num)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Cycle lighting of LED beads. When the last position of the light moves, the last position of the light moves to the first position, and the cyclic movement is suitable for creating a rotating halo.      |  
-| **Syntax**          | **Object.rotate(num)**      |   
 | **Parameters**      | **num:**The number of beads per cycle.   |  
 | **Return**          | The level that varies over time.   |  
 
 
-
-| `Object.rainbow(LEDs,LED number,beginHue,color)`    |                            |
+#### 1.7 rainbow( )
+| **Syntax**          | **Object.rainbow(LEDs,LED number,beginHue,color)**      |   
 | :--------------     | :--------------------      |
 | **Description**     | Control the light strip to display rainbow colors. Set a light strip as a gradient color, with a range of values as shown in the table below:![image.png](img/4_LED_Strip/1723099872034-38bef14c-28d6-4e94-8dba-5058bd425519.png)      |  
-| **Syntax**          | **Object.rainbow(LEDs,LED number,beginHue,color)**      |   
 | **Parameters**      | **LEDs:**The LED type.   |  
 |                     | **LED number:** The number of LED. |
 |                     | **beginHue:** Initial color tone value. |

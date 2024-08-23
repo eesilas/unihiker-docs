@@ -1,18 +1,24 @@
 ### **Description**
 Digital signals are signals obtained by binary quantization of analog signals, and all pins on UNIHIKER support the output of this signal at a voltage level of 3.3V.
 ### **Common functions**
-| `Object.value()`    |                            |
+
+
+
+#### 1.1 value( )
+| **Syntax**          | **Object.value(v)**        |  
 | :--------------     | :--------------------      |
 | **Description**     | Output digital level.      |  
-| **Syntax**          | **Object.value(v)**        |  
 | **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
 | **Return**          | HIGH level or LOW level    |  
 
 
-| `Object.write_digital()`    |                       |
+
+
+
+#### 1.2 write_digital( )
+| **Syntax**          | **Object.write_digital(v)**   |  
 | :--------------     | :--------------------      |
 | **Description**     | Output digital level       |  
-| **Syntax**          | **Object.write_digital(v)**   |  
 | **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
 | **Return**          | HIGH level or LOW level    |  
 
