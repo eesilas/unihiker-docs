@@ -154,7 +154,7 @@ extra_css:
 
 nav:
   - HOME: https://www.unihiker.com/
-  - Contents: 
+  - WIKI: 
     - index.md 
     - 🚩 Getting Started: 
       - Getting Started: wiki/get-started.md
@@ -285,7 +285,7 @@ nav:
         - OS Image Guide: wiki/SystemAndConfiguration/unihiker_os_image.md
         - Burning Guide: wiki/SystemAndConfiguration/unihiker_os_burn.md
     - 🔧 Troubleshooting: 
-      - Troubleshooting Index: wiki/faq.md
+      - 📑Troubleshooting Index: wiki/faq.md
       - Error firmware version self boardname KeyError: wiki/Troubleshooting/Error_firmware_version_self_boardname__KeyError_.md
       - Error NoneType object has no attribute boardname : wiki/Troubleshooting/Error_NoneType_object_has_no_attribute_boardname_.md
       - Error python3 can't open file : wiki/Troubleshooting/Error_python3__can_t_open_file_.md
