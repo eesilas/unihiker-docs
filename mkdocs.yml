@@ -166,6 +166,7 @@ nav:
       - SSH Tools: wiki/GettingStarted/gettingstarted_ssh.md
     - 🌟 Examples:
       - Python Coding Examples:
+        - Coding Examples Index: wiki/PythonCodingExamples/index.md
         - Basic Examples:
           - 1.Hello,Unihiker: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md
           - 2.System Time: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_system_time.md
@@ -207,7 +208,9 @@ nav:
             - 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
             - 10.IoT Smart Home: wiki/Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
     - 📜 Language Reference:
+      - Reference Index: wiki/LanguageReference/index.md
       - Part1 UNIHIKER Libs:
+        - UNIHIKER Libs Index: wiki/LanguageReference/Part1UNIHIKER/index.md
         - Screen Display:
           - 1.draw_text(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
           - 2.draw_digit(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_digit.md
@@ -234,7 +237,8 @@ nav:
         - Audio Class:
           - 1.Recording Audio(record): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_recording_audio_record.md
           - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_audio_playback_play.md
-      - Part2 Pinpong Libs:
+      - Part2 PinPong Libs:
+        - PinPong Libs Index: wiki/LanguageReference/Part2PinPong/index.md
         - Function Onboard:
           - 1.L LED: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
           - 2.Button A and Button B: wiki/LanguageReference/Part2PinPong/FunctionOnboard/2_Button_A_and_Button_B.md
