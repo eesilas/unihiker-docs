@@ -28,6 +28,7 @@ Additionally, a text box displays the name of the currently playing note, allowi
 from pinpong.extension.unihiker import *
 from pinpong.board import Board,Pin
 from unihiker import GUI
+import time
 
 # Event callback function
 def button_click1():
@@ -88,7 +89,7 @@ bian5=u_gui.fill_rect(x=50,y=257,w=80,h=30,color="#000000",onclick=button_click1
 
 
 while True:
-    pass
+    time.sleep(1)
 ```
 ## **Demo Effect**
 ![18.2.gif](img/18.Digital Piano/1717471136431-517a5898-d799-4ff9-a4bb-6eece70bdc05.gif){width=500, style="display:block;margin: 0 auto"}  

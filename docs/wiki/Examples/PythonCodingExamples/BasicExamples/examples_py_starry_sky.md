@@ -9,8 +9,9 @@ This project utilizes UNIHIKER to display specified images on top of UNIHIKER, a
 
 ## **Code**
 
-In this example, we first instantiate an object using the GUI() class. Then, this object is passed to the draw_image() function along with the "Galaxy.png" image. Additionally, a print() function is bound to this object using a callback function. It is important to note: 
-The background image must be named "Galaxy.png" and should be located in the same directory as this code.  
+In this example, we first instantiate an object using the GUI() class. Then, this object is passed to the draw_image() function along with the "Galaxy.png" image. Additionally, a print() function is bound to this object using a callback function. 
+> It is important to note: 
+> The background image must be named "Galaxy.png" and should be located in the same directory as this code.  
 
 ```python
 from unihiker import GUI

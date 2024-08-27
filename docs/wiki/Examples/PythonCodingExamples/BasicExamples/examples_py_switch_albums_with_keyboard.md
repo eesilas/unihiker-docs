@@ -18,7 +18,6 @@ Next, define two callback functions to handle the click events of keys A and B. 
   
     ![image.png](img/12.Switch albums with keyboard/1720429850230-ad8cbf9c-7593-4bd6-a516-53a7cf97ba74.png){width=400, style="display:block;margin: 0 auto"}   
 
-    ·You can also operate by plugging a keyboard into the Type-A port of UNIHIKER.  
     
 ```python
 #  -*- coding: UTF-8 -*-
@@ -59,7 +58,7 @@ gui.on_b_click(on_buttonb_click_callback)
 while True:
     # Increased wait to prevent program exit and jamming
     time.sleep(1)
-    pass
+
 ```  
 
 ## **Demo Effect**

@@ -8,8 +8,9 @@ Using UNIHIKER's digital font display function, it is possible to showcase digit
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
 
 ## **Code**
-In order to display a simulated digital clock on the screen using the UNIHIKER library, the initial step is to create a GUI object. Then, the draw_digit() function of the GUI object is used to generate a text object, with the strftime() function from the time library (which is a function of the Time class used to format the current time) passed as the text parameter in draw_digit(). This text object is continuously refreshed in a while True loop using the config() function, where the text parameter of the config() function is set to strftime.
-Tips: Once connected to the network with UNIHIKER, the system time will automatically synchronize with the network.  
+In order to display a simulated digital clock on the screen using the UNIHIKER library, the initial step is to create a GUI object. Then, the draw_digit() function of the GUI object is used to generate a text object, with the strftime() function from the time library (which is a function of the Time class used to format the current time) passed as the text parameter in draw_digit(). This text object is continuously refreshed in a while True loop using the config() function, where the text parameter of the config() function is set to strftime.  
+
+> Tips: Once connected to the network with UNIHIKER, the system time will automatically synchronize with the network.  
 
 ```python
 from unihiker import GUI

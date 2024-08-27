@@ -1,5 +1,5 @@
 ## **Project Introduction**
-In this project, the add_button function from the GUI class was utilized to demonstrate the creation of buttons on the touch screen of the Unihiker. The first button will display its state upon clicking, while the second button hides all text.  
+In this project, use the add_button function of the GUI class to demonstrate creating buttons on the Unihiker touch screen, and use the config function to update button status and move button position.
 
 ![555.gif](img/5. Interactive Button Screen/1720429015598-a3c53f0c-eb47-4375-aa28-b296b760d686.gif){width=300, style="display:block;margin: 0 auto"}   
 
@@ -10,37 +10,40 @@ In this project, the add_button function from the GUI class was utilized to demo
 
 ## **Code** 
 
-In this example, two buttons were created using the add_button function. Each button is assigned its respective callback function, "A" and "B". In function "A", the text of the first button is updated to "BtnA is Clicked", while the text of the second button remains unchanged. In function "B", both buttons have their text cleared, as demonstrated in the Demo effect section.    
+In this example, two buttons are created using the add_button function. Each button is assigned its own callback functions "A" and "B". In function "A", each call flips the status of button B, updates the text and resets the button position. In function "B", button B is moved off the screen to achieve a temporary hiding effect.
 
 ```python
-
 from unihiker import GUI
 import time
 
 #Instantiate a GUI object.
 u_gui=GUI()
 
-while True:
-    
-	# Callback function
-    def A():
-        #When button A clicked, onclick disabled 
-        u_gui.add_button(text="BtnA is Clicked",x=25,y=100,w=190,h=40)
-        u_gui.add_button(text="hide",x=25,y=170,w=190,h=40,onclick=B)
-     
-    def B():
-        
-        #Click button B clicked, text removed and onclick disabled 
-        u_gui.add_button(text="",x=25,y=100,w=190,h=40,onclick=A)
-        u_gui.add_button(text="",x=25,y=170,w=190,h=40)
+#Variable
+button_state = "normal"
 
-    #Create buttons with text; set their size, location and callback functions 
-    u_gui.add_button(text="Click",x=25,y=100,w=190,h=40,onclick=A)
-    u_gui.add_button(text="Hide",x=25,y=170,w=190,h=40,onclick=B)
-    while True:
-        
-        #Prevent the program from exiting or getting stuck
-        time.sleep(0.1)
+# Callback function
+def A():
+    global button_state
+    if button_state == "normal":
+        button_state = "disabled"
+    else:
+        button_state = "normal"
+
+    #Move the button off the screen
+    buttonB.config(x=25,text="BtnA is Clicked",state=button_state)
+
+def B():
+    #Move the button off the screen
+    buttonB.config(x=240)
+
+#Create buttons with text; set their size, location and callback functions 
+buttonA = u_gui.add_button(text="State",x=25,y=100,w=190,h=40,onclick=A)
+buttonB = u_gui.add_button(text="Move",x=25,y=170,w=190,h=40,onclick=B)
+while True:
+
+    #Prevent the program from exiting or getting stuck
+    time.sleep(0.1)
 ```  
 
 ## **Demo Effect**

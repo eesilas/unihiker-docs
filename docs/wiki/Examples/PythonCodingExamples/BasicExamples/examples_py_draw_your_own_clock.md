@@ -9,8 +9,8 @@ Using the screen display function of the line air board, it is possible to creat
 
 ## **Code**
 
-To display a clock on the UNIHIKER screen, follow these steps: first, use the instantiated GUI object to invoke the draw_clock() function and create a circle. Next, call draw_emoji() to place a winking emoji inside the circle. Continuously update the time parameter within the GUI object in the while loop. Calling fill_clock() will fill the clock with the chosen color.  
-
+Use draw_clock() and fill_clock() to draw two clocks, then use config() to update the time, the time comes from the system time of UNIHIKER.  
+>Note: UNIHIKER will automatically obtain the NTP time after connecting to the network. If the time zone does not match the current one, you need to adjust the time zone settings.
 
 ```python
 from unihiker import GUI

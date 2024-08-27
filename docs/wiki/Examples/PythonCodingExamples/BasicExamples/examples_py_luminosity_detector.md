@@ -11,7 +11,7 @@ UNIHIKER is equipped with a light sensor positioned above the front screen, enab
 ## **Code**
 In this example, UNIHIKER is initialized with Board().begin(). Then, a GUI object is instantiated and an image object and a text object are created using the draw_image() and draw_text() methods, respectively. In the main loop, the intensity of ambient light is obtained using the light.read() method from the PinPong library, and the light value is displayed on the screen using the draw_text() method from the GUI library. Additionally, the ambient light intensity is divided into four levels on average, and different brightness levels of small lamp background images are displayed on the screen using the draw_image() method from the GUI library under different light conditions.  
 
-**Note:** Put the photo materials in the same directory as this code.  
+> Note: Put the photo materials in the same directory as this code.  
 
 ```python 
 from unihiker import GUI
@@ -34,7 +34,7 @@ while True :
     value.config(text = Light)
     
     # Light value level
-    if 0 <= Light < 1024:
+    if Light < 1024:
         img.config(image='light-2.png')
     elif 1024 <= Light < 2048:
         img.config(image='light-3.png')

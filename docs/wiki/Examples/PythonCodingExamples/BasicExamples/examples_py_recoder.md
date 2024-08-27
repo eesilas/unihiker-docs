@@ -28,6 +28,9 @@ import time
 # Instantiate a GUI object
 gui=GUI()
 
+# Instantiate a Audio object
+audio = Audio()
+
 # Create a text object
 text=gui.draw_text(text="Please prepare to start recording...",x=120,y=160,font_size=10, color="#000000",origin="center")
 time.sleep(1.5)
@@ -38,9 +41,6 @@ time.sleep(1)
 text.config(text="1")
 time.sleep(1)
 text.config(text="recording",font_size=15)
-
-# Instantiate a Audio object
-audio = Audio()
 
 # Record 3 seconds
 audio.record("hello.wav",3)
@@ -66,6 +66,9 @@ import time
 # Instantiate a GUI object
 gui=GUI()
 
+# Instantiate a Audio object
+audio = Audio()
+
 # Create a text object
 text=gui.draw_text(text="Please prepare to start recording...",x=120,y=160,font_size=10, color="#000000",origin="center")
 time.sleep(1.5)
@@ -76,9 +79,6 @@ time.sleep(1)
 text.config(text="1")
 time.sleep(1)
 text.config(text="recording",font_size=15)
-
-# Instantiate a Audio object
-audio = Audio()
 
 # Start recording
 audio.start_record("hello.wav")

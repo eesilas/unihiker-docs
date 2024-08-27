@@ -30,11 +30,13 @@ while True:
     # output high level voltage
     # led.value(1)		# Method 1
     led.write_digital(1)	# Method 2
+    print("on")
     time.sleep(1)
 
     # output low level voltage
     # led.value(0)		# Method 1
     led.write_digital(0)	# Method 2
+    print("off")
     time.sleep(1)
 ```  
 
