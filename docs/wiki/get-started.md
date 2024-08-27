@@ -17,7 +17,7 @@ Select your preferred choice and continue with the quickstart.
 - [**SSH Tools** - Python](GettingStarted/gettingstarted_ssh.md)
 
 Frequently Asked Questions:    
-- [How to configure UNIHIKER to connect to WiFi?](SystemAndConfiguration/system_and_configuration_local_web_page.md)  
+- [How to configure UNIHIKER to connect to WiFi?](Troubleshooting/How_to_connect_wifi.md)  
 - [How does UNIHIKER run programs when not connected to a computer?](SystemAndConfiguration/system_and_configuration_home_menu.md)  
 
 
