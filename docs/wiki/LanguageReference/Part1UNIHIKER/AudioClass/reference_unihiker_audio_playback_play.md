@@ -42,7 +42,7 @@
 
 
 
-## **1.6 play_time_remain**()**
+## **1.6 play_time_remain()**
 | **Syntax**          | **Audio.play_time_remain()**    |   
 | :--------------     | :--------------------      |
 | **Description**     | Obtain the remaining duration of the music   |  

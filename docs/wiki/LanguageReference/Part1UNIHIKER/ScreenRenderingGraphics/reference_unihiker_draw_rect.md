@@ -1,5 +1,5 @@
 ### **Description**
-Showing rectangle on UNIHIKER screen
+Create a rectangle on UNIHIKER screen
 ### **Syntax**
 **GUI.draw_rect(x, y, w, h, width, color , onclick)**
 ### **Parameters**

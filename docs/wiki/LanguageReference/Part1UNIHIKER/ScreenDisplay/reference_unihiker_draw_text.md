@@ -1,18 +1,19 @@
 ### **Description**
-Showing text on the UNIHIKER screen
+Create a text object on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.draw_text(x, y, w, text, color, origin, onclick, font_family,font_size,angle)**
 ### **Parameters**
-**x:** The x-coordinate where the text is displayed on the UNIHIKER screen. 
-**y:** The y-coordinate where the text is displayed on the UNIHIKER screen. 
-**w:** The width of the text displayed on the UNIHIKER screen. If the text exceeds this width, it will automatically wrap to the next line. This parameter is optional. 
-**text:** The content to be displayed on the screen. 
-**color:** The color of the text. 
-**origin:** The alignment position. Default is the top-left corner. 
-**onclick:** The callback function triggered when the object is clicked. 
-**font_family:** The font type of the text. 
-**font_size:** The font size of the text. 
-**angle:** The rotation angle of the text.  
+- **x:** The x-coordinate where the text is displayed on the UNIHIKER screen. 
+- **y:** The y-coordinate where the text is displayed on the UNIHIKER screen. 
+- **w:** The width of the text displayed on the UNIHIKER screen. If the text exceeds this width, it will automatically wrap - to the next line. This parameter is optional. 
+- **text:** The content to be displayed on the screen. 
+- **color:** The color of the text. 
+- **origin:** The alignment position. Default is the top-left corner. 
+- **onclick:** The callback function triggered when the object is clicked. 
+- **font_family:** The font type of the text. 
+- **font_size:** The font size of the text. 
+- **angle:** The rotation angle of the text.  
 ### **Return**
 **Text object
 ### **Example Description**

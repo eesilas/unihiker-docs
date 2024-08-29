@@ -1,5 +1,5 @@
 ### **Description**
-Showing circle on the UNIHIKER screen
+Create a circle on the UNIHIKER screen
 ### **Syntax**
 **GUI.draw_circle(x, y, r, width, color, onclick)**
 ### **Parameters**

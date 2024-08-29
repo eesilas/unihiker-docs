@@ -1,14 +1,15 @@
 ### **Description**
-Showing QR code on the UNIHIKER screen
+Create a QR code on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.draw_qr_code(x, y, w, text, origin, onclick)**
 ### **Parameters**
-**x**:  The x-coordinate where the QR code is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the QR code is displayed on the UNIHIKER screen.  
-**w**:  The side length of the QR code.  
-**text**:  The content obtained after scanning the QR code.  
-**origin**:  The alignment position. Default is the top-left corner. 
-**onclick**:  The callback function triggered when the QR code is clicked.  
+- **x**:  The x-coordinate where the QR code is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the QR code is displayed on the UNIHIKER screen.  
+- **w**:  The side length of the QR code.  
+- **text**:  The content obtained after scanning the QR code.  
+- **origin**:  The alignment position. Default is the top-left corner. 
+- **onclick**:  The callback function triggered when the QR code is clicked.  
 ### **Return**
 **QR code object
 ### **Example Description**

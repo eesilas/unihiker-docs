@@ -1,5 +1,6 @@
 ### **Description**
-Showing line on the UNIHIKER screen
+Create a line on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.draw_line(x0, y0, x1, y1, width, color, onclick)**
 ### **Parameters**

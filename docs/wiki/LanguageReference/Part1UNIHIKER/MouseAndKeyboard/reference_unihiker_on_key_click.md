@@ -2,7 +2,7 @@
 
 | **Syntax**          | **GUI.on_a_click(Name of the callback function)**    |   
 | :--------------     | :--------------------      |
-| **Description**     | Showing key 'A' clicks on the UNIHIKER board   |  
+| **Description**     | Listen for key 'A' clicks events.  |  
 | **Parameters**      | Name of the callback function  |  
 | **Return**          | **None  |  
 
@@ -10,7 +10,7 @@
 ## **2.2 on_b_click( )**
 | **Syntax**          | **GUI.on_b_click(Name of the callback function)**    |   
 | :--------------     | :--------------------      |
-| **Description**     | Showing key 'B' clicks on the UNIHIKER board   |  
+| **Description**     | Listen for key 'B' clicks events.   |  
 | **Parameters**      | Name of the callback function  |  
 | **Return**          | **None  |  
 
@@ -19,7 +19,7 @@
 ## **2.3 on_key_click()**
 | **Syntax**          | **GUI.on_key_click(Key name, callback function name)**    |   
 | :--------------     | :--------------------      |
-| **Description**     | Showing key clicks on the UNIHIKER board   |  
+| **Description**     | Listen for key clicks events.   |  
 | **Parameters**      | Name of the callback function  |  
 | **Return**          | **None  |  
 
@@ -28,7 +28,7 @@
 ## **2.4 wait_a_click()   wait_b_click()**
 | **Syntax**          | **GUI.wait_a_click()  GUI.wait_b_click()**    |   
 | :--------------     | :--------------------      |
-| **Description**     | Waiting for key A/B to be pressed   |  
+| **Description**     | Waiting  until key A/B to be pressed   |  
 | **Parameters**      | Key name, callback function name.  |  
 | **Return**          | **None  |  
 
@@ -42,7 +42,7 @@ In this simple example, our objective is to utilize the A and B buttons position
 
 ## **Example Code**
 Instantiate an object of the GUI class within the UNIHIKER class. Define a callback function to display information that appears after pressing the button. Then, use the object to call the on_key_click() function to handle button press events and bind the callback function to display the information on Mind+.
-Note: The UNIHIKER has three buttons on its side: A and B buttons on the right and a HOME button on the left. Therefore, the UNIHIKER supports the key functions for A and B buttons only. If using a different development model, please adjust the code accordingly.  
+Note: The UNIHIKER has three buttons on its side: A and B buttons on the right and a HOME button on the left. Therefore, the UNIHIKER supports the key functions for A and B buttons only.You can press the space bar to test when using an external USB keyboard or remote desktop.
 
 ```python
 from unihiker import GUI   # Import the package

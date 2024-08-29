@@ -1,5 +1,5 @@
 ### **Description**
-Showing solid rectangle on the UNIHIKER screen
+Create a solid rectangle on the UNIHIKER screen
 ### **Syntax**
 **GUI.fill_rect(x, y, w, h, color , onclick)**
 ### **Parameters**

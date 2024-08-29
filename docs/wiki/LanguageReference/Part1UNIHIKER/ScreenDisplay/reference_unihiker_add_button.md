@@ -1,15 +1,16 @@
 ### **Description**
-Showing button on the UNIHIKER screen
+Create a button on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.add_button(x, y, w, h, text, origin, state,onclick)**
 ### **Parameters**
-**x**:  The x-coordinate where the button is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the button is displayed on the UNIHIKER screen.  
-**w**:  The width of the button displayed on the UNIHIKER screen.  
-**h**:  The height of the button displayed on the UNIHIKER screen.  
-**text**:  The text displayed on the button.  
-**origin**:  The origin point position of the entire object. Default position is the top-left.  
-**State：** The button's enable/disable state. Set to "disabled" to make the button unclickable, or "normal" to restore its normal clickable state.  
+- **x**:  The x-coordinate where the button is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the button is displayed on the UNIHIKER screen.  
+- **w**:  The width of the button displayed on the UNIHIKER screen.  
+- **h**:  The height of the button displayed on the UNIHIKER screen.  
+- **text**:  The text displayed on the button.  
+- **origin**:  The origin point position of the entire object. Default position is the top-left.  
+- **State：** The button's enable/disable state. Set to "disabled" to make the button unclickable, or "normal" to restore its normal clickable state.  
 **onclick**:  The callback function triggered when the button is clicked.  
 ### **Return**
 **Button object
@@ -46,6 +47,10 @@ while True:
   
 **Program Effect:**  
 ![image.png](img/8.add_button()/1718951390448-04c2a276-1eb6-42d4-b9c8-109a1da512b1.png){width=300, style="display:block;margin: 0 auto"}  
+
+### **Notes and Warnings**
+- In the onclick callback function, the GUI does not refresh, and only refreshes after the GUI ends. If you need to refresh in the function, you should start a thread with the lambda:gui.start_thread(function_name) in onclick.
+- Since draw_image also has onclick, if you need a more aesthetically pleasing button, you can implement it using draw_image.
 
 ---  
 

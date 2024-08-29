@@ -1,18 +1,19 @@
 ### **Description**
-Showing fill clock on the UNIHIKER screen
+Create a fill clock on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.fill_clock(x, y, r, h, m, s, color,fill,style, onclick)**
 ### **Parameters**
-**x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
-**r**:  The radius of the clock.  
-**h**:  The hours displayed on the clock.  
-**m**:  The minutes displayed on the clock.  
-**s**:  The seconds displayed on the clock.  
-**color**:  The border colour of the clock.  
-**fill**:  The fill colour of the clock.  
-**style**:  The preset mode, with two options currently available: "dark" and "light".  
-**onclick**:  The callback function triggered when the clock is clicked.  
+- **x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
+- **r**:  The radius of the clock.  
+- **h**:  The hours displayed on the clock.  
+- **m**:  The minutes displayed on the clock.  
+- **s**:  The seconds displayed on the clock.  
+- **color**:  The border colour of the clock.  
+- **fill**:  The fill colour of the clock.  
+- **style**:  The preset mode, with two options currently available: "dark" and "light".  
+- **onclick**:  The callback function triggered when the clock is clicked.  
 ### **Return**
 **Fill clock object
 ### **Example Description**

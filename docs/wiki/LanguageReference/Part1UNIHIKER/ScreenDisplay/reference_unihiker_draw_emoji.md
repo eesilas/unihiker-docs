@@ -1,16 +1,17 @@
 ### **Description**
-Showing emoji on the UNIHIKER screen
+Create an emoji on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.draw_emoji(x, y, w, h, emoji,duration,origin,onclick)**
 ### **Parameters**
-**x**:  The x-coordinate where the emoji is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the emoji is displayed on the UNIHIKER screen.  
-**w**:  The width of the emoji displayed on the UNIHIKER screen.  
-**h**:  The height of the emoji displayed on the UNIHIKER screen.  
-**emoji**:  The name of the emoji. You can use built-in emojis (Angry, Nerve, Peace, Shock, Sleep, Smile, Sweat, Think, Wink) or provide the path to a custom emoji image (in the format "name-number.png").  
-**duration**:  The interval time for switching images.  
-**origin**:  The alignment position. Default is the top-left corner. 
-**onclick**:  The callback function triggered when the object is clicked.  
+- **x**:  The x-coordinate where the emoji is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the emoji is displayed on the UNIHIKER screen.  
+- **w**:  The width of the emoji displayed on the UNIHIKER screen.  
+- **h**:  The height of the emoji displayed on the UNIHIKER screen.  
+- **emoji**:  The name of the emoji. You can use built-in emojis (Angry, Nerve, Peace, Shock, Sleep, Smile, Sweat, Think,Wink) or provide the path to a custom emoji image (in the format "name-number.png").  
+- **duration**:  The interval time for switching images.  
+- **origin**:  The alignment position. Default is the top-left corner. 
+- **onclick**:  The callback function triggered when the object is clicked.  
 ### **Return**
 **Emoji object
 ### **Example Description**

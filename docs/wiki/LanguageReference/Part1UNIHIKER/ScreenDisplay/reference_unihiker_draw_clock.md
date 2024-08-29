@@ -1,18 +1,18 @@
 ### **Description**
-Showing clock on the UNIHIKER screen  
+Create a clock on the UNIHIKER screen.  
 
 ### **Syntax**
 **GUI.draw_clock(x, y, r, h, m, s, color, onclick)**  
 
 ### **Parameters**
-**x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
-**r**:  The radius of the clock.  
-**h**:  The hours displayed on the clock.  
-**m**:  The minutes displayed on the clock.  
-**s**:  The seconds displayed on the clock.  
-**color**:  The colour of the clock.  
-**onclick**:  The callback function triggered when the clock is clicked.  
+- **x**:  The x-coordinate where the clock is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the clock is displayed on the UNIHIKER screen.  
+- **r**:  The radius of the clock.  
+- **h**:  The hours displayed on the clock.  
+- **m**:  The minutes displayed on the clock.  
+- **s**:  The seconds displayed on the clock.  
+- **color**:  The colour of the clock.  
+- **onclick**:  The callback function triggered when the clock is clicked.  
 ### **Return**
 **Clock object
 ### **Example Description**

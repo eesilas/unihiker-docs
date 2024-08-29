@@ -1,15 +1,16 @@
 ### **Description**
-Showing text with digital effect on the UNIHIKER screen
+Create a text with digital effect on the UNIHIKER screen.
+
 ### **Syntax**
 **GUI.draw_digit(x, y, text, color, onclick, origin, font_size)**
 ### Parameters
-**x**:  The x-coordinate where the text is displayed on the UNIHIKER screen.  
-**y**:  The y-coordinate where the text is displayed on the UNIHIKER screen.  
-**text**:  The content to be shown on the screen.  
-**color**:  The color of the text.  
-**onclick**:  The callback function triggered when the object is clicked.  
-**origin**:  The alignment position. Default is the top-left corner.  
-**font_size**:  The font size of the text.  
+- **x**:  The x-coordinate where the text is displayed on the UNIHIKER screen.  
+- **y**:  The y-coordinate where the text is displayed on the UNIHIKER screen.  
+- **text**:  The content to be shown on the screen.  
+- **color**:  The color of the text.  
+- **onclick**:  The callback function triggered when the object is clicked.  
+- **origin**:  The alignment position. Default is the top-left corner.  
+- **font_size**:  The font size of the text.  
 ### **Return**
 **digit object
 ### **Example Description**

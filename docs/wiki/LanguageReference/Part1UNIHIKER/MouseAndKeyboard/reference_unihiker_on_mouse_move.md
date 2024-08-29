@@ -1,5 +1,6 @@
 ### **Description**
-Showing mouse coordinates on the UNIHIKER screen
+Listen for mouse position movement (touch screen click) events.
+
 ### **Syntax**
 **GUI.on_mouse_move(Name of the callback function)**
 ### **Parameters**
@@ -13,7 +14,7 @@ In this simple example, our main goal is to display mouse coordinates at the bot
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)  
 
 ### **Example Code**
-Instantiate an object of the GUI class within the UNIHIKER class. Define a callback function to display text on the screen. Then, use the object to call the on_mouse_move() function to capture mouse coordinates and bind the callback function for displaying them on the screen.    
+Instantiate an object of the GUI class within the UNIHIKER class. Define a callback function to display text on the screen. Then, use the object to call the on_mouse_move() function to capture mouse coordinates (touch screen click) and bind the callback function for displaying them on the screen.    
 
 ```python
 from unihiker import GUI   # Import the package

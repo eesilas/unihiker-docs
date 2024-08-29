@@ -1,5 +1,5 @@
 ### **Description**
-Showing rounded rectangle on UNIHIKER screen
+Create a rounded rectangle on UNIHIKER screen
 ### **Syntax**
 **GUI.draw_round_rect(x, y, w, h, r, width, color , onclick)**
 ### **Parameters**

@@ -1,5 +1,5 @@
 ### **Description**
-Showing solid rounded rectangle on UNIHIKER screen
+Create a solid rounded rectangle on UNIHIKER screen
 ### **Syntax**
 **GUI.fill_round_rect(x, y, w, h, r,color , onclick)**
 ### **Parameters**
