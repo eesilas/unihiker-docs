@@ -19,7 +19,7 @@ In the main loop, we use the np[0] = (0, 255 ,0) function to change the color of
 # -*- coding: utf-8 -*-
 
 # Experimental effect: Control WS2812 single line RGB LED light
-# Wiring: Use a Windows or Linux computer to connect a blank board, and connect the ws2812 light to the p21 port
+# Wiring: Use a computer to connect a UNIHIKER, and connect the ws2812 light to the p21 port
 import time
 from pinpong.board import Board,Pin,NeoPixel
 
@@ -29,6 +29,7 @@ PIXELS_NUM = 7  # number of lights
 Board("UNIHIKER").begin()  # Initialize, select board type, do not input board type for automatic recognition
 
 np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)
+np.brightness(128) #0~255
 
 while True:
   np[0] = (0, 255 ,0)  # Set the RGB color of the first light
@@ -52,6 +53,7 @@ while True:
     time.sleep(1)
 
   np.clear()
+  time.sleep(1)
 ```
 ## **Demo Effect**
 ![2-480P[00h00m00s-00h00m07s].gif](img/2_Colourful_Light_Strip/1721282070837-c76388ff-0d8b-4a56-982b-593a09caea0b.gif)

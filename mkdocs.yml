@@ -203,11 +203,11 @@ nav:
             - 2.Speech Synthesis Assistant: wiki/Examples/PythonCodingExamples/AdvanceExamples/2_Speech_Synthesis_Assistant.md
             - 3.DIY Camera: wiki/Examples/PythonCodingExamples/AdvanceExamples/3_DIY_Camera.md
             - 4.Smart Home Monitoring: wiki/Examples/PythonCodingExamples/AdvanceExamples/4_Smart_Home_Monitoring.md
-            - 5.License Plate Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/5_License_Plate_Recognition.md
+            #- 5.License Plate Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/5_License_Plate_Recognition.md
             - 6.Color-Following Car: wiki/Examples/PythonCodingExamples/AdvanceExamples/6_Color_Following_Car.md
-            - 7.Text Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/7_Text_Recognition.md
-            - 8.QR Code Scanner: wiki/Examples/PythonCodingExamples/AdvanceExamples/8_QR_Code_Scanner.md
-            - 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
+            #- 7.Text Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/7_Text_Recognition.md
+            #- 8.QR Code Scanner: wiki/Examples/PythonCodingExamples/AdvanceExamples/8_QR_Code_Scanner.md
+            #- 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
             - 10.IoT Smart Home: wiki/Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
     - 📜 Language Reference:
       - Part1 UNIHIKER Libs:

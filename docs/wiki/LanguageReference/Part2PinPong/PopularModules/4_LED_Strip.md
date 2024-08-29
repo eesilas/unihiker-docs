@@ -85,7 +85,7 @@ In this example, the UNIHIKER is first initialized with Board().begin(). Then, w
 # -*- coding: utf-8 -*-
 
 # Experimental effect: Control WS2812 single line RGB LED light
-# Wiring: Use a Windows or Linux computer to connect a blank board, and connect the ws2812 light to the p21 port
+# Wiring: Use a Windows or Linux computer to connect a UNIHIKER, and connect the ws2812 light to the p21 port
 import time
 from pinpong.board import Board,Pin,NeoPixel
 

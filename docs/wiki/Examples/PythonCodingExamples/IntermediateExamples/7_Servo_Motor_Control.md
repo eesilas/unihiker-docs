@@ -5,6 +5,12 @@ UNIHIKER is equipped with a microcontroller responsible for controlling onboard 
 This project uses the s1 = Servo(Pin(Pin.P21)) method in the PinPong library of Python to control the servo externally connected through side pins of the board. We control the output level to drive the rotation of the servo by clicking the virtual button on UNIHIKER.
 Here is an example of using UNIHIKER for servo drive. 
 ![7-480P[00h00m00s-00h00m09s].gif](img/7_Servo_Motor_Control/1721282400646-f2a0a9fc-93d4-439b-9b88-5a1d26b0de8a.gif)
+
+
+!!! note
+    The UNIHIKER is equipped with a ph2.0 pitch interface. If your servo motor uses a 2.54mm pitch head, you can use [this cable](https://www.dfrobot.com/product-2551.html) for conversion.
+    The interface on the UNIHIKER can only connect to one 9g mini servo motor. Do not connect it to a standard servo motor or a metal servo motor to avoid destroying the UNIHIKER due to excessive power fluctuations.
+
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
@@ -22,7 +28,7 @@ In this example:
 # -*- coding: utf-8 -*-
 
 # Experimental effect: Servo control
-# Wiring: Use a computer to connect a UNIHIKER main control board and P10 to connect a servo motor
+# Wiring: Use a computer to connect a UNIHIKER and P10 to connect a servo motor
 import time
 from pinpong.board import Board,Pin,Servo
 from unihiker import GUI   

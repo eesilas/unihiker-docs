@@ -1,5 +1,5 @@
 ## **Project Introduction**
-In the previous example, we combined sensors with a single blank board to create multiple small devices. However, in real IoT scenarios, it is often necessary to collect data from various locations and consolidate it into a central platform for remote access. Therefore, in this example, we will use 2 UNIHIKERs to design a multi-node smart IoT furniture system and simulate a real IoT scenario.  
+In the previous example, we combined sensors with a single UNIHIKER to create multiple small devices. However, in real IoT scenarios, it is often necessary to collect data from various locations and consolidate it into a central platform for remote access. Therefore, in this example, we will use 2 UNIHIKERs to design a multi-node smart IoT furniture system and simulate a real IoT scenario.  
 
 In this project, you will need 2 UNIHIKERs connected to the same LAN segment as your computer. The second UNIHIKER will act as a server by opening the SIoT application separately. The humidity and temperature data detected by the first UNIHIKER will be displayed on its screen and also sent to the SIoT IoT platform on the second UNIHIKER. You will then subscribe to the messages received by the IoT platform on the second UNIHIKER and display the humidity and temperature data from the first UNIHIKER on its screen. Additionally, you will be able to control the on/off function of the LED lights on the first UNIHIKER through the second UNIHIKER.  
 
@@ -35,7 +35,7 @@ import time  # Import time library
 import siot  # Import the siot library
 
 '''Initialize the board and hardware'''
-Board().begin()  # Initialize the blank board
+Board().begin()  # Initialize the UNIHIKER
 led = Pin(Pin.P24, Pin.OUT)  # Pin initialization to level output
 dht11 = DHT11(Pin(Pin.P21))  # Initialize pin 21 to analog input mode
 

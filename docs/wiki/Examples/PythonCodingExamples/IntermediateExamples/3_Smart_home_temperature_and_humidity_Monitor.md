@@ -2,9 +2,9 @@
 In this section, we will utilize an external temperature sensor to monitor the temperature. When the temperature exceeds a certain value, an alarm will be triggered by the buzzer.
 UNIHIKER is equipped with a microcontroller that is responsible for controlling the onboard components and GPIO.   
 
-To accomplish this, we will use the dht11 = DHT11(Pin(Pin.P21)) method from the Python PinPong library to connect and control the temperature and humidity sensors externally through the I/O pins of the board.  
+To accomplish this, we will use the DHT11 Object from the Python PinPong library to connect and control the temperature and humidity sensors externally through the I/O pins of the board.  
 
-Here is an example of how to collect data from the sensors. If we want to trigger an alarm when the temperature is too high, we can use the onboard buzzer and call the buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground) method.
+Here is an example of how to collect data from the sensors. If we want to trigger an alarm when the temperature is too high, we can use the onboard buzzer and call the play() method.
 
 ![3-480P[00h00m00s-00h00m11s].gif](img/3_Smart_home_temperature_and_humidity_Monitor/1721282129667-b843eef5-b1de-46d4-a409-e866e7bb61f1.gif)
 ## **Hardware Required**
@@ -16,7 +16,7 @@ Here is an example of how to collect data from the sensors. If we want to trigge
 ## **Code**
 In this example：   
 
-- Initialize the pin using the dht11 = DHT11(Pin(Pin.P21)) method to connect and control the temperature and humidity sensors through the I/O pins.   
+- Initialize the pin using the dht11 = DHT11(Pin(Pin.P21)) Object to connect and control the temperature and humidity sensors through the I/O pins.   
 2. Initialize the screen image using the gui=GUI() method.  
 3. Trigger the buzzer to sound an alarm using the buzzer.play(buzzer.DADADADUM, buzzer.OnceInBackground) method.  
 4. Collect analog temperature values using the temp = dht11.temp_c() method.  
@@ -27,11 +27,10 @@ In this example：
 # -*- coding: utf-8 -*-
 
 # Experimental effect: Reading the DHT temperature and humidity sensor
-# Wiring: Use a computer to connect a UNIHIKER main control board, dht11 to P21, and dht22 to P22
+# Wiring: Use a computer to connect a UNIHIKER, dht11 to P21, and dht22 to P22
 import time
 from pinpong.board import Board,Pin,DHT11,DHT22
 from pinpong.extension.unihiker import *
-from pinpong.libs.dfrobot_analog_urm09 import ANALOG_URM09
 from unihiker import GUI  # Import unihiker library
 
 Board("UNIHIKER").begin()  # Initialize, select board type, do not input board type for automatic recognition

@@ -3,7 +3,7 @@ This project aims to connect an external USB camera to the UNIHIKER and utilize 
 
 In the first step, we will familiarize ourselves with the OpenCV library for reading video frames and saving images. This small project will provide us with a fundamental understanding of license plate recognition principles, and in the end, we will gain a basic understanding of the YOLO model.  
 
-The main process involves using the OpenCV library to read images from the external camera, resizing them to a resolution of 240x320, and displaying them on the line blank board screen. Then, specific recognition conditions are set, and by pressing button a, the recognize() function of the Recognition_plate module is called to identify the license plate numbers. For further customization, the functionalities and parameters of the OpenCV library can be explored.  
+The main process involves using the OpenCV library to read images from the external camera, resizing them to a resolution of 240x320, and displaying them on the line UNIHIKER screen. Then, specific recognition conditions are set, and by pressing button a, the recognize() function of the Recognition_plate module is called to identify the license plate numbers. For further customization, the functionalities and parameters of the OpenCV library can be explored.  
 
 ![image.png](img/5_License_Plate_Recognition/1722495720119-b538ad0c-b8fe-4ddf-850c-db580bdf1fef.png)  
 
@@ -15,7 +15,7 @@ The main process involves using the OpenCV library to read images from the exter
 ![](img/5_License_Plate_Recognition/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png){width=400， style="display:block;margin: 0 auto"}  
 
 ## **Code**
-To begin, the license plate recognition folder should be imported by dragging and dropping the Chineselyscense_plate_detection_decognition folder into the 'Files in the line blank board' folder. Next, the '0-Install_dependency.py' program file in the 'Chineselyscense_plate_detection_decognition' should be opened by double-clicking on it. Then, click the run button in the upper right corner and wait for automatic installation to complete. Finally, a new project file with the name "1-read_number_test.py" should be created in the same level directory as "0-Install_dependency.py".  
+To begin, the license plate recognition folder should be imported by dragging and dropping the Chineselyscense_plate_detection_decognition folder into the 'Files in the line UNIHIKER' folder. Next, the '0-Install_dependency.py' program file in the 'Chineselyscense_plate_detection_decognition' should be opened by double-clicking on it. Then, click the run button in the upper right corner and wait for automatic installation to complete. Finally, a new project file with the name "1-read_number_test.py" should be created in the same level directory as "0-Install_dependency.py".  
 
 Tip 1: Please refrain from modifying the folder path and leave it as it is (under root).  
 

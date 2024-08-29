@@ -2,7 +2,7 @@
 In this section, we simulate a plant humidity monitor through an external humidity sensor and GUI interface.
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external humidity sensor by Pin21.   
 
-This project uses the adc21 = ADC(Pin(Pin.P21)) method in the PinPong library of Python to control the humidity sensor externally connected through side pins of the board. The reason for using humidity sensor is that the humidity sensor transfers parameters by reading analog signals, and UNIHIKER processes the data.
+This project uses the ADC method in the PinPong library of Python to control the humidity sensor externally connected through side pins of the board. The reason for using humidity sensor is that the humidity sensor transfers parameters by reading analog signals, and UNIHIKER processes the data.
 Here is an example of simulating a plant humidity monitor by moisture sensor. 
 ![5-480P[00h00m00s-00h00m06s].gif](img/5_Plant_Moisture_Monitoring/1721282244324-ebb72198-b2f7-4a84-9c99-58dd2f46570c.gif)
 ## **Hardware Required**
@@ -15,8 +15,10 @@ Here is an example of simulating a plant humidity monitor by moisture sensor.
 We use the following image to simulate and beautify the GUI interface.
 ![plant.png](img/5_Plant_Moisture_Monitoring/1720405106239-2bbb6d5e-2b20-42f6-8d11-fc49a03473e2.png)  
 
-We can add this image to the project folder, just like the operation in the basic example. 
-Note: The image size is 320x240, and the length unit is px.
+We can add this image to the project folder,The file is named as "plant.png", just like the operation in the basic example. 
+
+>Note: The image size is 320x240, and the length unit is px.
+
 ## **Code**
 In this example:  
 
@@ -26,11 +28,10 @@ In this example:
 ```python
 # -*- coding: utf-8 -*-
 # Experimental effect: Simulate a plant humidity monitor through an external humidity sensor and GUI interface
-# Wiring: Use a Windows or Linux computer to connect a UNIHIKER main control board, Pin21 connects the humidity sensor
+# Wiring: Use a computer to connect a UNIHIKER, Pin21 connects the humidity sensor
 import time
-from pinpong.board import Board,Pin,ADC,DHT11  # Import ADC class to implement analog input
+from pinpong.board import Board,Pin,ADC  # Import ADC class to implement analog input
 from pinpong.extension.unihiker import *
-from pinpong.libs.dfrobot_analog_urm09 import ANALOG_URM09
 from unihiker import GUI  # Import unihiker library
 
 Board("UNIHIKER").begin()  # Initialize, select board type, do not input board type for automatic recognition
@@ -38,15 +39,17 @@ Board("UNIHIKER").begin()  # Initialize, select board type, do not input board t
 # Analog pin P0 P1 P2 P3 P4 P10 P21 P22
 gui=GUI()
 
-adc21 = ADC(Pin(Pin.P21))
 img = gui.draw_image(x=0,y=0,w=240, h=320, image='plant.png')  # Display initial background image as car1
 txt=gui.draw_text(text="Plant Moisture Monitoring",x=120,y=50,font_size=12,origin="center",color="#0000FF")
 txt=gui.draw_text(text="soil moisture:",x=80,y=140,font_size=12,origin="center",color="#0000FF")
 value = gui.draw_text(x=150, y=125, text='0', font_size=15)  # Display initial distance value
 
+adc21 = ADC(Pin(Pin.P21))
+
 while True:
-  print("P21=", adc21.read())
-  value.config(text = adc21.read())  # Update display distance value
+  val = adc21.read()
+  print("P21=",val)
+  value.config(text = val)  # Update display distance value
   time.sleep(0.5)
 ```
 ## **Demo Effect**

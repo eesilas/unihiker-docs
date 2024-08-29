@@ -2,7 +2,7 @@
 In this part, we will use PWM method to achieve a blinking LED.
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO. Based on this functionality, we can control the external LED by Pin21 which can outputs PWM wave.   
 
-This project uses the PWM(Pin(Pin.P21)).duty(value) method in the PinPong library of Python to control a green LED externally connected through side pins of the board.
+This project uses the duty(value) method in the PinPong library of Python to control a green LED externally connected through side pins of the board.
 Here is an example of controlling the LED to blink.
 ![1-480P[00h00m00s-00h00m08s].gif](img/1_Blinking_LED/1721281953342-11e21fcb-a964-4e9c-b9a7-63b0c799e321.gif)
 ## **Hardware Required**
@@ -21,7 +21,7 @@ In the main loop, we use the range() function to generate a loop array and then 
 # -*- coding: utf-8 -*-
 
 #Experimental effect: Using PWM wave to control LED breathing light
-#Wiring: Use a Windows or Linux computer to connect a blank board, and P21 to connect an LED light module
+#Wiring: Use a computer to connect a UNIHIKER, and P21 to connect an LED light module
 import time
 from pinpong.board import Board,Pin,PWM #Import PWM class to achieve analog output
 

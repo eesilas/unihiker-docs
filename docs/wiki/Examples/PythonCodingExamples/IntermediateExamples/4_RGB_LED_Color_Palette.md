@@ -2,8 +2,8 @@
 In this section, we used an external knob and an external adjustable color LED to achieve a RGB LED colour palette.
 UNIHIKER is equipped with a microcontroller responsible for controlling onboard components and GPIO.   
 
-Based on this functionality, we can control the external RGB LED by Pin22. At the same time, we control the LED by an external knob whose function is adc21 = ADC(Pin(Pin.P21)). This project uses the NEOPIXEL_PIN = Pin.P22 method in the PinPong library of Python to control the RGB LED externally connected through side pins of the board. 
-Here is an example of controlling the konb to change the colour of the RGB LED. 
+Based on this functionality, we can control the external RGB LED by Pin22. At the same time, we use the ADC class to obtain the value of the external knob to control the LED. This project uses the NeoPixel method in the PinPong library of Python to control the RGB LED externally connected through side pins of the board. 
+Here is an example of controlling the rotation potentiometer to change the colour of the RGB LED. 
 ![4-480P[00h00m00s-00h00m09s].gif](img/4_RGB_LED_Color_Palette/1721282199734-6852abbc-134f-4a70-8f8c-30b78ffa79d3.gif)
 ## **Hardware Required**
 
@@ -23,7 +23,7 @@ In this example：
 ```python
 # -*- coding: utf-8 -*-
 # Experimental effect: Implement knob control over RGB LED lights
-# Wiring: Use a Windows or Linux computer to connect a UNIHIKER main control board, Pin21 connects knob, Pin22 connects light
+# Wiring: Use a computer to connect a UNIHIKER, Pin21 connects knob, Pin22 connects light
 import time
 from pinpong.board import Board,Pin,ADC,NeoPixel  # Import ADC class to implement analog input
 
@@ -37,11 +37,10 @@ np = NeoPixel(Pin(NEOPIXEL_PIN), PIXELS_NUM)
 adc21 = ADC(Pin(Pin.P21))
 
 while True:
-  print("P21=", adc21.read())
-  print("------------------")
-  time.sleep(0.5)
-  
   i = adc21.read()
+  print("P21=",i)
+  print("------------------")
+  
   if i >= 0 and i <= 512:
      np[0] = (0, 0, 0)
   elif i > 512 and i <= 1024:
@@ -58,6 +57,7 @@ while True:
      np[0] = (255, 255, 0)
   else:
      np[0] = (255, 255, 255)  # The above are all binary modulation of the lamp beads
+  time.sleep(0.5)
 ```
 ## **Demo Effect**
 ![4-480P[00h00m00s-00h00m09s].gif](img/4_RGB_LED_Color_Palette/1721282199734-6852abbc-134f-4a70-8f8c-30b78ffa79d3.gif)

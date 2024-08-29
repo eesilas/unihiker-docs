@@ -74,7 +74,7 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=vx
 
 
 ### **Example Description**
-In the following code, we use UART communication protocol for simple data transmission. We use UNIHIKER and a computer as the sending and receiving ends respectively, and perform half duplex data transmission and reception at the same time. The sending and receiving operations on the computer are performed on the serial debugging assistant, while the sending and receiving operations on the line blank board are performed on Mind+.
+In the following code, we use UART communication protocol for simple data transmission. We use UNIHIKER and a computer as the sending and receiving ends respectively, and perform half duplex data transmission and reception at the same time. The sending and receiving operations on the computer are performed on the serial debugging assistant, while the sending and receiving operations on the line UNIHIKER are performed on Mind+.
 ### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)

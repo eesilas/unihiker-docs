@@ -42,7 +42,7 @@ In this example, the UNIHIKER is first initialized with Board().begin(). Then, w
 # -*- coding: utf-8 -*-
 
 #Experimental effect: Using PWM wave to control LED breathing light
-#Wiring: Use a Windows or Linux computer to connect a blank board, and P21 to connect an LED light module
+#Wiring: Use a Windows or Linux computer to connect a UNIHIKER, and P21 to connect an LED light module
 import time
 from pinpong.board import Board,Pin,PWM #Import PWM class to achieve analog output
 

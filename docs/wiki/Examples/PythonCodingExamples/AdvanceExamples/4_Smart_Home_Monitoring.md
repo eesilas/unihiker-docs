@@ -1,7 +1,7 @@
 ## **Project Introduction**
 To create a Smart Home Monitor, we will utilize a USB camera as an expansion module.
 
-To control the USB camera using UNIHIKER, we can utilize the cap = cv2.VideoCapture(0) method from the Python OpenCV library. This method allows us to access and control the camera through the board's side interface, which is connected to a microcontroller responsible for managing onboard components and GPIO.
+To control the USB camera using UNIHIKER, we can utilize the OpenCV library. This method allows us to access and control the camera through the board's side interface, which is connected to a microcontroller responsible for managing onboard components and GPIO.
 
 For Camera-based facial detection, we can employ the getAndRenderFace(img) function from the Python OpenCV library. This function enables us to detect faces from the camera feed and display them on the screen of the UNIHIKER board. Feel free to explore the various functionalities and parameters of the OpenCV library to customize your Smart Home Monitoring system.
 

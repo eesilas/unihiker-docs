@@ -1,7 +1,7 @@
 ## **Project Introduction**
 To create a DIY Camera, we will use a USB camera as an expansion module.   
 
-To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCapture(0) method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
+To control a USB camera using the UNIHIKER, we can use the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
 
 To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.imshow() methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your DIY Camera project.  
 
@@ -27,7 +27,7 @@ To implement video streaming and capturing with the DIY Camera project, we can u
 import cv2  # Import OpenCV library
 
 
-# Open usb camera 0.
+# Open usb camera 0. -1 indicates automatic recognition.
 cap = cv2.VideoCapture(0) 
 # Set the camera buffer to 1, to decrease the latency.
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1) 
@@ -51,7 +51,7 @@ while (cap.isOpened()):
         frame = cv2.resize(frame, (240, 320))  # resize according to the screen keeping the aspect ratio 
         '''Display real-time video stream'''
         cv2.imshow('winname',frame)  # Display image img on winname window
-        key = cv2.waitKey(1)  # Refresh the image every 1ms, and the delay cannot be 0, otherwise the read result will be a static frame
+        key = cv2.waitKey(10)  #Detect whether the 10ms key is pressed.if imshow is used in a loop, waitKey must be used to avoid the window from freezing.
         if key & 0xFF == ord('a'):  # Press the A key to enter the save image operation below
             cv2.imwrite(str(index) + ".png", frame)
             print("save" + str(index) + ".png successfuly!")

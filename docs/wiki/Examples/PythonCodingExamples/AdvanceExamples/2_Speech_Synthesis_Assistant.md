@@ -2,7 +2,7 @@
 In this chapter, we have implemented a Speech Synthesis Assistant by using a USB external speaker.
 To control a USB speaker using the UNIHIKER, we can use onboard USB interface. This will allow us to access and control the audio through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
 
-To control the audio, we can use the engine = pyttsx3.init()methods from the pyttsx3 library in Python. This will allow us to Control the synthesis of audio and play it according to the user's wishes through parameter settings. You can explore different functionalities and parameters of the pyttsx3 library to customize your DIY Speech Synthesis Assistant.  
+To control the audio, we can use the pyttsx3 library in Python. This will allow us to Control the synthesis of audio and play it according to the user's wishes through parameter settings. You can explore different functionalities and parameters of the pyttsx3 library to customize your DIY Speech Synthesis Assistant.  
 
 ![image.png](img/2_Speech_Synthesis_Assistant/1722507608599-a8fe6790-ddaf-4108-b544-eb272a283bc5.png){style="display:block;margin: 0 auto"}
 
@@ -22,7 +22,7 @@ To create a DIY speech synthesis assistant, we can use the pyttsx3 library in Py
 
 
 ```python
-'''Voice Play Text'''
+#  -*- coding: UTF-8 -*-
 import pyttsx3  # Import pyttsx3 library
 engine = pyttsx3.init()  # Initialize TTS engine and create engine objects
 engine.setProperty('volume',1)  # Set the pronunciation volume (within the range of 0-1)

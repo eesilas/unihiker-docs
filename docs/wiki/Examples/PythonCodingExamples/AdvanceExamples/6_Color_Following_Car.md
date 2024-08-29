@@ -1,9 +1,9 @@
 ## **Project Introduction**
 To create a Color Following Car, a USB camera can be used as an expansion module.   
 
-The OpenCV library in Python provides the cap = cv2.VideoCapture(0) method, which can be utilized to control a USB camera using the UNIHIKER. This allows access and control of the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.  
+The OpenCV library in Python provides the VideoCapture() method, which can be utilized to control a USB camera using the UNIHIKER. 
 
-To control the color tracking device and shoot a video, the cap.read() and cv2.imshow() methods from the OpenCV library in Python can be used. This allows us to read the video stream from the camera and display it on the UNIHIKER board's screen. Additionally, the font = cv2.FONT_HERSHEY_SIMPLEX function can be utilized to enable color tracking for screen text display. Different functionalities and parameters of the OpenCV library can be experimented with to customize the DIY Color Following Car.  
+To control the color tracking device and shoot a video, the read() and imshow() methods from the OpenCV library in Python can be used. This allows us to read the video stream from the camera and display it on the UNIHIKER board's screen. Additionally, the font = cv2.FONT_HERSHEY_SIMPLEX function can be utilized to enable color tracking for screen text display. Different functionalities and parameters of the OpenCV library can be experimented with to customize the DIY Color Following Car.  
 
 ![20240801_215948[00h00m04s-00h00m09s].gif](img/6_Color_Following_Car/1722520903525-bdfb4608-5d6a-4ebb-9f27-10da7bdebff7.gif){width=400， style="display:block;margin: 0 auto"}    
 

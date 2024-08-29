@@ -1,6 +1,6 @@
 # 1. AI Application
 UNIHIKER runs the debian system, with a 1.2GHz CPU and 512MB DDR3, and can run full Python 3, so it can run some Python AI applications.
-Note: The line blank board does not have AI acceleration function, so complex applications that require high computing power may not run smoothly.
+Note: The line UNIHIKER does not have AI acceleration function, so complex applications that require high computing power may not run smoothly.
 # 2. Pre knowledge learning instructions
 The use of AI projects requires a certain foundation. Please make sure to complete the following prerequisite knowledge before experiencing the subsequent projects in this article.
 
