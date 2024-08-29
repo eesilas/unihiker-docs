@@ -212,6 +212,7 @@ nav:
     - 📜 Language Reference:
       - Part1 UNIHIKER Libs:
         - wiki/LanguageReference/Part1UNIHIKER/index.md
+        - General Knowledge and Features: wiki/LanguageReference/Part1UNIHIKER/GeneralKnowledgeAndFeatures/index.md
         - Screen Display:
           - 1.draw_text(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
           - 2.draw_digit(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_digit.md
