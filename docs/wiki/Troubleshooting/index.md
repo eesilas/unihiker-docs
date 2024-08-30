@@ -6,11 +6,11 @@ Here are some common issues and solutions when using UNIHIKER:
 
 - [How does UNIHIKER connect to WiFi?](How_to_connect_wifi.md)
 
-- [The UNIHIKER Cannot be Connected to MindPlus](The_UNIHIKER_cannot_be_connected_to_Mind.md)
+- [The UNIHIKER cannot be Connected to MindPlus](The_UNIHIKER_cannot_be_connected_to_Mind.md)
 
 - [How to Set Time, Date and Timezone on UNIHIKER](How_to_set_time_date_and_timezone_on_UNIHIKER.md)
 
-- [How to Update the System Time if the SIOT Time is Incorrect](How_to_update_the_system_time_if_the_SIOT_time_is_incorrect.md)
+- [How to Update the System Time if the SIoT Time is Incorrect](How_to_update_the_system_time_if_the_SIOT_time_is_incorrect.md)
 
 - [How to Shut Down](How_to_shut_down.md)
 
@@ -22,7 +22,7 @@ Here are some common issues and solutions when using UNIHIKER:
 
 - [How to Adjust the Screen Brightness of UNIHIKER](How_can_I_adjust_the_screen_brightness_of_UNIHIKER.md)
 
-- [How to Run Mind Graphical Program on UNIHIKER After Disconnecting it from Computer](How_can_I_get_the_Mind_graphical_program_to_run_on_the_UNIHIKER_after_disconnecting_it_from_my_computer.md)
+- [How to Run Mindplus Graphical Program on UNIHIKER after Disconnecting it from Computer](How_can_I_get_the_Mind_graphical_program_to_run_on_the_UNIHIKER_after_disconnecting_it_from_my_computer.md)
 
 - [How to Upload Resource Files such as Images Required for Program to UNIHIKER](How_can_I_upload_resource_files_such_as_images_required_for_my_program_to_UNIHIKER.md)
 

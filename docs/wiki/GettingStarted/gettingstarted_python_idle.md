@@ -1,4 +1,4 @@
-## **Downloading and Installing the Python IDLE**
+## **Download and Install the Python IDLE**
 In this tutorial, we will demonstrate how to download and install Python IDLE on your Windows, Mac, or Linux computer.  
 ### **Python IDLE**
 Python IDLE is the official integrated development environment (IDE) for Python, offering an interactive interpreter and a multi-window text editor for writing and executing Python code. It supports features like code highlighting, automatic indentation, intelligent completion, and debugging tools, making it well-suited for Python beginners.  

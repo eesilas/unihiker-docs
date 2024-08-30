@@ -1,4 +1,4 @@
-## **Downloading and Installing Thonny**
+## **Download and Install Thonny**
 In this tutorial, we will demonstrate how to download and install Thonny on your Windows, Mac, or Linux computer.  
 
 ### **Thonny**

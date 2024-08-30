@@ -16,9 +16,9 @@ Select your preferred choice and continue with the quickstart.
 - [**Thonny** - Python](GettingStarted/gettingstarted_thonny.md)
 - [**SSH Tools** - Python](GettingStarted/gettingstarted_ssh.md)
 
-Frequently Asked Questions:    
+FAQ:    
 - [How to configure UNIHIKER to connect to WiFi?](Troubleshooting/How_to_connect_wifi.md)  
-- [How does UNIHIKER run programs when not connected to a computer?](SystemAndConfiguration/system_and_configuration_home_menu.md)  
+- [How does UNIHIKER run programs without a computer?](SystemAndConfiguration/system_and_configuration_home_menu.md)  
 
 
 ---

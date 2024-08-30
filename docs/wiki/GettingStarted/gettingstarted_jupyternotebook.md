@@ -1,9 +1,9 @@
 In this tutorial, you will learn about Jupyter Notebook and how to program in it using UNIHIKER.
 <a name="RMpys"></a>
-## **Getting to Know Jupyter Notebook**
+## **Getting started with Jupyter Notebook**
 <a name="C3Tuh"></a>
 ### **Concept**
-Jupyter Notebook is an open-source web application that allows users to create and share documents containing live code, equations, visualizations, and narrative text. It offers an interactive interface for writing and executing code in languages like Python, making it useful for tasks such as data analysis, machine learning, and statistical modeling. Its "cell" structure allows for independent code execution and easy observation of results, making it ideal for teaching and demonstrations.<br />![image.png](img/Jupyter Notebook(build-in) - Python/1694761069647-6dd94387-1520-42d6-8135-eaeb71680814.png)
+Jupyter Notebook is a open-source web application that enables users to create and share documents that include real-time code, equations, visualizations, and explanatory text. It provides an interactive interface for writing and running code in languages such as Python, making it valuable for tasks like data analysis, machine learning, and statistical modeling. The "cell" structure allows for running code independently and easily observing the results, making it an excellent tool for teaching and demonstrations.<br />![image.png](img/Jupyter Notebook(build-in) - Python/1694761069647-6dd94387-1520-42d6-8135-eaeb71680814.png)
 <a name="lZdFc"></a>
 ### **Installation**
 Jupyter Notebook is already built-in for UNIHIKER, so there is no need to install the application on your computer.
@@ -16,13 +16,18 @@ Jupyter Notebook is a web-based application, so it requires the use of a compute
 - Safari
 - Microsoft Edge
 
-Note: Jupyter Notebook can be used on any platform, including Windows, Linux, and macOS, as long as one of the recommended browsers is installed. This allows for seamless utilization of the application.<br />![image.png](img/Jupyter Notebook(build-in) - Python/1695698225050-8d611862-9fba-4aa6-9ece-b1ca8cdc074f.png)
+!!! Note
+    Jupyter Notebook can be used on any platform, including Windows, Linux, and macOS, as long as one of the recommended browsers is installed. This allows for seamless utilization of the application.<br />
+
+![image.png](img/Jupyter Notebook(build-in) - Python/1695698225050-8d611862-9fba-4aa6-9ece-b1ca8cdc074f.png)
 <a name="crSyD"></a>
 ## **Starting up the UNIHIKER**
 <a name="dJkok"></a>
 ### **Connect the UNIHIKER**
 To begin, connect the UNIHIKER board to your computer using the Type-C to USB cable. Once connected and powered on, the UNIHIKER logo will appear on the screen.<br />![](img/Jupyter Notebook(build-in) - Python/1691476703505-51223828-f994-438e-a0a5-f4577792ea1e.png){width=800, style="display:block;margin: 0 auto"}  
-<br />Note1: For best results, please make sure to plug the USB cable directly into your computer's USB port without using an extension cord or dock. If you encounter any connection issues, please refer to the FAQ section for possible solutions.<br />Note2: When the UNIHIKER is connected to your computer via USB, the IP address will be fixed at 10.1.2.3. You can find this IP address in the "Home" menu on the UNIHIKER board.
+!!! Note
+    1. For optimal performance, please ensure that you plug the USB cable directly into your computer's USB port without using an extension cord or dock. If you encounter any connection issues, please refer to the FAQ section for possible solutions.
+    2. When the UNIHIKER is connected to your computer via USB, the IP address will be fixed at 10.1.2.3. You can find this IP address in the "Home" menu on the UNIHIKER board.
 <a name="PX7es"></a>
 ## **Run a simple example with Python code**
 （1）To access the local web page menu on the UNIHIKER, open a browser (not IE) and enter the website address 10.1.2.3. This will take you to the UNIHIKER's local web page.<br />  

@@ -1,7 +1,7 @@
 # 1. AI Application
 UNIHIKER runs the debian system, with a 1.2GHz CPU and 512MB DDR3, and can run full Python 3, so it can run some Python AI applications.
 Note: The line UNIHIKER does not have AI acceleration function, so complex applications that require high computing power may not run smoothly.
-# 2. Pre knowledge learning instructions
+# 2. Pre Knowledge Learning Instructions
 The use of AI projects requires a certain foundation. Please make sure to complete the following prerequisite knowledge before experiencing the subsequent projects in this article.
 
 - [Instructions for getting started with UNIHIKER](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/skrays280uk2ppkn)
@@ -9,7 +9,7 @@ The use of AI projects requires a certain foundation. Please make sure to comple
 - [How can I get the Mind+ graphical program to run on the UNIHIKER after disconnecting it from my computer?](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/bbw5ib6747uwhwwd)
 - [How to connect WIFI?](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/yz6fvwxqkngefeyx)
 - [What should I do if there is an error during operation?](https://www.yuque.com/joanna-rqvih/unihiker_wiki_en/kawm3o63qhwsxbc2)
-# 3- External Hardware Description
+# 3. External Hardware Description
 There is no onboard camera on UNIHIKER, so when running applications that require a camera, a regular non drive USB camera can be connected to the USB A port of the board.
 
 | ![image.png](img/AI/1723445228742-59515696-f8f6-4ebf-b9f3-bdb9b033d89e.png) | ![image.png](img/AI/1723445258420-34721b0f-b0cb-4edb-a3ee-373b2744f4cf.png) |
@@ -31,7 +31,7 @@ Attention: If there are many USB peripherals, an additional power supply dock is
 | --- | --- |
 | USB 2.0 docking station with power supply port | USB docking station with Ethernet port and power supply port |
 
-# 4-AI Projects
+# 4. AI Projects
 
 - [Ai-Smart Electronics Recognition](https://community.dfrobot.com/makelog-313531.html)
 - [Ancient Poetry Classification Using MultinomialNB on UNIHIKER](https://community.dfrobot.com/projects-AI.html)

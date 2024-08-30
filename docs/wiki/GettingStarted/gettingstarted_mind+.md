@@ -1,14 +1,14 @@
-## **Downloading and Installing the Mindplus (Mind+)**
+## **Download and Install the Mindplus (Mind+)**
 In this tutorial, we will guide you through the process of downloading and installing Mindplus on your Windows, Mac, or Linux computer.
 
 ### **Mindplus (Mind+)**
 Mind+ is a software designed for teenagers that supports AI and IoT functions by integrating with popular mainboards and open-source hardware. It offers an easy programming experience through graphical building blocks and advanced languages like Python, C, and C++.
 ### **Download the Editor**
-Download the Mind+ application that supports UNIHIKER **(V1.7.2 RC3.0 or above)**. [[Dowload Mind+ from the official website]](https://mindplus.cc/download-en.html)
+Download the Mind+ application that supports UNIHIKER **(V1.7.2 RC3.0 or above)**. [[Download Mind+ from the official website]](https://mindplus.cc/download-en.html)
 
 ![image.png](img/Mind+ - Python & Graphical Python/1691477041943-3a8c7375-2ba8-4dc3-a0df-15151648dbed.png)
 ### **Installation and open Mind+**
-After downloading the software, install it normally by clicking "Next". After the installation is complete, launch MindPlus, click on the gear button in the top right corner of the software to select the language.
+After downloading the software, install it normally by clicking "Next". After the installation is complete, launch MindPlus, click on the "Gear" button in the top right corner of the software to select the language.
 #### Windows 
 ![image.png](img/Mind+ - Python & Graphical Python/1691567857184-0d8501f0-1ee5-4585-8575-f27d64077d7e.png)
 #### Mac OS X

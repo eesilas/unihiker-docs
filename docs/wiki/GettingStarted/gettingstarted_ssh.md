@@ -13,7 +13,7 @@ SSH is a method for remotely connecting to UNIHIKER, allowing us to write progra
 
 
 
-## **PuTTY -- For Linux&MacOS&Windows**
+## **PuTTY -- For Linux & MacOS & Windows**
 ### **Downloading and Installing the PuTTY**
 In this tutorial, we will demonstrate how to download and install PuTTY on your computer.  
 

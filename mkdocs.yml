@@ -175,31 +175,31 @@ nav:
           - 3.Starry Sky: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_starry_sky.md
           - 4.Emoticon Master: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_emoticon_master.md
           - 5.Interactive Button Screen: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_interactive_button_screen.md
-          - 6.Draw your Own Clock: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_draw_your_own_clock.md
-          - 7.QR code display: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_qr_code_display.md
-          - 8.Draw a hexagon: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_draw_a_hexagon.md
+          - 6.Draw a Clock: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_draw_your_own_clock.md
+          - 7.QR Code Display: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_qr_code_display.md
+          - 8.Draw a Hexagon: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_draw_a_hexagon.md
           - 9.Color Picker: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_color_picker.md
           - 10.Draw the Olympic Rings: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_draw_the_olympic_rings.md
           - 11.Where is the Mouse: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_where_is_the_mouse.md
-          - 12.Switch albums with keyboard: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_switch_albums_with_keyboard.md
+          - 12.Switch Albums with Keyboard: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_switch_albums_with_keyboard.md
           - 13.Recoder: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_recoder.md
           - 14.Music Player: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_music_player.md
           - 15.LED Flashing: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_led_flashing.md
-          - 16.Button lights: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_button_lights.md
-          - 17.Luminosity detector: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_luminosity_detector.md
+          - 16.Button Light: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_button_lights.md
+          - 17.Luminosity Detector: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_luminosity_detector.md
           - 18.Digital Piano: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_digital_piano.md
           - 19.Noise Monitor: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_noise_monitor.md
           - 20.Pedometer: wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_pedometer.md
         - Intermediate Examples:
           - 1.Blinking LED: wiki/Examples/PythonCodingExamples/IntermediateExamples/1_Blinking_LED.md
           - 2.Colourful Light Strip: wiki/Examples/PythonCodingExamples/IntermediateExamples/2_Colourful_Light_Strip.md
-          - 3.Smart home temperature and humidity Monitor: wiki/Examples/PythonCodingExamples/IntermediateExamples/3_Smart_home_temperature_and_humidity_Monitor.md
+          - 3.Smart Home Temperature and Humidity Monitor: wiki/Examples/PythonCodingExamples/IntermediateExamples/3_Smart_home_temperature_and_humidity_Monitor.md
           - 4.RGB LED Color Palette: wiki/Examples/PythonCodingExamples/IntermediateExamples/4_RGB_LED_Color_Palette.md
           - 5.Plant Moisture Monitoring: wiki/Examples/PythonCodingExamples/IntermediateExamples/5_Plant_Moisture_Monitoring.md
-          - 6.Ultrasonic Range Finder: wiki/Examples/PythonCodingExamples/IntermediateExamples/6_Ultrasonic_Range_Finder.md
+          - 6.Ultrasonic Distance Meter: wiki/Examples/PythonCodingExamples/IntermediateExamples/6_Ultrasonic_Range_Finder.md
           - 7.Servo Motor Control: wiki/Examples/PythonCodingExamples/IntermediateExamples/7_Servo_Motor_Control.md
         - Advance Examples:
-            - 1.AI Voice Controlled Lights: wiki/Examples/PythonCodingExamples/AdvanceExamples/1_AI_Voice_Controlled_Lights.md
+            - 1.AI Voice Light: wiki/Examples/PythonCodingExamples/AdvanceExamples/1_AI_Voice_Controlled_Lights.md
             - 2.Speech Synthesis Assistant: wiki/Examples/PythonCodingExamples/AdvanceExamples/2_Speech_Synthesis_Assistant.md
             - 3.DIY Camera: wiki/Examples/PythonCodingExamples/AdvanceExamples/3_DIY_Camera.md
             - 4.Smart Home Monitoring: wiki/Examples/PythonCodingExamples/AdvanceExamples/4_Smart_Home_Monitoring.md
@@ -260,10 +260,10 @@ nav:
         - Popular Modules:
           - 1.Servo: wiki/LanguageReference/Part2PinPong/PopularModules/3_Servo.md
           - 2.LED Strip: wiki/LanguageReference/Part2PinPong/PopularModules/4_LED_Strip.md
-          - 3.DHT11 Temperature&Humidity Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/1_DHT11_Temperature_Humidity_Sensor.md
-          - 4.Ultrasonic sensor: wiki/LanguageReference/Part2PinPong/PopularModules/2_Ultrasonic_sensor.md
+          - 3.DHT11 Temperature & Humidity Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/1_DHT11_Temperature_Humidity_Sensor.md
+          - 4.Ultrasonic Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/2_Ultrasonic_sensor.md
           - 5.OLED 2864 Display Screen: wiki/LanguageReference/Part2PinPong/PopularModules/5_OLED_2864_Display_Screen.md
-          - 6.Color recognition: wiki/LanguageReference/Part2PinPong/PopularModules/6_Color_recognition.md
+          - 6.Color Recognition: wiki/LanguageReference/Part2PinPong/PopularModules/6_Color_recognition.md
       - Part3 USB Devices:
         - USB Camera: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
         - USB Speaker: wiki/LanguageReference/Part3USBDevices/USB_Speaker.md
@@ -280,7 +280,7 @@ nav:
       - 6.Dimension: wiki/HardwareReference/hardware_reference_dimension.md
       - 7.SVG & 3D File: wiki/HardwareReference/hardware_reference_svg_3d_file.md
     - 🧩 System and Configuration:
-      - 1.Multi connection methods: wiki/SystemAndConfiguration/system_and_configuration_multi_connection_methods.md
+      - 1.Multi Connection Methods: wiki/SystemAndConfiguration/system_and_configuration_multi_connection_methods.md
       - 2.Home Menu: wiki/SystemAndConfiguration/system_and_configuration_home_menu.md
       - 3.Local Web Page: wiki/SystemAndConfiguration/system_and_configuration_local_web_page.md
       - 4.SSH Connection: wiki/SystemAndConfiguration/system_and_configuration_ssh_connection.md
@@ -305,9 +305,9 @@ nav:
       - How to connect a Bluetooth speaker : wiki/Troubleshooting/How_to_connect_a_Bluetooth_speaker.md
       - How to set time, date and timezone on UNIHIKER : wiki/Troubleshooting/How_to_set_time_date_and_timezone_on_UNIHIKER.md
       - How to shut down : wiki/Troubleshooting/How_to_shut_down.md
-      - How to update the system time if the SIOT time is incorrect : wiki/Troubleshooting/How_to_update_the_system_time_if_the_SIOT_time_is_incorrect.md
+      - How to update the system time if the SIoT time is incorrect : wiki/Troubleshooting/How_to_update_the_system_time_if_the_SIOT_time_is_incorrect.md
       - Installing Python library failed Warning Retrying Errno 3 : wiki/Troubleshooting/Installing_Python_library_failed_Warning__Retrying_Errno_3.md
-      - The UNIHIKER cannot be connected to Mind : wiki/Troubleshooting/The_UNIHIKER_cannot_be_connected_to_Mind.md
+      - The UNIHIKER cannot be connected to Mindplus : wiki/Troubleshooting/The_UNIHIKER_cannot_be_connected_to_Mind.md
       - What should I do if the screen is black, white and I can't enter the system : wiki/Troubleshooting/What_should_I_do_if_the_screen_is_black_white_and_I_can_t_enter_the_system.md
 
   - FORUM: https://www.dfrobot.com/forum/?t=947&p=1

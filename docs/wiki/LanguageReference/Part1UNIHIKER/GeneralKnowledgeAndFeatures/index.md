@@ -5,7 +5,7 @@ The resolution of the UNIHIKER screen is 240 x 320, which means the width of the
 ![](img/4f060a48db1e9150ee46d64a096ddfb8.png)
 
 
-## **Reference Point of the UNIHIKER(origin)**
+## **Reference Point of the UNIHIKER (Origin)**
 The UNIHIKER sets a total of 9 reference points, namely **top,bottom, left, right, center, top_left, bottom_left, top_right, and bottom_right(n,s,w,e,center,nw,sw,ne,se)**. 
 
 > **Note:** Location points can be identified using two methods: cardinal directions (ESWN - East, South, West, North) and spatial directions (top, bottom, left, right).
