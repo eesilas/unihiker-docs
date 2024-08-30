@@ -1,24 +1,11 @@
 ### **Description**
-SPI stands for Serial Peripheral Interface, which, as the name suggests, is a serial peripheral device interface. It was first defined by Motorola on its MC68HCXX series processors.
-SPI, it is a high-speed, full duplex, synchronous communication bus that only occupies four wires on the chip pins, saving chip pins and space for PCB layout, providing convenience. It is mainly used in EEPROM, FLASH, real-time clock, AD converter, as well as between digital signal processors and digital signal decoders.
-SPI has two modes: master and slave. An SPI communication system needs to include one (and only one) master device and one or more slave devices. The master device provides the clock, and the slave device receives the clock. The read and write operations of the SPI interface are initiated by the master device. When there are multiple slave devices, they are managed through their respective chip selection signals.
-**Advantages of SPI:**
+SPI stands for Serial Peripheral Interface, which, as the name suggests, is a serial peripheral device interface. 
+SPI, it is a high-speed, full duplex, synchronous communication bus that only occupies four wires on the chip pins, saving chip pins and space for PCB layout, providing convenience.  
+ It is mainly used in EEPROM, FLASH, real-time clock, AD converter, as well as between digital signal processors and digital signal decoders.  
+SPI has two modes: master and slave. An SPI communication system needs to include one (and only one) master device and one or more slave devices. The master device provides the clock, and the slave device receives the clock. The read and write operations of the SPI interface are initiated by the master device. When there are multiple slave devices, they are managed through their respective chip selection signals.  
 
-- Full duplex serial communication;
-- High speed data transmission rate.
-- Simple software configuration;
-- Extremely flexible data transmission, not limited to 8-bit, it can be any size of word;
-- A very simple hardware structure. The slave station does not require a unique address (unlike I2C). The slave uses the host clock and does not require a precision clock oscillator/crystal oscillator (unlike UART). No transceiver is required (unlike CAN).
+> Tips: The principle of SPI communication can be referred to in this video: [click here](https://www.youtube.com/watch?v=tBgfStp40qQ)
 
-**Disadvantages of SPI: **
-
-- No hardware slave response signal (the host may have nowhere to send without knowing);
-- Usually only supports one primary device;
-- More pins are required (different from I2C);
-- There is no defined hardware level error checking protocol;
-- Compared with RS-232 and CAN bus, it can only support very short distances.
-
-Tips: For more information, please refer to: [https://www.youtube.com/watch?v=tBgfStp40qQ](https://www.youtube.com/watch?v=tBgfStp40qQ)
 ### **Common functions**
 
 #### 1.1 SPI( )
@@ -42,7 +29,7 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=tB
 | **Syntax**          | **Object.write(buf)**        |  
 | :--------------     | :--------------------      |
 | **Description**     | Send the content from buf.      |  
-| **Parameters**      | **buf:**User defined byte data group.   |  
+| **Parameters**      | **buf:** User defined byte data group.   |  
 | **Return**          | **None    |  
 
 

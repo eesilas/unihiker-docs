@@ -12,6 +12,9 @@ The PinPong library can be installed and updated using the pip tool.
 
 > Note: The PinPong library is already integrated into the factory firmware of UNIHIKER, so this step can be skipped. 
 
+!!! note
+    Starting from PinPong library version 0.6.0, the communication method of UNIHIKER's coprocessor has been changed from firmata to Linux peripherals, thereby improving communication speed, stability, multi-threading capability, and Linux compatibility. User-level code is basically compatible. If the PinPong version on your UNIHIKER is lower than 0.6.0, please upgrade.
+
 **Installation：**
 
 ```bash

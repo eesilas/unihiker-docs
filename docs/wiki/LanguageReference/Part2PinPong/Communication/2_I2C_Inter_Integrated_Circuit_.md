@@ -1,12 +1,13 @@
 ### **Description**
-IIC (Inter Integrated Circuit) bus is a two-wire serial bus developed by NXP (formerly PHILIPS) company, used to connect microcontrollers and their peripheral devices. It is commonly used for master-slave communication between the master controller and slave devices, and is used in small data volume situations with short transmission distance and only one master at any time. Perform bidirectional transmission between the CPU and the controlled IC, as well as between ICs.
+I2C (Inter Integrated Circuit) bus is a two-wire serial bus, used to connect microcontrollers and their peripheral devices. It is commonly used for master-slave communication between the master controller and slave devices, and is used in small data volume situations with short transmission distance and only one master at any time. Perform bidirectional transmission between the CPU and the controlled IC, as well as between ICs.
 IIC has only two buses: one is the bidirectional serial data line SDA, and the other is the serial clock line SCL: 
 
 - SDA (Serial Data) is a data line, D represents Data, and Send Data is used to transmit data.
 - SCL (Serial clock line) is the clock line, and C represents Clock, which controls the timing of data transmission.
 
 All serial data SDA connected to I2C bus devices are connected to the SDA of the bus, and the clock lines SCL of each device are connected to the SCL of the bus. Each device on the I2C bus has its own unique address to ensure the accuracy of access between different devices.
-Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93RroBDYpr8](https://www.youtube.com/watch?v=93RroBDYpr8)
+
+> Tips: The principle of I2C communication can be referred to in this video: [click here](https://www.youtube.com/watch?v=93RroBDYpr8)
 ### **Common functions**
 
 
@@ -15,8 +16,8 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93
 | :--------------     | :--------------------      |
 | **Description**     | Set the port of the I2C.      |  
 | **Syntax**          | **Object = I2C(bus_num=value)**        |  
-| **Parameters**      | **value:** The port number of the I2C. (optional)  |  
-| **Return**          | **None    |  
+| **Parameters**      | **value:** Create an I2C object on a specific port.  |  
+| **Return**          | I2C Object.    |  
 
 
 #### 1.2 writeto( )
@@ -24,17 +25,17 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93
 | :--------------     | :--------------------      |
 | **Description**     | Write data to the address.      |  
 | **Parameters**      | **address:** The address where data is written.   |  
-|                     | **data:** Write data. |
+|                     | **data:**The data to be written. |
 | **Return**          | **None    |  
 
 
 #### 1.3 readfrom( )
 | **Syntax**          | **Object.readfrom(address,num)**        |  
 | :--------------     | :--------------------      |
-| **Description**     | Read data.      |  
+| **Description**     | Read data from the specified address.      |  
 | **Parameters**      | **address:** The address for reading data.   |  
 |                     | **num:** Read the length of the data. |
-| **Return**          | The data read.    |  
+| **Return**          | The result data read.  |  
 
 
 #### 1.4 readfrom_mem( )
@@ -55,15 +56,18 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=93
 | **Parameters**      | **address:** The address for reading data.   |  
 |                     | **num1:** Register number. |
 |                     | **data:** Write data. |
-| **Return**          | The data read.    |  
+| **Return**          |**None    |  
 
 
 
 
 
 ### **Example Description**
-By utilizing the characteristics of I2C communication, data commands are sent to HUSKYLENS through UNIHIKER, which can control HUSKYLENS to switch recognition modes. After successful switching, HUSKYLENS sends communication data indicating successful mode switching to UNIHIKER. When UNIHIKER receives a data frame starting with "0x55, 0xaa, 0x11", it indicates that the response signal sent by HUSKYLENS has been successfully received by UNIHIKER.
-Tips: For more communication instructions, please refer to: [HUSKYLENSArduino/HUSKYLENS Protocol.md at master · HuskyLens/HUSKYLENSArduino · GitHub](https://github.com/HuskyLens/HUSKYLENSArduino/blob/master/HUSKYLENS%20Protocol.md)
+By utilizing the characteristics of I2C communication, data commands are sent to HUSKYLENS through UNIHIKER, which can control HUSKYLENS to switch recognition modes. After successful switching, HUSKYLENS sends communication data indicating successful mode switching to UNIHIKER. When UNIHIKER receives a data frame starting with "0x55, 0xaa, 0x11", it indicates that the response signal sent by HUSKYLENS has been successfully received by UNIHIKER.  
+> Note: You need to first adjust the Protocol Type to I2C in the General Settings of HUSKYLENS.
+
+> Tips: For more communication instructions, please refer to: [HUSKYLENS Protocol](https://github.com/HuskyLens/HUSKYLENSArduino/blob/master/HUSKYLENS%20Protocol.md)
+
 ### **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html) 
@@ -75,14 +79,14 @@ Tips: For more communication instructions, please refer to: [HUSKYLENSArduino/HU
 # -*- coding: utf-8 -*-
 
 # Experimental effect: Display of I2C communication protocol control
-# Wiring: Connect an I2C slave device to Arduino, assuming I2C address is 0x32
+# Wiring: Connect an HUSKYLENS to UNIHIKER, I2C address is 0x32
 import time
 from pinpong.board import Board,I2C
 
 Board("UNIHIKER").begin()
 
 i2c = I2C()
-# I2c=I2C (bus_num=0) # bus_num defaults to 0, as Arduino Uno only has one i2c port numbered 0
+# I2c=I2C (bus_num=0) 
 
 # i2c.writeto(0x33,[1,2,3,4,5])  # Write [1,2,3,4,5] to i2c device
 # i2c.readfrom(0x33,6)  # Read 6 data from i2c device
@@ -92,17 +96,17 @@ i2c = I2C()
 # Switch algorithm to object tracking. After successful sending, switch algorithm and return COMMAND-RETURN_OK
 data_ls=[0x55,0xAA,0x11,0x02,0x2D,0x01,0x00,0x40]  # data
 
-while(1): 
+while True: 
     i2c.writeto(0x32,data_ls)  # Wirte data
     read_data = i2c.readfrom_mem(0x32,0,1)  # Read data
     if read_data is not None and len(read_data) > 0:  # Format the received data
         print(hex(read_data[0]))
         if read_data[0] == 0x55:
-            print("a")
+            print("rec: 0x55")
             if i2c.readfrom_mem(0x32,0,1)[0] == 0xaa:
-                print("b")
+                print("rec: 0xaa")
                 if i2c.readfrom_mem(0x32,0,1)[0] == 0x11:
-                    print("c")
+                    print("rec: 0x11")
                     length = i2c.readfrom_mem(0x32,0,1)[0]
                     print("len=",length)
                     print("len type=",type(length))

@@ -1,6 +1,6 @@
 ### **Description**
 Universal Asynchronous Receiver/Transmitter, commonly known as UART, it is a serial, asynchronous, full duplex communication protocol. UNIHIKER supports UART communication protocol for data transmission through edge connector(P0-RX,P3-TX).  
-> Tips: The principle of UART communication can be referred to in this video: [https://www.youtube.com/watch?v=vxIjoycPucY](https://www.youtube.com/watch?v=vxIjoycPucY)
+> Tips: The principle of UART communication can be referred to in this video: [click here](https://www.youtube.com/watch?v=vxIjoycPucY)
 
 ### **Common functions**
 
@@ -59,14 +59,15 @@ Universal Asynchronous Receiver/Transmitter, commonly known as UART, it is a ser
 | :--------------     | :--------------------      |
 | **Description**     | Read the data received from the serial port by line and put it in the buffer. Reads until newline or None if timeout occurs.       |  
 | **Parameters**      | **None   | 
-| **Return**          | The data received from the serial port by line and put it in the buffer.    |  
+| **Return**          | The result of the read.   |  
 
 
 #### 1.8 readinto( )
 | **Syntax**          | **Object.readinto(buf, nbytes)**        |  
 | :--------------     | :--------------------      |
 | **Description**     | Read bytes into buf. If nbytes is specified, read at most that many bytes. Otherwise, read at most len(buf) bytes.       |  
-| **Parameters**      | **buf:**Range for reading data.   | 
+| **Parameters**      | **buf:**The data read is stored in this variable.   | 
+|                                | **nbytes:**The length of the bytes to be read.   | 
 | **Return**          | Bytes read  into buf.     |  
 
 
@@ -86,6 +87,7 @@ In the following code, we use UART communication protocol for simple data transm
 ![](img/1_Serial_Port_UART_/1722936983449-f50884d0-57c0-44cb-a550-27a6afa823fe.png)
 ### **Example Code**
 **Code1:** The first code is UNIHIKER as the receiver and the computer as the sender.
+
 ```python
 # -*- coding: utf-8 -*-
 import time
@@ -125,10 +127,13 @@ while True:
         print(uart1.read(1))
     time.sleep(1)
 ```
+
 **Program Effect:**
+
 ![](img/1_Serial_Port_UART_/1722937451791-9a1828eb-2d28-46e8-b2cb-7ddb452f3d40.png)
 
 **Code2: **The second code is UNIHIKER as the sender and the computer as the receiver.
+
 ```python
 # -*- coding: utf-8 -*-
 import time
@@ -167,7 +172,9 @@ while True:
     uart1.write(buf)  # Write data to UART
     time.sleep(1)
 ```
+
 **Program Effect:**
+
 ![image.png](img/1_Serial_Port_UART_/1722937366149-1e0a301d-5e54-4eda-a254-1c601b285472.png)
 
 
