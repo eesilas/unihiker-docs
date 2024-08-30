@@ -1,13 +1,14 @@
 ### **Description**
-Universal Asynchronous Receiver/Transmitter, commonly known as UART, it is a serial, asynchronous, full duplex communication protocol. UNIHIKER supports UART communication protocol for data transmission through edge connector.
-Tips: For more information, please refer to: [https://www.youtube.com/watch?v=vxIjoycPucY](https://www.youtube.com/watch?v=vxIjoycPucY)
+Universal Asynchronous Receiver/Transmitter, commonly known as UART, it is a serial, asynchronous, full duplex communication protocol. UNIHIKER supports UART communication protocol for data transmission through edge connector(P0-RX,P3-TX).  
+> Tips: The principle of UART communication can be referred to in this video: [https://www.youtube.com/watch?v=vxIjoycPucY](https://www.youtube.com/watch?v=vxIjoycPucY)
+
 ### **Common functions**
 
 #### 1.1 UART( )
 | **Syntax**          | **Object = UART(bus_num=value)**        | 
 | :--------------     | :--------------------      |
-| **Description**     | Define the serial port number for the UART serial port.      |  
-| **Parameters**      | **bus_num**: UART serial port number.   |  
+| **Description**     | Generate UART object      |  
+| **Parameters**      | **bus_num**: UART serial port number. The default port number chosen by the user is 0.   |  
 | **Return**          | **None    |  
 
 #### 1.2 init( )
@@ -15,8 +16,7 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=vx
 | **Syntax**          | **Object.init(baud_rate=115200,bits=8,parity=0,stop=1)**        |  
 | :--------------     | :--------------------      |
 | **Description**     | Initialize UART serial port parameters.      |  
-| **Parameters**      | **bus_num:**The default port number chosen by the user is 0.   | 
-|                     |  **baud_rate:** Generally, there are options such as 9600, 115200 for selecting baud rate. The actual meaning is to transmit so many bits per second. |
+| **Parameters**      |   **baud_rate:** Generally, there are options such as 9600, 115200 for selecting baud rate. The actual meaning is to transmit so many bits per second. |
 |                     | **bits:** It can be a 5-8 bits logical "0" or "1". Such as ASCI code (7 bits) and extended BCD code (8 bits). Small end transmission.|
 |                     | **parity:**After adding this bit to the data, the number of "1" bits should be even (even check) or odd (odd check) to verify the correctness of data transmission.|
 |                     | **stop:** It is an end marker for character data. Fixed at high level. |
@@ -36,7 +36,7 @@ Tips: For more information, please refer to: [https://www.youtube.com/watch?v=vx
 | :--------------     | :--------------------      |
 | **Description**     | Get the number of bytes available to read from UART      |  
 | **Parameters**      | **None   | 
-| **Return**          | The data read by UART.    |  
+| **Return**          | The number of data bytes that can be read.    |  
 
 
 #### 1.5 write( )
@@ -83,7 +83,7 @@ In the following code, we use UART communication protocol for simple data transm
 - serial debugging assistant( users can download it themselves ）
 
 ![image.png](img/1_Serial_Port_UART_/1722935229505-af956a33-3b89-4b06-ad46-b0570ce982a0.png)
-![0X9P$EGS]WG]SJ35F51DCQO.png](img/1_Serial_Port_UART_/1722936983449-f50884d0-57c0-44cb-a550-27a6afa823fe.png)
+![](img/1_Serial_Port_UART_/1722936983449-f50884d0-57c0-44cb-a550-27a6afa823fe.png)
 ### **Example Code**
 **Code1:** The first code is UNIHIKER as the receiver and the computer as the sender.
 ```python

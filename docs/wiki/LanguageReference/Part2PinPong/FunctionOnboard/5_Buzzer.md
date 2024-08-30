@@ -3,14 +3,15 @@ The UNIHIKER main controllers come equipped with an integrated buzzer, which can
 ### **Syntax**
 **buzzer.play(buzzer.DADADADUM, buzzer.Once)**
 ### **Parameters**
-**buzzer.DADADADUM:** The music played by the buzzer.
-**buzzer.Once:** The playback mode of the buzzer.
-Note: 
+- **buzzer.DADADADUM:** The music played by the buzzer.
+- **buzzer.Once:** The playback mode of the buzzer.
 
-- Music includes: DADADADUM ENTERTAINER PRELUDE ODE NYAN RINGTONE FUNK BLUES BIRTHDAY WEDDING FUNERAL PUNCHLINE BADDY CHASE BA_DING WAWAWAWAA JUMP_UP JUMP_DOWN POWER_UP POWER_DOWN
-- The playback modes include: Once (play once) Forever (play continuously) OnceInBackground (play once in the background) ForeverInBackground (play continuously in the background)   buzzer.play(buzzer.DADADADUM, buzzer.Once)
+> Note:   
+    - Music includes: DADADADUM ENTERTAINER PRELUDE ODE NYAN RINGTONE FUNK BLUES BIRTHDAY WEDDING FUNERAL PUNCHLINE BADDY CHASE BA_DING WAWAWAWAA JUMP_UP JUMP_DOWN POWER_UP POWER_DOWN  
+    - The playback modes include: Once (play once) Forever (play continuously) OnceInBackground (play once in the background) ForeverInBackground (play continuously in the background)   buzzer.play(buzzer.DADADADUM, buzzer.Once)  
+
 ### **Return**
-**None
+**None  
 ### **Example Description**
 The code below uses the buzzer.play() function to play music on the buzzer. With different functions such as buzzer.pitch(), buzzer.stop(), buzzer.pitch(), and buzzer.redirect(), we can modify the tone, start and pause playback, and redirect the buzzer to a specific pin.
 ### **Hardware Required**
@@ -40,7 +41,8 @@ buzzer.pitch(494, 4)  # Play a pitch/note
 while True:
     time.sleep(1)  # Wait for 1 second to maintain the state
 ```
-**Program Effect:**
+**Program Effect:**  
+
 ![image.png](img/5_Buzzer/1722825855482-4f0c353a-efd8-493f-85f6-a2c1ccb68027.png)
 
 

@@ -1,26 +1,35 @@
 ### **Description**
-Digital signals are signals obtained by binary quantization of analog signals, and all pins on UNIHIKER support the output of this signal at a voltage level of 3.3V.
+Control the specified IO pin to output high level (3.3V) or low level (0V).
+
 ### **Common functions**
 
+The following two functions can achieve the same effect.
 
 
-#### 1.1 value( )
-| **Syntax**          | **Object.value(v)**        |  
+#### 1.1 Pin( )
+| **Syntax**          | **PinObject = Pin(Pin.num, Pin.OUT)**         |  
 | :--------------     | :--------------------      |
-| **Description**     | Output digital level.      |  
-| **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
-| **Return**          | HIGH level or LOW level    |  
-
-
+| **Description**     | Set the specified pin to OUT mode.       |  
+| **Parameters**      | **Pin.num**: Pin number.                        |
+|                                   |  **Pin.OUT**: OUT mode. |
+| **Return**          | Pin object    |  
 
 
 
 #### 1.2 write_digital( )
-| **Syntax**          | **Object.write_digital(v)**   |  
+| **Syntax**          | **PinObject.write_digital(v)**   |  
 | :--------------     | :--------------------      |
 | **Description**     | Output digital level       |  
-| **Parameters**      | **v**: 0 or 1, 1 means outputing at a high voltage level while 0 means outputing at a low voltage level.   |  
-| **Return**          | HIGH level or LOW level    |  
+| **Parameters**      | **v**: 0 or 1, 1 indicates high-level output (3.3V), 0 indicates low-level output (0V).  |  
+| **Return**          | **None   |  
+
+
+#### 1.3 value( )
+| **Syntax**          | **PinObject.value(v)**        |  
+| :--------------     | :--------------------      |
+| **Description**     | Output digital level.      |  
+| **Parameters**      | **v**: 0 or 1, 1 indicates high-level output (3.3V), 0 indicates low-level output (0V).  |  
+| **Return**          | **None    |  
 
 
 
@@ -53,7 +62,9 @@ while True:
     print("The LED light is off")  # Display a message indicating that the LED light is off
     time.sleep(1) # Pause the program for 1 second
 ```
-**Program Effect:**
+
+### **Program Effect:**
+
 ![20240805_154353[00h00m00s-00h00m05s].gif](img/1_Digital_Output_GPIO_/1722843885000-ab87e462-fbf8-41c3-ad2d-afeee0e974a2.gif)
 ![image.png](img/1_Digital_Output_GPIO_/1722825395989-dcda8b3a-c08b-4eee-ab6f-1a971144b844.png)
 
