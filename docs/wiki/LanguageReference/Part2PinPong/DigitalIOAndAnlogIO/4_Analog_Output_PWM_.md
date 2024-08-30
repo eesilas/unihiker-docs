@@ -1,35 +1,56 @@
 ### **Description**
-PWM wave is a very effective technique for controlling analog circuits using the digital output of microprocessors, widely used in many fields from measurement, communication to power control and conversion. UNIHIKER supports 8 channels of 10-bit PWM output, corresponding to the following pins: P0, P2, P3, P10, P16, P21, P22 and P23.
+Write a PWM analog value to the specified pin, contrl the pin to output a PWM wave with a specific duty cycle.  
+- Generally used for adjusting LED brightness or motor speed.  
+- UNIHIKER supports an 8-channel 10-bit PWM generator, these pins support it: P0, **P2**, P3, **P8,P9,P10**, P16,P21,P22 and P22.  
+> Note: P8 and P2 share one PWM channel, P9 and P10 share one PWM channel, so P8 and P9 can also use PWM, but P2 and P10 cannot be used when they are in use. Also note that P8P9 is a group, P2P10 is a group, only one group can be used at the same time, they cannot be mixed (for example, if P8 or P9 outputs PWM, then P2 or P10 cannot output PWM).  
+
 ### **Common functions**  
 
+There are two ways to output PWM waves, one is using the Pin class, and the other is the independent PWM class.
 
-#### 1.1 PWM(Pin( ))
-| **Syntax**          | **PWM(Pin(board,Pin.num))**         |  
+#### 1.1 Pin( )
+| **Syntax**          | **PinObject = Pin(Pin.num, Pin.PWM)**         |  
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
-| **Parameters**      | **board:** UNIHIKER.  |
-|                     | **Pin.num:** Pin number. |
-| **Return**          | Continuous, time-varying current    |  
+| **Description**     | Set the specified pin to PWM mode.       |  
+| **Parameters**      | **Pin.num**: Pin number. (P0,**P2**,P3,**P8,P9,P10**,P16,P21,P22,P23)        |
+|                                   |  **Pin.PWM**: PWM mode. |
+| **Return**          | Pin object    |  
 
 
-#### 1.2 duty( )
-| **Syntax**          | **Object.duty(i)**         |  
+#### 1.2 write_analog( )
+| **Syntax**          | **PwmObject.write_analog(i)**         |  
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
-| **Parameters**      | **i:** Control the duty cycle of PWM waves.                |  
-| **Return**          | Continuous, time-varying current    |  
+| **Description**     | Control the duty cycle of the PWM output.       |  
+| **Parameters**      | **i:**Control the duty cycle of PWM waves. (0~1023)               |  
+| **Return**          | **None   |  
 
 
-#### 1.3 
-| **Syntax**          | **Object.write_analog(i)**         |  
+
+#### 1.3 PWM(Pin( ))
+| **Syntax**          | **PwmObject = PWM(Pin(Pin.num))**         |  
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an PWM output and control the output of PWM waves through functions.       |  
-| **Parameters**      | **i:**Control the duty cycle of PWM waves.                |  
-| **Return**          | Continuous, time-varying current    |  
+| **Description**     | Define a PWM class object by specifying a pin.       |  
+| **Parameters**      | **Pin.num:** Pin number. (P0,P2,P3,P8,P9,P10,P16,P21,P22,P23) |
+| **Return**          | Pwm object    |  
+
+#### 1.4 freq( )
+| **Syntax**          | **PwmObject.freq(i)**         |  
+| :--------------     | :--------------------      |
+| **Description**     | Set the frequency of the PWM output..      |  
+| **Parameters**      | **i:**Frequency of the PWM wave.        |  
+| **Return**          | **None     |  
+
+
+#### 1.5 duty( )
+| **Syntax**          | **PwmObject.duty(i)**         |  
+| :--------------     | :--------------------      |
+| **Description**     | Control the duty cycle of the PWM output.      |  
+| **Parameters**      | **i:** Control the duty cycle of PWM waves.  (0~1023)         |  
+| **Return**          | **None     |  
 
 
 ### **Example Description**
-In this example, the UNIHIKER is first initialized with Board().begin(). Then, we use pwm0 = PWM(Pin(Pin.P21)) to initialize the pin, which can output a PWM wave. In the main loop, we use the range() function to generate a loop array and then use the pwm0.duty() function to adjust the PWM duty cycle. We can understand the principle of PWM output by observing the status of LED lights and the display of terminal numbers.  
+In this example, we first initialize UNIHIKER with Board().begin(), then initialize the pin to PWM mode using the Pin or PWM class. In the main loop, we use the range() function to generate a loop array, and then adjust the PWM duty cycle using the write_analog() or duty() function. By observing the brightness of the LED light, we can understand the principle of PWM output.
 
 ### **Hardware Required**
 
@@ -42,32 +63,31 @@ In this example, the UNIHIKER is first initialized with Board().begin(). Then, w
 # -*- coding: utf-8 -*-
 
 #Experimental effect: Using PWM wave to control LED breathing light
-#Wiring: Use a Windows or Linux computer to connect a UNIHIKER, and P21 to connect an LED light module
+#Wiring: Use a computer to connect a UNIHIKER, and P21 to connect an LED light module
 import time
 from pinpong.board import Board,Pin,PWM #Import PWM class to achieve analog output
 
 Board("UNIHIKER").begin()  #Initialize, select board type, do not input board type for automatic recognition
 #P0 P2 P3 P8 P9 P10 P16 P21 P22 P23
-pwm0 = PWM(Pin(Pin.P21)) #Input Pin into PWM to achieve analog output
+pwm0 = Pin(Pin.P21, Pin.PWM)
+#pwm0 = PWM(Pin(Pin.P21)) #Input Pin into PWM to achieve analog output
 #PWM supports a range of 0-1023
-pwm0.freq(1000)  #set PWM frequence 
+#pwm0.freq(1000)  #set PWM frequence 
 while True:  #loop
-    pwm0.duty(0)
-    time.sleep(2)
-    for i in range(301):  #from 0 to 600
-        pwm0.duty(i) 
+    for i in range(1000,0,10):  
+        #pwm0.duty(i) 
+        pwm0.write_analog(i)
         print(i) 
         time.sleep(0.02)   #delay 2us
-    pwm0.duty(300) 
-    time.sleep(2)    
-    for i in range(301 , 0, -1):  #from 600 to 0
-        pwm0.duty(i)  
+
+    for i in range(1000 , 0, -10):  
+        #pwm0.duty(i)  
+        pwm0.write_analog(i)
         print(i)
         time.sleep(0.02)   #delay 2us 
 ```
 **Program Effect:**
 ![](img/4_Analog_Output_PWM_/1721281972007-59254163-2790-4cc2-bcaf-d81a791a4d8a.gif)
-![image.png](img/4_Analog_Output_PWM_/1722838066405-959c8cb5-e1f7-4ae4-ac49-bac81c3d7a95.png)
 
 
 ---

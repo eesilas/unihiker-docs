@@ -1,36 +1,45 @@
 ### **Description**
-A typical analog-to-digital converter converts an input voltage signal into an output digital signal. UNIHIKER supports 8 channels of 12-bit high-precision analog input ADC, corresponding to the following pins: P0, P1, P2, P3, P4, P10, P21 and P22.
+Read the analog value from the specified IO pin.
+
+- UNIHIKER supports 8-channel 12-bit high-precision analog input ADC, which means it will map the input voltage between 0 and 3.3V to an integer value between 0 and 4095.
+- These pins support ADC function: P0, P1, P2, P3, P4, P10, P21, P22.
+
+
 ### **Common functions**
 
-#### 1.1 ADC(Pin( ))
-| **Syntax**          | **ADC(Pin(Pin.num))**         | 
+There are two ways to implement analog input, one is to use the read_analog() function of the Pin class, and the other is to use the read() function in the independent ADC class.
+
+
+
+#### 1.1 Pin( )
+| **Syntax**          | **PinObject = Pin(Pin.num, Pin.ANALOG)**    |  
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
-| **Parameters**      | **Pin.num**: Pin number.                     |  
-| **Return**          | Digital quantity converted from analog quantity    |  
+| **Description**     | Set the specified pin to ANALOG mode.       |  
+| **Parameters**      | **Pin.num**: Pin number.  (P0, P1, P2, P3, P4, P10, P21, P22)        |
+|                                   |  **Pin.ANALOG**: ANALOG mode. |
+| **Return**          | Pin object    |  
 
-#### 1.2 read()
-| **Syntax**          | **Object.read()**         |  
+#### 1.2 read_analog( )
+| **Syntax**          | **PinObject.read_analog()**      | 
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
-| **Parameters**      | **                     |  
-| **Return**          | Digital quantity converted from analog quantity    |  
+| **Description**     | Call the Pin object to read the analog value.      |  
+| **Parameters**      | **None |
+| **Return**          | Digital quantity converted from analog quantity. (0~4095)   |  
 
 
-#### 1.3 Pin( )
-| **Syntax**          | **Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**         |  
+#### 1.3 ADC(Pin( ))
+| **Syntax**          | **AdcObject = ADC(Pin(Pin.num))**         | 
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
-| **Parameters**      | **Pin.ANALOG**: Pin initialization to level output. |
-| **Return**          | Digital quantity converted from analog quantity    |  
+| **Description**     | Generate an ADC class object for the specified pin.       |  
+| **Parameters**      | **Pin.num**: Pin number.    (P0, P1, P2, P3, P4, P10, P21, P22)      |  
+| **Return**          | ADC object    |  
 
-#### 1.4 read_analog( )
-| **Syntax**          | **Object = Pin(Pin.num, Pin.ANALOG), Object.read_analog()**         | 
+#### 1.4 read()
+| **Syntax**          | **AdcObject.read()**         |  
 | :--------------     | :--------------------      |
-| **Description**     | Define a pin as an ADC input and read the value through a function.       |  
-| **Parameters**      | **Pin.ANALOG**: Pin initialization to level output. |
-| **Return**          | Digital quantity converted from analog quantity    |  
-
+| **Description**     | Call the Pin object to read the analog value.       |  
+| **Parameters**      | **None                    |  
+| **Return**          | Digital quantity converted from analog quantity. (0~4095)   |  
 
 
 
