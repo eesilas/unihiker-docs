@@ -37,7 +37,7 @@ There are two ways to output PWM waves, one is using the Pin class, and the othe
 | **Syntax**          | **PwmObject.freq(i)**         |  
 | :--------------     | :--------------------      |
 | **Description**     | Set the frequency of the PWM output..      |  
-| **Parameters**      | **i:**Frequency of the PWM wave.        |  
+| **Parameters**      | **i:**Frequency of the PWM wave.  Below V0.6.0: 30HZ~15,000HZ (15Khz) , V0.6.0 and above: 15HZ ~ 500,000HZ (500Khz)      |  
 | **Return**          | **None     |  
 
 
