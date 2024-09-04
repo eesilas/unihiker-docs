@@ -31,9 +31,6 @@ from unihiker import GUI   # Import the package
 gui = GUI()                # Instantiate the GUI class
 ```
 
-## General Knowledge and Features
-
- [General Knowledge and Features](GeneralKnowledgeAndFeatures/index.md)
 
 ---  
 

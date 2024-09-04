@@ -1,4 +1,6 @@
-**[Pinpong Libs Introduction](wiki/LanguageReference/Part2PinPong/introduction.md)**  
+
+- **[Pinpong Libs Introduction](introduction.md)**  
+
 ## Function Index
 
 | Function Onboard | Digital IO & Analog IO | Communication |

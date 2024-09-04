@@ -5,6 +5,8 @@ In this case, we use the lightblue app on the phone to demonstrate communication
 
 Through this case, you can also try to use other apps that support BLE functionality or create your own app to communicate with UNIHIKER.
 
+![](img/10_Bluetooth_Unihiker2BLEAPP/demo2.png){width=700, style="display:block;margin: 0 auto"}   
+
 ## **Hardware Required**
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html) x 1

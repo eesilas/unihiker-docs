@@ -1,5 +1,8 @@
-**[Unihiker Libs Introduction](wiki/LanguageReference/Part1UNIHIKER/introduction.md)**  
-**[General Knowledge and Features](wiki/LanguageReference/Part1UNIHIKER/GeneralKnowledgeAndFeatures/index.md)**  
+
+
+- **[Unihiker Libs Introduction](introduction.md)**    
+- **[General Knowledge and Features](GeneralKnowledgeAndFeatures/index.md)**  
+
 ## Function Index
 
 | Screen Display | Screen Rendering Graphics | Mouse And Keyboard |
