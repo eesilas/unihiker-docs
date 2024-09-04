@@ -198,6 +198,9 @@ nav:
           - 5.Plant Moisture Monitoring: wiki/Examples/PythonCodingExamples/IntermediateExamples/5_Plant_Moisture_Monitoring.md
           - 6.Ultrasonic Distance Meter: wiki/Examples/PythonCodingExamples/IntermediateExamples/6_Ultrasonic_Range_Finder.md
           - 7.Servo Motor Control: wiki/Examples/PythonCodingExamples/IntermediateExamples/7_Servo_Motor_Control.md
+          - 8.Bluetooth(with UNIHIKER): wiki/Examples/PythonCodingExamples/IntermediateExamples/8_Bluetooth_Unihiker2Unihiker.md
+          - 9.Bluetooth(with BLELink): wiki/Examples/PythonCodingExamples/IntermediateExamples/9_Bluetooth_Unihiker2BLELink.md
+          - 10.Bluetooth(with APP): wiki/Examples/PythonCodingExamples/IntermediateExamples/10_Bluetooth_Unihiker2BLEAPP.md
         - Advance Examples:
             - 1.AI Voice Light: wiki/Examples/PythonCodingExamples/AdvanceExamples/1_AI_Voice_Controlled_Lights.md
             - 2.Speech Synthesis Assistant: wiki/Examples/PythonCodingExamples/AdvanceExamples/2_Speech_Synthesis_Assistant.md
@@ -256,7 +259,6 @@ nav:
           - 1.Serial Port(UART): wiki/LanguageReference/Part2PinPong/Communication/1_Serial_Port_UART_.md
           - 2.I2C(Inter Integrated Circuit): wiki/LanguageReference/Part2PinPong/Communication/2_I2C_Inter_Integrated_Circuit_.md
           - 3.SPI(Serial Peripheral Interface): wiki/LanguageReference/Part2PinPong/Communication/3_SPI_Serial_Peripheral_Interface_.md
-          - 4.Bluetooth: wiki/LanguageReference/Part2PinPong/Communication/4_Bluetooth.md
         - Popular Modules:
           - 1.Servo: wiki/LanguageReference/Part2PinPong/PopularModules/3_Servo.md
           - 2.LED Strip: wiki/LanguageReference/Part2PinPong/PopularModules/4_LED_Strip.md
