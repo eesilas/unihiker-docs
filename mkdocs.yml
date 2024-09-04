@@ -77,7 +77,7 @@ theme:
 plugins:
   - search:
       lang: en
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      separator: '[/s/-,:!=/[/]()"/]+|(?!/b)(?=[A-Z][a-z])|/.(?!/d)|&[lg]t;'
   - minify:
       minify_html: true
   - glightbox
@@ -215,6 +215,7 @@ nav:
     - 📜 Language Reference:
       - Part1 UNIHIKER Libs:
         - wiki/LanguageReference/Part1UNIHIKER/index.md
+        - Unihiker Libs Introduction: wiki/LanguageReference/Part1UNIHIKER/introduction.md
         - General Knowledge and Features: wiki/LanguageReference/Part1UNIHIKER/GeneralKnowledgeAndFeatures/index.md
         - Screen Display:
           - 1.draw_text(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
@@ -244,6 +245,7 @@ nav:
           - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_audio_playback_play.md
       - Part2 PinPong Libs:
         - wiki/LanguageReference/Part2PinPong/index.md
+        - Pinpong Libs Introduction: wiki/LanguageReference/Part2PinPong/introduction.md
         - Function Onboard:
           - 1.L LED: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
           - 2.Button A and Button B: wiki/LanguageReference/Part2PinPong/FunctionOnboard/2_Button_A_and_Button_B.md
