@@ -4,10 +4,9 @@ The Bluetooth functionality on the UNIHIKER also supports BLE (Bluetooth Low Ene
 BLE-Link is a device produced by DFRobot that can convert BLE communication to UART. It comes in a form suitable for plugging into Arduino, enabling Arduino to have BLE communication capabilities and receive and send data via UART. Another form is converted into a USB serial device, which can convert BLE devices into USB serial signals. For the sake of demonstration convenience, this article uses the BLE-Link Dongle.  
 
 
-
-
 The following code is suitable for communication scenarios where the slave Bluetooth module and UNIHIKER can be successfully connected. Firstly, UNIHIKER sends a "hello" signal to the slave module after running the program, waiting for the Bluetooth slave module to send a signal. At the same time, we use the serial monitoring assistant on Windows to send a signal to UNIHIKER, which can be seen on mind+.
 
+Through this case, other BLE devices can also refer to this idea and code for communication.
 
 ## **Hardware Required**
 
