@@ -1,9 +1,11 @@
-### Description
-UNIHIKER provides a USB interface that can be used to control external cameras.
-To control a USB camera using the UNIHIKER, we can use the cap = cv2.VideoCapture(0) method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
-To control the DIY Camera and shoot a video, we can use the cap.read() and cv2.imshow() methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. 
-This section will provide a detailed introduction to the common functions and usage effects of USB cameras.
-### Common functions
+## Description
+The UNIHIKER is equipped with a standard USB interface, so it can connect to an external USB camera to capture image data.
+
+To control a USB camera with UNIHIKER, the OpenCV library in Python is commonly used.
+
+This section will introduce the common functions and usage effects of using the OpenCV library to call a USB camera.
+
+## Common functions(OpenCV Library)
 
 #### 1.1 cv2.VideoCapture( )
 | **Syntax**          | **Object = cv2.VideoCapture(num)**      |   
@@ -118,9 +120,9 @@ This section will provide a detailed introduction to the common functions and us
 
 #### 1.13 cv2.VideoWriter_fourcc( )
 | **Syntax**          | **fourcc = cv2.VideoWriter_fourcc(*'mp4v')**     |   
+| :--------------     | :--------------------      |
 |                     | **Object= cv2.VideoWriter('/root/video/output.mp4',fourcc,3,(240,320))** |
 |                     | **Object.write(frame)**  |
-| :--------------     | :--------------------      |
 | **Description**     | Record a video.     |  
 | **Parameters**      | **'/root/video/output.mp4':** Save the path of the video.   |  
 |                     | **fourcc:** Video format.|
@@ -148,19 +150,18 @@ This section will provide a detailed introduction to the common functions and us
 
 
 
-### Example Description
-To create a Camera, we will use a USB camera as an expansion module. 
-To control a USB camera using the UNIHIKER, we can use the method from the OpenCV library in Python. This will allow us to access and control the camera through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
-To control the DIY Camera and shoot a video, we can use the methods from the OpenCV library in Python. This will allow us to read the video stream from the camera and display it on the UNIHIKER board's screen. You can explore different functionalities and parameters of the OpenCV library to customize your DIY Camera project.
-### Hardware Required
+## Example Description
+The following code implements the common functions of using a camera on UNIHIKER.
+The generated video after running is in a state where it is horizontally flipped 180 ° and rotated 90 ° to the right relative to the normal video.
+
+## Hardware Required
 
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - [MegaPixels USB Camera for Raspberry Pi / NVIDIA Jetson Nano / UNIHIKER](https://www.dfrobot.com/product-2089.html)
 
 ![](img/1_USB_Carema/1692675829807-df9e3074-c792-46de-a6cf-32155c10c88b.png)
-### Example Code
-The following code implements the common functions of using a camera on UNIHIKER.
-The generated video after running is in a state where it is horizontally flipped 180 ° and rotated 90 ° to the right relative to the normal video.
+## Example Code
+
 ```python
 #  -*- coding: UTF-8 -*-
 import cv2  # Import OpenCV library
@@ -209,7 +210,7 @@ while (cap.isOpened()):
 cap.release()  # Release the camera
 cv2.destroyAllWindows()  # Close all
 ```
-**Program Effect:**
+## **Program Effect:**
 Firstly, turn on the camera and the video stream will be displayed on UNIHIKER. Press the 'b' key to exit.
 ![20240813_150015[00h00m00s-00h00m06s].gif](img/1_USB_Carema/1723532458106-358f3a33-1c2f-4750-a05d-0912d3661a82.gif)
 Press the 'a' key to take a picture with the camera.

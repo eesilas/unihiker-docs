@@ -1,7 +1,13 @@
+# Introduction
+The UNIHIKER is equipped with a buzzer rather than a speaker, so it cannot play audio. To play audio, you need to connect a USB speaker to the USB interface or connect to a Bluetooth speaker.
+This chapter introduces two commonly used audio control libraries.
+
+![](img/1_USB_Speaker/1721633121611-fafe0fb5-e71f-4b6e-b972-635853187f3d.png)
+
 ## 1.Control USB Speaker to play audio through UNIHIKER's unique Audio library
 ### Description
 Through this example, we can learn how to control USB speakers to play audio using Python libraries. The Audio library is a specially packaged Python library on UNIHIKER that provides various functions for playing audio.
-### Common functions
+### Common functions(UNIHIKER Audio Library)
 
 
 #### 1.1 play( )
@@ -68,7 +74,7 @@ Tips: For more code details, please refer to Section 2 of Audio Class.
 - [UNIHIKER](https://www.dfrobot.com/product-2691.html)
 - USB speaker
 
-![](img/1_USB_Speaker/1721633121611-fafe0fb5-e71f-4b6e-b972-635853187f3d.png)
+
 ### Example Code
 ```python
 from unihiker import Audio  # Import the Audio module from the unihiker package
@@ -119,7 +125,7 @@ The speaker commences playing music in accordance with the established settings,
 ### Description
 To control a USB speaker using the UNIHIKER, we can use onboard USB interface. This will allow us to access and control the audio through the side interface of the board, which is connected to a microcontroller responsible for controlling onboard components and GPIO.
 To control the audio, we can use the methods from the pyttsx3 library in Python. This will allow us to Control the synthesis of audio and play it according to the user's wishes through parameter settings. You can explore different functionalities and parameters of the pyttsx3 library to customize your DIY Speech Synthesis Assistant.
-### Common functions
+### Common functions(pyttsx3 Library)
 
 
 #### 2.1 pyttsx3.init( )

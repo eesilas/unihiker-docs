@@ -87,9 +87,10 @@ To run your code on the UNIHIKER, click on the "Run" button in the toolbar. This
 ---  
 **Congratulations, you have successfully implemented programming control for the UNIHIKER. Now, you can explore exciting projects or understanding deeper of UNIHIKER.The possibilities are endless with UNIHIKER. Have fun exploring and learning!**  
 
-**1. Discover more programming exercises: [Examples](../../wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md)**  
-**2. Explore Python libraries related to UNIHIKER: [Reference](../../wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md)**  
-**3. Gain insights into the built-in hardware of UNIHIKER: [Hardware ](../../wiki/HardwareReference/hardware_reference_introduction.md)**    
+**1. Discover more programming exercises: [Examples](../Examples/PythonCodingExamples/index.md)**  
+**2. Explore Python libraries related to UNIHIKER: [Reference](../LanguageReference/UNIHIKER_Library/index.md)**  
+**3. Gain insights into the built-in hardware of UNIHIKER: [Hardware ](../HardwareReference/hardware_reference_introduction.md)**    
+
 ---  
 
 
@@ -148,7 +149,8 @@ Example:
 ---  
 **Congratulations, you have successfully implemented programming control for the UNIHIKER. Now, you can explore exciting projects or understanding deeper of UNIHIKER.The possibilities are endless with UNIHIKER. Have fun exploring and learning!**  
 
-**1. Discover more programming exercises: [Examples](../../wiki/Examples/PythonCodingExamples/BasicExamples/examples_py_hellounihiker.md)**  
-**2. Explore Python libraries related to UNIHIKER: [Reference](../../wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md)**  
-**3. Gain insights into the built-in hardware of UNIHIKER: [Hardware ](../../wiki/HardwareReference/hardware_reference_introduction.md)**    
+**1. Discover more programming exercises: [Examples](../Examples/PythonCodingExamples/index.md)**  
+**2. Explore Python libraries related to UNIHIKER: [Reference](../LanguageReference/UNIHIKER_Library/index.md)**  
+**3. Gain insights into the built-in hardware of UNIHIKER: [Hardware ](../HardwareReference/hardware_reference_introduction.md)**    
+
 ---  
