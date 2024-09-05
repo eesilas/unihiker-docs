@@ -56,3 +56,6 @@ Attention: If there are many USB peripherals, an additional power supply dock is
 - [[UNIHIKER+ChatGPT] Empowering Smart Home Automation with SBC (Single Board Computer) and LLM](https://community.dfrobot.com/makelog-313989.html)
 - [Building an AI Assistant on Unihiker Single Board Computer with ChatGPT API and Azure Speech API](https://community.dfrobot.com/makelog-313685.html)
 - [How to Make a Fruit Classification Project with UNIHIKER](https://community.dfrobot.com/makelog-313295.html)
+- [UNIHIKER:Ai-Smart Electronics Recognition](https://community.dfrobot.com/makelog-314441.html)
+
+---

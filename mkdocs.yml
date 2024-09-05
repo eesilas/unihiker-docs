@@ -71,7 +71,7 @@ theme:
 
   #icon:
     #logo: material/library
-  logo: assets/images/uniilogo.png
+  logo: assets/images/uniilogo_w.png
 
 # Plugins
 plugins:
@@ -275,6 +275,8 @@ nav:
       - STEM: wiki/Playground/STEM.md
       - AI: wiki/Playground/AI.md
       - IOT: wiki/Playground/IOT.md
+      - Tutorial Series(Block): wiki/Playground/BlockTutorialSeries.md
+      - Tutorial Series(Code): wiki/Playground/CodeTutorialSeries.md
     - 🚀 Hardware Reference:
       - 1.Introduction: wiki/HardwareReference/hardware_reference_introduction.md
       - 2.On-board Components: wiki/HardwareReference/hardware_reference_onboard_components.md
