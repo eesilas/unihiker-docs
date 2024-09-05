@@ -1,7 +1,7 @@
 
 
-- **[Unihiker Libs Introduction](introduction.md)**    
-- **[General Knowledge and Features](GeneralKnowledgeAndFeatures/index.md)**  
+- **[UNIHIKER Library - Introduction](unihiker_library_introduction.md)**    
+- **[UNIHIKER Library - General Knowledge and Features](GeneralKnowledgeAndFeatures/index.md)**  
 
 ## Function Index
 

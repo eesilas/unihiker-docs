@@ -54,11 +54,9 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
   [python-coding]: wiki/Examples/PythonCodingExamples/index.md
 
-
-
-  [unihiker-libraries]: wiki/LanguageReference/Part1UNIHIKER/index.md
-  [pinpong-libraries]: wiki/LanguageReference/Part2PinPong/index.md
-  [usb-device]: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
+  [unihiker-libraries]: wiki/LanguageReference/UNIHIKER_Library/index.md
+  [pinpong-libraries]: wiki/LanguageReference/PinPong_Library/index.md
+  [usb-device]: wiki/LanguageReference/USBDevices/USB_Carema.md
 
   [components]: wiki/HardwareReference/hardware_reference_onboard_components.md
   [system-framework]: wiki/HardwareReference/hardware_reference_unihiker_system_framework.md

@@ -1,4 +1,4 @@
-# Introduction to the UNIHIKER Library
+# UNIHIKER Library - Introduction
 In order to facilitate the utilization of the UNIHIKER main controllers, we have developed a Python library called "unihiker". This library integrates functionalities that are either missing or inconvenient to use from third-party Python libraries required by UNIHIKER .
 
 - In order to facilitate screen display and control, we have encapsulated a GUI class in the UNIHIKER library, based on the "Tkinter" library. 
