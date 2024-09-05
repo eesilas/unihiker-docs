@@ -213,64 +213,64 @@ nav:
             #- 9.Face Recognition: wiki/Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
             - 10.IoT Smart Home: wiki/Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
     - 📜 Language Reference:
-      - Part1 UNIHIKER Libs:
-        - wiki/LanguageReference/Part1UNIHIKER/index.md
-        - Unihiker Libs Introduction: wiki/LanguageReference/Part1UNIHIKER/introduction.md
-        - General Knowledge and Features: wiki/LanguageReference/Part1UNIHIKER/GeneralKnowledgeAndFeatures/index.md
+      - Part1 UNIHIKER Library:
+        - wiki/LanguageReference/UNIHIKER_Library/index.md
+        - Unihiker Library - Introduction: wiki/LanguageReference/UNIHIKER_Library/unihiker_library_introduction.md
+        - General Knowledge and Features: wiki/LanguageReference/UNIHIKER_Library/GeneralKnowledgeAndFeatures/index.md
         - Screen Display:
-          - 1.draw_text(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_text.md
-          - 2.draw_digit(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_digit.md
-          - 3.draw_image(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_image.md
-          - 4.draw_emoji(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_emoji.md
-          - 5.draw_clock(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_clock.md
-          - 6.fill_clock(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_fill_clock.md
-          - 7.draw_qr_code(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_draw_qr_code.md
-          - 8.add_button(): wiki/LanguageReference/Part1UNIHIKER/ScreenDisplay/reference_unihiker_add_button.md
+          - 1.draw_text(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_text.md
+          - 2.draw_digit(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_digit.md
+          - 3.draw_image(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_image.md
+          - 4.draw_emoji(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_emoji.md
+          - 5.draw_clock(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_clock.md
+          - 6.fill_clock(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_fill_clock.md
+          - 7.draw_qr_code(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_draw_qr_code.md
+          - 8.add_button(): wiki/LanguageReference/UNIHIKER_Library/ScreenDisplay/reference_unihiker_add_button.md
         - Screen Rendering Graphics:
-          - 1.draw_line(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_draw_line.md
-          - 2.draw_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_draw_rect.md
-          - 3.fill_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_fill_rect.md
-          - 4.draw_round_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_draw_round_rect.md
-          - 5.fill_round_rect(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_fill_round_rect.md
-          - 6.draw_circle(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_draw_circle.md
-          - 7.fill_circle(): wiki/LanguageReference/Part1UNIHIKER/ScreenRenderingGraphics/reference_unihiker_fill_circle.md
+          - 1.draw_line(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_draw_line.md
+          - 2.draw_rect(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_draw_rect.md
+          - 3.fill_rect(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_fill_rect.md
+          - 4.draw_round_rect(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_draw_round_rect.md
+          - 5.fill_round_rect(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_fill_round_rect.md
+          - 6.draw_circle(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_draw_circle.md
+          - 7.fill_circle(): wiki/LanguageReference/UNIHIKER_Library/ScreenRenderingGraphics/reference_unihiker_fill_circle.md
         - Mouse And Keyboard:
-          - 1.on_mouse_move(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/reference_unihiker_on_mouse_move.md
-          - 2.on_key_click(): wiki/LanguageReference/Part1UNIHIKER/MouseAndKeyboard/reference_unihiker_on_key_click.md
+          - 1.on_mouse_move(): wiki/LanguageReference/UNIHIKER_Library/MouseAndKeyboard/reference_unihiker_on_mouse_move.md
+          - 2.on_key_click(): wiki/LanguageReference/UNIHIKER_Library/MouseAndKeyboard/reference_unihiker_on_key_click.md
         - Multi Threading:
-          - 1.start_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/reference_unihiker_start_thread.md
-          - 2.stop_thread(): wiki/LanguageReference/Part1UNIHIKER/MultiThreading/reference_unihiker_stop_thread.md
+          - 1.start_thread(): wiki/LanguageReference/UNIHIKER_Library/MultiThreading/reference_unihiker_start_thread.md
+          - 2.stop_thread(): wiki/LanguageReference/UNIHIKER_Library/MultiThreading/reference_unihiker_stop_thread.md
         - Audio Class:
-          - 1.Recording Audio(record): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_recording_audio_record.md
-          - 2.Audio Playback(play): wiki/LanguageReference/Part1UNIHIKER/AudioClass/reference_unihiker_audio_playback_play.md
-      - Part2 PinPong Libs:
-        - wiki/LanguageReference/Part2PinPong/index.md
-        - Pinpong Libs Introduction: wiki/LanguageReference/Part2PinPong/introduction.md
+          - 1.Recording Audio(record): wiki/LanguageReference/UNIHIKER_Library/AudioClass/reference_unihiker_recording_audio_record.md
+          - 2.Audio Playback(play): wiki/LanguageReference/UNIHIKER_Library/AudioClass/reference_unihiker_audio_playback_play.md
+      - Part2 PinPong Library:
+        - wiki/LanguageReference/PinPong_Library/index.md
+        - Pinpong Library - Introduction: wiki/LanguageReference/PinPong_Library/pinpong_library_introduction.md
         - Function Onboard:
-          - 1.L LED: wiki/LanguageReference/Part2PinPong/FunctionOnboard/1_L_LED_.md
-          - 2.Button A and Button B: wiki/LanguageReference/Part2PinPong/FunctionOnboard/2_Button_A_and_Button_B.md
-          - 3.Light Sensor: wiki/LanguageReference/Part2PinPong/FunctionOnboard/3_Light_Sensor.md
-          - 4.Accelerometer and Gyroscope: wiki/LanguageReference/Part2PinPong/FunctionOnboard/4_Accelerometer_and_Gyroscope.md
-          - 5.Buzzer: wiki/LanguageReference/Part2PinPong/FunctionOnboard/5_Buzzer.md
+          - 1.L LED: wiki/LanguageReference/PinPong_Library/FunctionOnboard/1_L_LED_.md
+          - 2.Button A and Button B: wiki/LanguageReference/PinPong_Library/FunctionOnboard/2_Button_A_and_Button_B.md
+          - 3.Light Sensor: wiki/LanguageReference/PinPong_Library/FunctionOnboard/3_Light_Sensor.md
+          - 4.Accelerometer and Gyroscope: wiki/LanguageReference/PinPong_Library/FunctionOnboard/4_Accelerometer_and_Gyroscope.md
+          - 5.Buzzer: wiki/LanguageReference/PinPong_Library/FunctionOnboard/5_Buzzer.md
         - Digital IO & Analog IO:
-          - 1.Digital Output(GPIO): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/1_Digital_Output_GPIO_.md
-          - 2.Digital Input(GPIO): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/2_Digital_Input_GPIO_.md
-          - 3.Analog Input(ADC): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/3_Analog_Input_ADC_.md
-          - 4.Analog Output(PWM): wiki/LanguageReference/Part2PinPong/DigitalIOAndAnlogIO/4_Analog_Output_PWM_.md
+          - 1.Digital Output(GPIO): wiki/LanguageReference/PinPong_Library/DigitalIOAndAnlogIO/1_Digital_Output_GPIO_.md
+          - 2.Digital Input(GPIO): wiki/LanguageReference/PinPong_Library/DigitalIOAndAnlogIO/2_Digital_Input_GPIO_.md
+          - 3.Analog Input(ADC): wiki/LanguageReference/PinPong_Library/DigitalIOAndAnlogIO/3_Analog_Input_ADC_.md
+          - 4.Analog Output(PWM): wiki/LanguageReference/PinPong_Library/DigitalIOAndAnlogIO/4_Analog_Output_PWM_.md
         - Communication:
-          - 1.Serial Port(UART): wiki/LanguageReference/Part2PinPong/Communication/1_Serial_Port_UART_.md
-          - 2.I2C(Inter Integrated Circuit): wiki/LanguageReference/Part2PinPong/Communication/2_I2C_Inter_Integrated_Circuit_.md
-          - 3.SPI(Serial Peripheral Interface): wiki/LanguageReference/Part2PinPong/Communication/3_SPI_Serial_Peripheral_Interface_.md
+          - 1.Serial Port(UART): wiki/LanguageReference/PinPong_Library/Communication/1_Serial_Port_UART_.md
+          - 2.I2C(Inter Integrated Circuit): wiki/LanguageReference/PinPong_Library/Communication/2_I2C_Inter_Integrated_Circuit_.md
+          - 3.SPI(Serial Peripheral Interface): wiki/LanguageReference/PinPong_Library/Communication/3_SPI_Serial_Peripheral_Interface_.md
         - Popular Modules:
-          - 1.Servo: wiki/LanguageReference/Part2PinPong/PopularModules/3_Servo.md
-          - 2.LED Strip: wiki/LanguageReference/Part2PinPong/PopularModules/4_LED_Strip.md
-          - 3.DHT11 Temperature & Humidity Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/1_DHT11_Temperature_Humidity_Sensor.md
-          - 4.Ultrasonic Sensor: wiki/LanguageReference/Part2PinPong/PopularModules/2_Ultrasonic_sensor.md
-          - 5.OLED 2864 Display Screen: wiki/LanguageReference/Part2PinPong/PopularModules/5_OLED_2864_Display_Screen.md
-          - 6.Color Recognition: wiki/LanguageReference/Part2PinPong/PopularModules/6_Color_recognition.md
+          - 1.Servo: wiki/LanguageReference/PinPong_Library/PopularModules/3_Servo.md
+          - 2.LED Strip: wiki/LanguageReference/PinPong_Library/PopularModules/4_LED_Strip.md
+          - 3.DHT11 Temperature & Humidity Sensor: wiki/LanguageReference/PinPong_Library/PopularModules/1_DHT11_Temperature_Humidity_Sensor.md
+          - 4.Ultrasonic Sensor: wiki/LanguageReference/PinPong_Library/PopularModules/2_Ultrasonic_sensor.md
+          - 5.OLED 2864 Display Screen: wiki/LanguageReference/PinPong_Library/PopularModules/5_OLED_2864_Display_Screen.md
+          - 6.Color Recognition: wiki/LanguageReference/PinPong_Library/PopularModules/6_Color_recognition.md
       - Part3 USB Devices:
-        - USB Camera: wiki/LanguageReference/Part3USBDevices/USB_Carema.md
-        - USB Speaker: wiki/LanguageReference/Part3USBDevices/USB_Speaker.md
+        - USB Camera: wiki/LanguageReference/USBDevices/USB_Carema.md
+        - USB Speaker: wiki/LanguageReference/USBDevices/USB_Speaker.md
     - 🪄 Playground:
       - STEM: wiki/Playground/STEM.md
       - AI: wiki/Playground/AI.md
