@@ -17,7 +17,7 @@ copyright: 'Copyright &copy; 2024 - 2029 UNIHIKER Team'
 
 theme:
   name: material
-  custom_dir: overrides
+  #custom_dir: overrides
   nav_style: dark
   features:
     - navigation.path  # Enable breadcrumbs
@@ -67,11 +67,11 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/images/favicon.ico
+  favicon: ../assets/images/favicon.ico
 
   #icon:
     #logo: material/library
-  logo: assets/images/uniilogo_w.png
+  logo: ../assets/images/uniilogo_w.png
 
 # Plugins
 plugins:
@@ -152,7 +152,7 @@ markdown_extensions:
   # - markdown.extensions.meta
 
 extra_css:
-  - stylesheets/extra.css
+  - ../stylesheets/extra.css
 
 nav:
   - Home: https://www.unihiker.com/
@@ -280,7 +280,7 @@ nav:
     - 🚀 Hardware Reference:
       - 1.Introduction: HardwareReference/hardware_reference_introduction.md
       - 2.On-board Components: HardwareReference/hardware_reference_onboard_components.md
-      - 3.UNIHIKER System Framework: HardwareReference/hardware_reference_unihiker_system_framework.md
+      - 3.System Framework: HardwareReference/hardware_reference_unihiker_system_framework.md
       - 4.Specification: HardwareReference/hardware_reference_specification.md
       - 5.Board Overview: HardwareReference/hardware_reference_board_overview.md
       - 6.Dimension: HardwareReference/hardware_reference_dimension.md
