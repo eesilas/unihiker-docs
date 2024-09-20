@@ -42,28 +42,28 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
 
 </div>
 
-  [start]: wiki/get-started.md
-  [examples]: wiki/Examples/PythonCodingExamples/index.md
-  [hardware]: wiki/HardwareReference/hardware_reference_introduction.md
-  [jupyter]: wiki/GettingStarted/gettingstarted_jupyternotebook.md
-  [mind+]: wiki/GettingStarted/gettingstarted_mind+.md
-  [python]: wiki/GettingStarted/gettingstarted_python_idle.md
-  [thonny]: wiki/GettingStarted/gettingstarted_thonny.md
-  [ssh]: wiki/GettingStarted/gettingstarted_ssh.md
-  [vscode]: wiki/GettingStarted/gettingstarted_vscode.md
+  [start]: get-started.md
+  [examples]: Examples/PythonCodingExamples/index.md
+  [hardware]: HardwareReference/hardware_reference_introduction.md
+  [jupyter]: GettingStarted/gettingstarted_jupyternotebook.md
+  [mind+]: GettingStarted/gettingstarted_mind+.md
+  [python]: GettingStarted/gettingstarted_python_idle.md
+  [thonny]: GettingStarted/gettingstarted_thonny.md
+  [ssh]: GettingStarted/gettingstarted_ssh.md
+  [vscode]: GettingStarted/gettingstarted_vscode.md
 
-  [python-coding]: wiki/Examples/PythonCodingExamples/index.md
+  [python-coding]: Examples/PythonCodingExamples/index.md
 
-  [unihiker-libraries]: wiki/LanguageReference/UNIHIKER_Library/index.md
-  [pinpong-libraries]: wiki/LanguageReference/PinPong_Library/index.md
-  [usb-device]: wiki/LanguageReference/USBDevices/USB_Carema.md
+  [unihiker-libraries]: LanguageReference/UNIHIKER_Library/index.md
+  [pinpong-libraries]: LanguageReference/PinPong_Library/index.md
+  [usb-device]: LanguageReference/USBDevices/USB_Carema.md
 
-  [components]: wiki/HardwareReference/hardware_reference_onboard_components.md
-  [system-framework]: wiki/HardwareReference/hardware_reference_unihiker_system_framework.md
-  [specification]: wiki/HardwareReference/hardware_reference_specification.md
-  [overview]: wiki/HardwareReference/hardware_reference_board_overview.md
-  [dimension]: wiki/HardwareReference/hardware_reference_dimension.md
-  [3dfile]: wiki/HardwareReference/hardware_reference_svg_3d_file.md
+  [components]: HardwareReference/hardware_reference_onboard_components.md
+  [system-framework]: HardwareReference/hardware_reference_unihiker_system_framework.md
+  [specification]: HardwareReference/hardware_reference_specification.md
+  [overview]: HardwareReference/hardware_reference_board_overview.md
+  [dimension]: HardwareReference/hardware_reference_dimension.md
+  [3dfile]: HardwareReference/hardware_reference_svg_3d_file.md
 
 
 

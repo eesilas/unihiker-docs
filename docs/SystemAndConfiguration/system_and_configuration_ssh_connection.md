@@ -5,7 +5,7 @@ To connect to the UNIHIKER using SSH:
 - Use the password: dfrobot
 
 
-> Detailed instructions: [Hardware ](../../wiki/GettingStarted/gettingstarted_ssh.md)
+> Detailed instructions: [Hardware ](../GettingStarted/gettingstarted_ssh.md)
 
 
 
