@@ -155,8 +155,8 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - HOME: https://www.unihiker.com/
-  - WIKI: 
+  - Home: https://www.unihiker.com/
+  - Documentation: 
     - index.md 
     - 🚩 Getting Started: 
       - Getting Started: get-started.md
@@ -316,8 +316,8 @@ nav:
       - The UNIHIKER cannot be connected to Mindplus : Troubleshooting/The_UNIHIKER_cannot_be_connected_to_Mind.md
       - What should I do if the screen is black, white and I can't enter the system : Troubleshooting/What_should_I_do_if_the_screen_is_black_white_and_I_can_t_enter_the_system.md
 
-  - FORUM: https://www.dfrobot.com/forum/?t=947&p=1
-  - CONTACT US: 
+  - Forum: https://www.dfrobot.com/forum/?t=947&p=1
+  - Contact Us: 
     - 1.Technical Discussion: ContactUs/contactus_technical_discussion.md
     - 2.Contact Us: ContactUs/contactus_contact_us.md
 
