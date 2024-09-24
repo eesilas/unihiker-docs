@@ -293,9 +293,9 @@ nav:
       - 5.SMB File Sharing: SystemAndConfiguration/system_and_configuration_smb_file_sharing.md
       - 6.Remote Desktop: SystemAndConfiguration/system_and_configuration_remote_desktop.md
       - 7.OS: 
-        - OS: SystemAndConfiguration/unihiker_os.md
-        - OS Image Guide: SystemAndConfiguration/unihiker_os_image.md
-        - Burning Guide: SystemAndConfiguration/unihiker_os_burn.md
+        - SystemAndConfiguration/UnihikerOS/index.md
+        - OS Image Guide: SystemAndConfiguration/UnihikerOS/unihiker_os_image.md
+        - Burning Guide: SystemAndConfiguration/UnihikerOS/unihiker_os_burn.md
     - 🔧 Troubleshooting: 
       - Troubleshooting/index.md
       - Error firmware version self boardname KeyError: Troubleshooting/Error_firmware_version_self_boardname__KeyError_.md
