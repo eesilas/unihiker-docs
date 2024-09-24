@@ -10,7 +10,7 @@ Select your preferred choice and continue with the quickstart.
 
 
 - [**Jupyter Notebook(build-in)** - Python](GettingStarted/gettingstarted_jupyternotebook.md)
-- [**Mind+** - Python & Graphical Python](GettingStarted/gettingstarted_mind+.md)
+- [**Mind+** - Python & Graphical Python](GettingStarted/gettingstarted_mindplus.md)
 - [**VSCode** - Python](GettingStarted/gettingstarted_vscode.md)
 - [**Python IDLE** - Python](GettingStarted/gettingstarted_python_idle.md)
 - [**Thonny** - Python](GettingStarted/gettingstarted_thonny.md)

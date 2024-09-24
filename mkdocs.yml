@@ -67,11 +67,11 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: ../assets/images/favicon.ico
+  favicon: assets/images/favicon.ico
 
   #icon:
     #logo: material/library
-  logo: ../assets/images/uniilogo_w.png
+  logo: assets/images/uniilogo_w.png
 
 # Plugins
 plugins:
@@ -152,7 +152,7 @@ markdown_extensions:
   # - markdown.extensions.meta
 
 extra_css:
-  - ../stylesheets/extra.css
+  - stylesheets/extra.css
 
 nav:
   - Home: https://www.unihiker.com/

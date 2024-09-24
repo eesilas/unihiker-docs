@@ -46,7 +46,7 @@ Unleash your imagination and embark on a new journey with UNIHIKER.
   [examples]: Examples/PythonCodingExamples/index.md
   [hardware]: HardwareReference/hardware_reference_introduction.md
   [jupyter]: GettingStarted/gettingstarted_jupyternotebook.md
-  [mind+]: GettingStarted/gettingstarted_mind+.md
+  [mind+]: GettingStarted/gettingstarted_mindplus.md
   [python]: GettingStarted/gettingstarted_python_idle.md
   [thonny]: GettingStarted/gettingstarted_thonny.md
   [ssh]: GettingStarted/gettingstarted_ssh.md
