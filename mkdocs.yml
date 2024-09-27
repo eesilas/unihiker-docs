@@ -212,7 +212,7 @@ nav:
             #- 8.QR Code Scanner: Examples/PythonCodingExamples/AdvanceExamples/8_QR_Code_Scanner.md
             #- 9.Face Recognition: Examples/PythonCodingExamples/AdvanceExamples/9_Face_Recognition.md
             - 10.IoT Smart Home: Examples/PythonCodingExamples/AdvanceExamples/10_IoT_Smart_Home.md
-    - 📜 Language Reference:
+    - 📜 Library Reference:
       - Part1 UNIHIKER Library:
         - LanguageReference/UNIHIKER_Library/index.md
         - Unihiker Library - Introduction: LanguageReference/UNIHIKER_Library/unihiker_library_introduction.md
