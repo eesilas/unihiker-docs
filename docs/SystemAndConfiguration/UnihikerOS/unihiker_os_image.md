@@ -8,7 +8,7 @@
 
 | **Download channel** |  |
 | --- | --- |
-| **Download:** | [Click to download](https://download3.dfrobot.com.cn/unihiker/img/https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.6_20240704_2351.7z) |
+| **Download:** | [Click to download](https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.6_20240704_2351.7z) |
 | **Download from Google Drive:** | [Click to download](https://drive.google.com/drive/folders/1JU73SOyN5VmpB6ilbxVNvCB9qXfc-Qo-?usp=sharing) |
 
 ##  **Release Logs**
